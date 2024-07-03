@@ -1,0 +1,15 @@
+Question 1:Explain the main components of client-server architecture and their functions.
+Answer : http:, https:, Hyper text : these are special type of documents which have somthing very important called hyper links.
+
+Question 2:Discuss the vairious paths available after completing a web development course.
+Answer : We are eligilbe for work as front end, backend or full stack developer.
+
+Question 3:Describe the role of the browser's developer tools in web development.
+Answer : Using developers tools we can check the behind the codes of the web page and also we can change the screen size for different devices that how the web page is reponding to different screen sizes.
+
+Question 4:What are the advantages of using a version control system like Git in a web development project ?
+Answer : By using Git we can have a backup of our code and Git make it easy to update our code easily. We can make group and can contribute to one project and commit the changes in it by working remotly.
+
+Question 5: Compare and contrast a text editor and an IDE,highlighting their ke features and uses.
+Answer : In IDE there are lots of colour coding in it.Tags are highlighted with different colours and classes are defined with different  colours
+	IDE alligns the code in very good manner which makes the code easy to read and understand.
