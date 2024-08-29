@@ -1,0 +1,17 @@
+*{
+    font-style: italic;
+}
+#middle,p{
+    color: greenyellow;
+}
+.heading1{
+    color: yellow;
+}
+     h1{
+            color: red;
+        }
+     
+        /* p{
+            color: rgb(233, 43, 233);
+            text-decoration: underline;
+        } */

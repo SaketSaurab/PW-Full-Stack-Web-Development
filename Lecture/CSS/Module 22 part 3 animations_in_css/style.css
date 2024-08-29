@@ -1,0 +1,29 @@
+/* #rotate{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transform: rotate(20deg);
+} */
+h1{
+    background-color: green;
+    transform: rotateX(180deg);
+}
+
+#rotate{
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    background-color: blue;
+/* 
+    transition-property: background-color;
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    /* transition-timing-function:ease-out; */ */
+
+    transition:background-color 5s  ease-in  2s;
+    transition:width 5s ease-out 0s;
+}
+#rotate:hover{
+    background-color: red;
+    width: 500px;
+}

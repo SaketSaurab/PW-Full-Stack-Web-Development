@@ -1,0 +1,71 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.image{
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+*{
+    box-sizing: inherit;
+}
+.section-light{
+    background-color: rgb(196, 196, 85);
+    color: rgb(199, 87, 87);
+}
+.section-dark{
+    background-color: darkblue;
+    color: white;
+}
+.first-image{
+    background-image: url(images/image1.jpg);
+    min-height: 500px;
+    opacity: 0.7;
+}
+.second-image{
+    background-image: url(images/image2.jpg);
+    min-height: 500px;
+}
+.third-image{
+    background-image: url(images/image3.jpg);
+    min-height: 500px;
+    opacity: 0.7;
+}
+
+.fourth-image{
+    background-image: url(images/image1.jpg);
+    min-height: 500px;
+    opacity: 0.7;
+}
+.text-content{
+    position: sticky;
+    font-size: xx-large;
+    top: 200px;
+    left: 500px;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 20px;
+    color: white;
+    max-width: 25%;
+    text-align: center;
+    opacity: 0.7;
+}
+#pop-up{
+    position: relative;
+    font-size: x-large;
+    color: white;
+    top: 0px;
+    background-color:rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+#popup-text{
+    position: relativez;
+    top: 500px;
+    left: 40px;
+}

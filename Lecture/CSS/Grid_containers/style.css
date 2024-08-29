@@ -1,0 +1,21 @@
+#parent{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(3,200px);
+    width: 400px;
+    height: 800px;
+    background-color: cadetblue;
+    border: red solid 2px;
+    padding: 12px;
+    justify-content: space-evenly;/* controls how items will be arranged horizontally*/
+    align-content: center;/* controls how items will be arranged vertically*/
+    justify-items: stretch;/* controls the horizontal alignment item inside the grid  */
+    align-items: stretch;/* controls the vertical alignment of item inside the grid*/
+}
+.child{
+    border: 1px solid black;
+    background-color: brown;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+a:hover{
+    color: red;
+}
+a:visited{
+    color: rgb(76, 95, 158);
+}
+input:focus{
+    background-color: aqua;
+}
+p:first-child{
+    /*fist child of the parent p*/
+    color:yellow;
+}
+p:last-child{
+    /* last child of the parent p  
+        and if there any other tag present in the last 
+        then this property will not be applied to last p tag
+    */
+    color: chartreuse;
+}
+p:nth-child(3){
+    /* it will give the properties to the third child of p tag*/
+    color: brown;
+}

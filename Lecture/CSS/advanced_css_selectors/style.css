@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    height: 75px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type:none;
+    gap: 7px;
+    background-color: green;
+    padding: 3px 5px;
+}
+li{
+    border: solid 1px rgb(221, 25, 25);
+    padding: 4px 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+@media screen  and (max-width:700px){
+       /* apply the style if maximum width is 500px*/
+       ul{
+        flex-direction: column;
+    }
+    span{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    
+}
+h1,h2,.navlink,#custom{
+    color: red;
+}
+nav span{  /*example of descent-combinator */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li>span{
+    /* it will pick immediate child present in the li*/
+    text-decoration: underline;
+}
+
+h1 + span{
+    /* it will apply style only on next adjacent siblings*/
+    color: rgb(29, 6, 241);
+}
+
+/*
+h1 ~ span{
+    // genereal sibling combinator 
+    //it will apply style only on all siblings
+    color: rgb(29, 6, 241);
+} 
+ */
