@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Essentials</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-200">
+    <!---
+    ~> class="bg-gray-200" -> it will give darker grey background by changing the number we can control the capacity of darkness
+    ~> px-6 , py-6 or pxy-6  -> it will give padding on x axis, y axis or x and y both axis
+    ~> h-10 or w-10   -> it will give heigth of 10 or width of 10
+    ~> pr - padding right , pl-padding left ,pt- padding top, pb-padding bottom,ps-padding inline start
+    ~> tex-4xl - increase text size, font-bold - make text bold
+    ~> items-center py-6 px-4    if we want give custom units then we will use [] eg. py-[40px]
+    -->
+
+
+    <h1 class="bg-amber-600">Hello World</h1>
+    <hr><br>
+    <!--Header -->
+    <header>
+        <div class="flex justify-between bg-red-200 items-center py-[40px] px-4">
+            <div class="text-4xl font-bold">
+                My Cab app
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li class="text-red-600 hover:text-blue-500">Home</li>
+                    <li class="text-red-600 hover:text-blue-500">About</li>
+                    <li class="text-red-600 hover:text-blue-500">Services</li>
+                    <li class="text-red-600 hover:text-blue-500">Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="bg-cover h-[50vh] bg-[url('https://plus.unsplash.com/premium_photo-1661510316006-45fb0f58f5d9?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+        <div class="text-black flex justify-center h-[100%] items-center">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold mb-4 text-red-700">Get there fast</h1>
+                <p class="text-2xl mb-4 font-bold text-black">Your ride is just a tap away</p>
+                <a href="" class="bg-blue-400 text-white px-4 py-2 hover:bg-blue-800 rounded-2xl">Ride Now</a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
