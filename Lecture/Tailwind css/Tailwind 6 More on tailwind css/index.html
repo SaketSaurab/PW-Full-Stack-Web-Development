@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Side bar 
+    -> min-height: 100%vh (100% view port height)
+    -->
+     <div class="flex min-h-[100vh] flex-no-wrap">
+        <div class="w-64 bg-gray-800 hidden md:block">
+            <!-- Dashboard text wrapper -->
+            <div class="flex justify-center items-center h-20 bg-gray-900">
+                <h1 class="text-white text-2xl">Dashboard</h1>
+            </div>
+            <nav class="mt-10">
+                <a href="#" class="flex items-center mt-4 py-2 px-6 bg-gray-700 text-gray-100 hover:text-red-500">
+                    <span class="mx-3">Home</span>
+                </a>
+                <a href="#" class="flex items-center mt-4 py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-red-500">
+                    <span class="mx-3">Analytics</span>
+                </a>
+                <a href="#" class="flex items-center mt-4 py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-red-500">
+                    <span class="mx-3">Sales</span>
+                </a>
+                <a href="#" class="flex items-center mt-4 py-2 px-6 hover:bg-gray-700 text-gray-100 hover:text-red-500">
+                    <span class="mx-3">Messages</span>
+                </a>
+            </nav>
+        </div>
+        <!-- Main content-->
+        <div>
+            <!--Navbar-->
+            <header>
+                <!-- Sidebar button-->
+                <button class="md:hidden px-4 py-2 border rounded-md text-gray-300 border-gray-300">
+                    <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM7 12C7 11.4477 7.44772 11 8 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H8C7.44772 13 7 12.5523 7 12ZM13 18C13 17.4477 13.4477 17 14 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H14C13.4477 19 13 18.5523 13 18Z" fill="#000000"/>
+                        </svg>
+                </button>
+                <div class="ml-auto flex item-center">
+                    <button class="flex item-center px-4 py-2 border rounded-md text-gray-600">
+                        <span class="mr-2">Sign out</span>
+                    </button>
+                </div>
+            </header>
+        </div>
+     </div>
+</body>
+</html>
