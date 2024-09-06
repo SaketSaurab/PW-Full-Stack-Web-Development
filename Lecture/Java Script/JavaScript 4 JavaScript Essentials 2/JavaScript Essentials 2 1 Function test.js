@@ -20,3 +20,17 @@ function test(){
 }
 let ans2=test();
 console.log(ans2);
+
+// default parameter
+function summ(b,c=5){
+
+return b+c
+}
+console.log(summ(3));
+
+// we can give manuan input for default parameter
+function summ(b,c=5){
+
+    return b+c
+    }
+    console.log(summ(3,8));
