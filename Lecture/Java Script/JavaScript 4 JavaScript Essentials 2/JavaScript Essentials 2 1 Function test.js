@@ -34,3 +34,18 @@ function summ(b,c=5){
     return b+c
     }
     console.log(summ(3,8));
+
+// Parameter with cache
+function summ(b,c=5,d){
+// in this case 3 will be allocated to b and 8 will be allocated to c 
+    return b+c+d
+    }
+    console.log(summ(3,8));
+    // in this case 3 will be allocated to b and 8 will be allocated to c 
+
+    // to give unlimite numbers of parameters
+    function fun(...values){
+        // ... is called rest parameters
+        console.log(values);
+    }
+    fun(38,32,97,89);
