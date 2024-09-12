@@ -3,7 +3,15 @@
 //objects :using classes the final entity that we will develop is called as objects
 //
 
+// Lets write a product class
 class Product{
+    name;
+    price;
+    category;
+    description;
+    rating;
+    
+
     addToCart(){
         console.log("Product added to the cart ");
     }
