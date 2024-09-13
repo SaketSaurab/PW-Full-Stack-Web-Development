@@ -10,8 +10,6 @@ class Product{
     category;
     description;
     rating;
-    
-
     addToCart(){
         console.log("Product added to the cart ");
     }
@@ -25,3 +23,17 @@ class Product{
         console.log("Product bought");
     }
 }
+/*  
+    Objects: Using classes the final entity that we develop is called as objects.
+ */
+
+    //Constructor
+    class Product2{
+        constructor(){
+            // this is custom constructor
+        }
+    }
+    // let constructor=10;  we can use constructor like this 
+    // console.log("let ",constructor);
+    let iphone=new Product();
+    console.log(iphone);
