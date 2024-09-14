@@ -37,3 +37,6 @@ class Product{
     // console.log("let ",constructor);
     let iphone=new Product();
     console.log(iphone);
+    // object one push
+    //temp text
+    
