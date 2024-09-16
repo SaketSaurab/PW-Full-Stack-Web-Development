@@ -10,6 +10,15 @@ class Product{
     category;
     description;
     rating;
+    constructor(productName,productPrice,procuctCategory,procutDescription,productRating){
+        this.name=productName;
+        this.price=productPrice;
+        this.category=procuctCategory;
+        this.description=procutDescription;
+        this.rating=productRating;
+        //this refers to call site
+        // call site can be object ,new position , or keyword
+    }
     addToCart(){
         console.log("Product added to the cart ");
     }
@@ -37,6 +46,5 @@ class Product{
     // console.log("let ",constructor);
     let iphone=new Product();
     console.log(iphone);
-    // object one push
-    //temp text
-    //temp text 2
+
+//Constructor
