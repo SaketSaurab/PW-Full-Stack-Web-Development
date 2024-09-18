@@ -51,5 +51,11 @@ class Product{
 
 
 //Encapsulation
-/* it says that classes are the bundle of implementation */
-//git commit //
+/* it says that classes are the bundle of implementation 
+
+*/
+/*
+ways to define getters and setters 
+
+
+*/
