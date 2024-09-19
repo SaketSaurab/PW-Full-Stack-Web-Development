@@ -56,6 +56,8 @@ class Product{
 */
 /*
 ways to define getters and setters 
+Method 1 : 
+
 
 
 */
