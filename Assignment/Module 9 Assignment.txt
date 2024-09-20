@@ -1,0 +1,22 @@
+﻿Module 9
+Que.1 Explain main component of client server architecture and their functions.
+Ans.Main componentes  of client architecture: Http,backend , frontend.
+        Client server architecture give the basic understanding on how a client and sever is      going to communicate
+
+
+Que.2 Discuss the various career paths available after completing a web development project.
+Ans. After completing the web development couse we can work as full stack web developmnnet  ,front end web developer or backend web developer.
+
+
+Que.3 Describe the role of a web browser’s developer tool in web development.
+Ans. It is used to inspect the output of our code and we can see the realtime change in our web browser by changing the code and we can see how it is behaving with it 
+So we will get idea that how our web page will be visible to user.
+
+
+Que.4 What are the advantage of using version control system like Git in development project.
+Ans. Version control system make the development process easy which allows to make changes by different developers and we can also track the updates .
+It make easy to add update in already present code.
+
+
+Que.5 Comparison between editor and IDE
+Ans. IDE provide the auto suggestions and there is some color coding for class and objects.etc which makes easy to read and understand the code
