@@ -1,0 +1,108 @@
+﻿Module 29
+________________
+Que.1:What are conditional statements? Explain conditional statement with syntax and examples.
+Ans:Conditnal statements are used in the programming to perform some action based on condition. They execute the program according to the result if it is true or false .
+If Statement, Else statement , if-else statement ,else if ladder and Switch statement 
+If statement : if(condition a){
+                        // code will be executed if it is true }
+if-else statement : if(condition a){
+        // code will be executed if it is true 
+        }
+        Else{
+        // this line of code is executed if condition is false
+}
+Else-if ladder :  if (condition a){
+// code will be executed if statement a is true }
+else if(condition b){
+// this line of code will be executed if condition b is true }
+else{
+// this line of code is executed if all the condition is false
+}
+Switch statement : switch(expression){
+case value1:
+// code will be executed if expression == value1
+break;
+case value2:
+//code wil executed if expression ==value2
+break;
+default:
+//code will be executed if it does not match with expression
+} 
+________________
+
+
+Que.2:Write a program that grades a student based on marks.
+If >90 : A
+If 70< and >90 : B
+If 50< and >70 : C
+If below 50 : F
+Ans:        let marks=82;
+if(marks>90){
+    console.log("A");
+}
+else if(marks>70 && marks<=90){
+    console.log("B");
+}
+else if(marks>50 && marks<=70){
+    console.log("C");
+}
+else if(marks<=50 && marks>=0){
+    console.log("F");
+}
+else{
+    console.log("Enter valid marks");
+}
+
+
+________________
+
+
+Que.3:What are loops and why do we need them ? Explain different types of loops with their syntax and examples.
+Ans:Loops are used to execute the block of code repeatedly as long as specific condition is met.
+We use loop for efficiency and readability 
+It automate the repetitive task and make code more easy to read and understand.
+Types of loops : for loop , while loop , do while loop
+For loop : It execute the code specific number of time till condition is true.
+        for(initialization ; condition ; increment){
+                // code to execute
+                }
+While loop It also execute the code until the condition is true.
+        while(condition){
+                // code to execute 
+        Updating the value
+}
+do while : It execute the code atleast once even if the condition is false.
+do{
+        //code to execute
+        Updating the value
+        }
+while(condition);
+________________
+
+
+Que.4:Generate numbers between two given numbers.
+Ans:let a=12;
+let b=30;
+for(let i=a;i<=b;i++){
+    console.log(i);
+}
+Output :  12 13 14 ……30
+________________
+
+
+Que.5:Use while loop and print number from 1 to 25 in ascending and descending order.
+Ans: let i=1;
+while(i<25){
+    console.log(i);
+    i++;
+}
+Output : 1 2 3 ….25
+let i=25;
+while(i>0){
+    console.log(i);
+    i--;
+}
+Output : 25 24 …..1
+
+
+________________
