@@ -1,0 +1,114 @@
+﻿Module 30
+________________
+
+
+Que.1: Create an arrow function called square that takes a number as an argument and returns its square. Use the arrow function to calculate the square of a given number and display the result.
+Ans:  let square=x=>x*x;
+let number=14;
+let ans=square(number);
+console.log(`The square of ${number} is ${ans}`);
+________________
+
+
+Que.2:Create a JavaScript function called generateGreeting that takes a name as an argument and returns a personalized greeting message. Use this function to greet three different people.
+Ans: function generateGreeting (name){
+    return `Hello ${name} Welcome to PW Skills Platform`;
+}
+console.log(generateGreeting("Sanket"));
+console.log(generateGreeting("Alakh Pandey"));
+console.log(generateGreeting("Saurabh"));
+
+
+
+
+________________
+
+
+Que.3:Create an IIFE (Immediately Invoked Function Expression) that calculates the square of a number and immediately displays the result.
+Ans:
+(function(number){
+    let square=number*number;
+    console.log(`The square of the ${number} is ${square}`);
+})
+(8);
+________________
+
+
+Que.4: Write a JavaScript function called calculateTax that takes an income as an argument and returns the amount of tax to be paid. Use a closure to handle different tax rates based on income ranges. Test the function with various incomes.
+Ans:  
+function createTaxCalculator(){
+    const taxBrackets=[
+        {threshold:200000,rate:0.1},
+        {threshold:500000,rate:0.2},
+        {threshold:1000000,rate:0.3},
+        {threshold:1500000,rate:0.4},
+        {threshold:Infinity,rate:0.5}
+    ];
+    return function calculateTax(income){
+        let tax=0;
+        let previousThreshold=0;
+        for(let i=0;i<taxBrackets.length;i++){
+            const{ threshold,rate}=taxBrackets[i];
+            if(income>threshold){
+                tax+=(threshold-previousThreshold)*rate;
+                previousThreshold=threshold;
+            }
+            else{
+                tax+=(income-previousThreshold)*rate;
+                break;
+            }
+        }
+        return tax;
+    };
+}
+const calculateTax=createTaxCalculator();
+console.log(calculateTax(100000));
+console.log(calculateTax(450000));
+console.log(calculateTax(1600000));
+console.log(calculateTax(3500000));
+________________
+
+
+Que.5: Write a JavaScript function called factorial that calculates the factorial of a non-negative integer using recursion. Test the function with different inputs.
+Ans:
+function factorial(n){
+    if(n===0){
+        return 1;
+    }
+    return n*factorial(n-1);
+}
+console.log("Factoriaql of 3 is :",factorial(3));
+console.log("Factorial of 0 is :",factorial(0));
+console.log("Factorial of 10 is : ",factorial(10));
+
+
+
+
+________________
+
+
+Que.6:Write a JavaScript function called curry that takes a function as an argument and returns a curried version of that function. The curried function should accept arguments one at a time and return a new function until all arguments are provided. Then, it should execute the original function with all arguments. Test the curry function with a function that adds two numbers.
+Ans:
+function curry(func){
+    return function curried(...args){
+        if(args.length>=func.length){
+            return func.apply(this,args);
+        }
+        else{
+            return function(...nextArgs){
+                return curried.apply(this,args.concat(nextArgs));
+            };
+        }
+    };
+}
+
+
+function add(a,b){
+    return a+b;
+}
+const curriedAdd=curry(add);
+
+
+console.log(curriedAdd(8)(13));
+console.log(curriedAdd(83,362));
+________________
