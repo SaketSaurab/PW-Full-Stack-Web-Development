@@ -1,0 +1,13 @@
+	*  Git hashes and blobs *
+How Git internally works?
+Git internally heavily depends on hashing and tree like data structures
+When we use commond git add then it connverts our code to 40 character hash object 
+All the chages comes to blob
+BLOB: Binary large object
+
+git cat-file -p / file name.....-> this commond is used to see the file content
+
+git cat-file -t /file name..... -> this commond tells about the type of file
+
+
+

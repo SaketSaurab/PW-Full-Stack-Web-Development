@@ -1,0 +1,8 @@
+	*  Git pull & git issues *
+We can write the code directly on github and we can also add the commit message
+But this version will not be updated to our local host machine so we will use 
+git pull origin main  command to fetch the latest version update
+
+
+
+

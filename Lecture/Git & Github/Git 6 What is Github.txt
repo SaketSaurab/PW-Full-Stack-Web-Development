@@ -1,0 +1,7 @@
+	* What is github * 
+
+Working directory ->Staging area ->Local Repository ->Remote Repository 
+
+
+
+

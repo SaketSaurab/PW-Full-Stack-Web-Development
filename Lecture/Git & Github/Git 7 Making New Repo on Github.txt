@@ -1,0 +1,10 @@
+	* Making New Repo on Github *
+To use git remote repository we use commond
+git remote add  origint https://github.com/saketsaurab/Git_Sample.git
+
+git push  origin main  -> after this commond the code will be uploaded to github
+
+
+
+
+

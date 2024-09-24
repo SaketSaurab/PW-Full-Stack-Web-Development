@@ -1,5 +1,28 @@
 * Why to use Git *
 
+To enable git in project : 
+	git init  -> it will enable tracking 
+	git init will create a .git hidden folder
+	if we delete the .git folder then we will loss all the previous commits
+
+git status -> this commond tells you the current state of project
+
+Stage of project: i)Working directory -> ii) Staging area -> iii)Repository
+Working directory is also called working tree
+
+When we will create a new file then it will goes to working directory   
+Untracked file: files under working directory
+
+
+To bring you file to staging area from working directory we use git add fileName commond
+When your file come to staging area then git will start tracking 
+If something is in the staging area it will be probably be the part of the next version/commit
+ 
+We use git commit commond to bring the version to repository from staging area
+And we have to also add commit message
+Repository: the place where all the versions are saved
+
+git log commond gives us the log of all commit
 
 
 
