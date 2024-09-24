@@ -1,0 +1,10 @@
+* Intro to Git *
+
+GIT-VCS
+Features of GIT
+-Open source VCS
+-Pretty fast and reliable
+-Industry Standard
+-Distributed in nature
+
+

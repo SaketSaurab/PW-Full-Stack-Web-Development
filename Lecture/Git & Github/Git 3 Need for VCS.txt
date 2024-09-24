@@ -1,0 +1,13 @@
+* Need for VCS *
+
+Need and advantages we get by using GIT
+-Historical changes tracking
+-Backup and disaster recovery
+-Code reviews and quality assurance
+-Experimentaion and rollback
+-Conflict resolution
+-Open Source
+-Release management
+
+
+

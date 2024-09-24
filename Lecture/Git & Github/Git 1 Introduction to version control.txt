@@ -1,0 +1,14 @@
+* Introduction to version control system *
+
+	Version Control System
+To evolve software and and inprove the functionality we step by step add more code and when we have significant change to rollout we release a new version of the software.
+
+Features of version system: 
+i) it helps to manage release of new version
+ii) it helps to manage rollback to old version
+iii) it helps to manage who wrote which piece of code
+iv) it help to maintain version/snapshots that can be later refferd
+
+Git is free and open source version control system and it is very stable.
+
+
