@@ -8,14 +8,116 @@
 Operators 
 
 Between (Selects for a given range)
-SELECT * FROM student WHERE marks BETWEEN 80 AND 90;
+	SELECT * FROM student WHERE marks BETWEEN 80 AND 90;
 
 In (match any vanlue in the list)
-SELECT * FROM student WHERE city IN ("delhi","mumbai","pune");
+	SELECT * FROM student WHERE city IN ("delhi","mumbai","pune");
 
 NOT (to negate the given condition)
-SELECT * FROM student WHERE city NOT IN ("delhi","pune");
+	SELECT * FROM student WHERE city NOT IN ("delhi","pune");
 
 Limit Clause : Sets an upper limit on number of (tuples) rows to be returned.
-SELECT * FROM student LIMIT 3;
+	SELECT * FROM student LIMIT 3;
 	eg. SELECT col1,col2 FROM table_name LIMIT number;
+
+Order by Clause: To sort in ascending (ASC) or descending order(DESC)
+	SELECT * FROM student OREDER BY city asc;
+	eg.SELECT col1,col2 FROM table_name ORDER BY col_name ASC;
+
+Aggregate Functions : Aggregate functions perform a calculation on a set of values, and return a single value.
+	COUNT(), MAX(), MIN(), SUM(), AVG()
+	eg.SELECT MAX(marks) FROM student;
+	eg.SELECT AVG(marks) FROM student;
+
+Group By Clause; Groups rows that have the same values into summary rows.
+	It Collect data from multiple records and groups the result by one or more column.
+	*Generally we use group by with some aggregation function.
+	eg.count number of student in each city 
+	    SELECT city, COUNT(name) FROM student GROUP BY city;
+
+Having Clause:It is similar to WHERE i.e. applies some condition on rows .
+	Used when we want to apply any condition after grouping.
+	eg.count number of student in each city where max marks cross 90
+	SELECT count(name), city FROM student GROUP BY city HAVING MAX(marks)>90;
+
+General order to writing the clauses:
+	SELECT columns
+	FROM table_name
+	WHERE condition
+	GROUP BY column(s)
+	HAVING condition
+	ORDER BY column(s) ASC;
+	
+	example using all clause
+	SELECT city FROM student WHERE grade="A" GROUP BY  city HAVING MAX(marks) ORDER BY city DESC;
+
+--------------------------------------------------------
+to turn off the safe mode we use SET SQL_SAFE_UPDATES=0;
+
+Table related Queries: 
+
+UPDATE (to update existing rows)
+	UPDATE table_name SET col1=var1,col2=var2 WHERE condition;
+	eg.UPDATE student SET grade="O" WHERE grade="A";
+	eg. to update the marks of student with roll no.105 we use UPDATE student SET marks=82 WHERE rollno=105 ;
+	eg. to update the grade of students UPDATE student SET grade="B" WHERE marks BETWEEN 80 AND 90;
+	eg. to give +1 marks to every studen : UPDATE student SET marks=marks+1;
+
+DELETE (to delete existing row )
+	DELETE FROM table_name WHERE condition ;
+	eg. DELETE FROM student WHRER marks<33;
+
+Truncate (to delete tables data)
+	TRUNCATE TABLE table_name;
+	
+
+ALTER(to change the schema)
+	ADD COLUMN : 
+	eg.ALTER TABLE table_name ADD COLUMN column_name datatype constraint;
+	eg. ALTER TABLE studend ADD COLUMN age INT NOT NULL DEFAULT 19;
+
+	DROP COLUMN: 
+	eg. ALTER TABLE table_name DROP COLUMN column_name;
+	eg.ALTER TABLE student DROP COLUMN student_age;
+
+	RENAME COLUMN
+	eg.ALTER TABLE table_name RENAME TO new_table_name;
+	eg.ALTER TABLE student RENAME TO stu;
+	
+	CHANGE COLUMN (rename)
+	eg.ALTER TABLE table_name CHANGE COLUMN old_name new_name new_datatype new_constraint;
+	eg.ALTER TABLE student CHANGE age student_age INT;
+
+	MODIFY COLUMN (modify datatype/constraint)
+	eg.ALTER TABLE table_name MODIFY col_name new_datatype new_constraint;
+	eg.ALTER TABLE student MODIFY age VARCHAR(2);
+
+---------------------------------------------------
+FOREIGN key: 
+
+
+Cascading for Foreign key:
+On Upate Cascade : When we create a foreign key using this option , it delete the referencing rows in the child table
+	when the referenced row is deleted in the parent table which has a primary key.
+
+On Delete Cascade: When we create a foreign key using UPDATE CASCADE the referencing rows are updated in the child table when the 
+	referenced row is updated in the parent table which has a primary key.
+	
+	eg.CREATE TABLE student (id INT PRIMARY KEY, course_id INT,
+	   FOREIGN KEY (couser_id) REFERENCES course(id)
+		ON DELETE CASCADE 
+		ON UPDATE CASCADE );
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
