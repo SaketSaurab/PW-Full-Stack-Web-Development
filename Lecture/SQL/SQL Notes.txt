@@ -1,0 +1,21 @@
+
+
+
+
+
+1:22:00
+
+Operators 
+
+Between (Selects for a given range)
+SELECT * FROM student WHERE marks BETWEEN 80 AND 90;
+
+In (match any vanlue in the list)
+SELECT * FROM student WHERE city IN ("delhi","mumbai","pune");
+
+NOT (to negate the given condition)
+SELECT * FROM student WHERE city NOT IN ("delhi","pune");
+
+Limit Clause : Sets an upper limit on number of (tuples) rows to be returned.
+SELECT * FROM student LIMIT 3;
+	eg. SELECT col1,col2 FROM table_name LIMIT number;
