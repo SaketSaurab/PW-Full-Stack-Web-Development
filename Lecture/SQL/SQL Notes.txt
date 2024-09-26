@@ -3,11 +3,69 @@
 Database: Database is collection of data in a format that can be easily accessed(Digital)
 A software application is used to manage our DataBase is called DBMS.
 
+Non-Relational (NoSQL) data not stored in tables. eg. mongo DB
+
 What is SQL:Structured Query Language
 
 SQL is a programming language used to intract with relational databases.
 
 It is used to perform CRUD (Create, Read, Update, Delete) operations.
+
+Earlier it was called SEQUEL (Structured English QUEry Language).
+---------------------------------------------------------------
+
+Database Structure: It contains tables
+	Creating our first database: Our first SQL query ->CRATE DATABASE db_name;
+	Deleting our database -> DROP DATABASE db_name;
+USE db_name: it means right now we are using this database
+
+Creating our First Table: USE db_name;
+			 CREATE TABLE table_name(col_name1 datatype constraint , col_name2 datatype constraint,col_name3 datatype constrain);
+ eg. CREATE TABLE student (id INT PRIMARY KEY,name VARCHAR(50),age INT NOT NULL );
+To add data in table : INSERT INTO student VALUES(1,"AMAN",26);
+
+Data types : CHAR(0-255), VARCHAR(0-255), BLOB(0-65535, INT, TINYINT, BIGINT, BIT(1-64), FLOAT,BOOLEAN 
+
+Signed & Unsigned: unsigned contains only positive value eg. TINYINT UNSIGNED(0-255) , TINYINT(-128-127)
+--------------------------------
+Types of SQL commonds: 
+	DLL(Data Definition Language): create, alter, rename, truncate & drop
+	DQL(Data Query Language): select
+	DML(Data Manupulation Language): insert, delete, update
+	DCL(Data Control Language): grant & revoke permissions to users
+	TCL(Transaction Control Language): start transaction,commit ,rollback
+--------------------------------------------------------------------------
+Database related Queries 
+CREATE DATABASE db_name -> this command will create a database with name db_name.
+CREATE DATABASE IF NOT EXISTS db_name -> this command will also create database with name db_name only if it there is no database present with this name.
+
+DROP DATABASE db_name -> this will delete the database with name db_name if not present then it will give error
+DROP DATABASE IF EXISTS db_name -> this will also delete the databse only if it exists otherwise it will give warning .
+we can use for SHOW DATABASES; and for SHOW COLUMNS;
+----------------------------------------------------
+TABLE releted Queries:
+	CREATE TABLE table_name(
+	col_name1 datatype constraint,
+	col_name2 datatype constraint);
+eg. CREATE TABLE student (rollno INT PRIMARY KEY, name VARCHAR(50);
+
+Select & View  ALL Columns: SELECT * FROM table_name;
+		eg. SELECT * FROM student;
+
+ Inserting data in table: INSERT INTO table_name (col_name1 , col_name2) VALUES (col1_v1, col2_v1),(col1_v2,col2_v2);
+	eg.INSERT INTO student(rollno, name) VALUES (101,"karan"),(102,"Krishna");
+-----------------------------------------------------
+Primary key : It is a column (or set of columns) in a table that uniquely identifies each row. (a unique id)
+		There will be only Primary key and it should be NOT NULL
+Foreign Key : A foreign key is a column (or set of columns) in a table that refers to the primary key of another table
+		There can be multiple Foreign keys and can have multiple and duplicate values.
+-----------------------------------------------------
+1:01:00
+Constraints: 
+
+
+
+
 
 
 1:22:00
