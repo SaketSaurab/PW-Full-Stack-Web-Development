@@ -12,7 +12,7 @@ SQL is a programming language used to intract with relational databases.
 It is used to perform CRUD (Create, Read, Update, Delete) operations.
 
 Earlier it was called SEQUEL (Structured English QUEry Language).
----------------------------------------------------------------
+--------------------------------------------------------------------
 
 Database Structure: It contains tables
 	Creating our first database: Our first SQL query ->CRATE DATABASE db_name;
