@@ -12,7 +12,7 @@ SQL is a programming language used to intract with relational databases.
 It is used to perform CRUD (Create, Read, Update, Delete) operations.
 
 Earlier it was called SEQUEL (Structured English QUEry Language).
---------------------------------------------------------------------
+---------------------------------------------------------------
 
 Database Structure: It contains tables
 	Creating our first database: Our first SQL query ->CRATE DATABASE db_name;
@@ -60,15 +60,29 @@ Primary key : It is a column (or set of columns) in a table that uniquely identi
 Foreign Key : A foreign key is a column (or set of columns) in a table that refers to the primary key of another table
 		There can be multiple Foreign keys and can have multiple and duplicate values.
 -----------------------------------------------------
-1:01:00
-Constraints: 
+Constraints: SQL Constraints are used specify rules for data in table.
+	NOT NULL: columns can not have not null value. eg. col1 int NOT NULL
+	UNIQUE : all values in columns are different. eg. col2 int UNIQUE
+	PRIMARY KEY: Make a column unique and not null but used only for one. eg. id int PRIAMRY KEY
+	eg. CREATE TABLE temp(id int NOT NULL, PRIMARY KEY (id));
+FOREIGN KEY : prevent actions that would destroy links between tables.
+	eg. CREATE TABLE temp( cust_id int, FOREIGN KEY (cust_id) REFERENCE customer id());
 
+DEFAULT : sets the default value of a column.
+	eg. salary INT DEFAULT 25000
+	
+CHECK: it can limit the values allowed in a column
+	eg. CREATE TABLE city (id INT PRIMARY KEY , city VARCHAR(50),age INT, CONSTRAINT age_check (age>=18 AND city="Delhi"));
+	eg. CREATE TABLE newTab(age INT CHECK (age>=18);
 
-
-
-
-
-1:22:00
+Where Clause: to define some condition
+	eg. SELECT col1,col2 FROM table_name WHERE conditions;
+	eg. SELECT * FROM student WHERE marks>80;
+		SELECT * FROM student WHERE city="Mumbai";
+Arithmatic Operators: +(addition),-(subtraction),*(multiplication),/(division),%(modulus)
+Comparison Operators: =(equal to),!=(not equal to),>,>=,< , <=
+Logical operators:AND , OR, NOT,IN, BETWEEN,ALL,LIKE,ANY
+Bitwise operators: &(bitwise and),|(bitwise or)
 
 Operators 
 
