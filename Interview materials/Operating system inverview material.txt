@@ -1,0 +1,143 @@
+﻿1: Introduction to Operating Systems
+1. Operating System Definition:
+   * Software that manages hardware resources and provides services to applications.
+   * Acts as an interface between the user and computer hardware.
+________________________________________________
+2. Key Concepts:
+   * Hardware: Includes CPU, memory, input/output devices.
+   * Operating System: Manages hardware and coordinates tasks.
+   * Application Programs: Use system resources (e.g., web browsers, word processors).
+   * User: Interacts with the system via applications.
+________________________________________________
+
+
+                        2: Hardware Components of a Computer
+* CPU (Central Processing Unit): The brain of the computer that performs calculations and processes.
+* Memory: Stores data (RAM for temporary storage, ROM for permanent storage).
+* Storage Devices: Long-term storage such as hard drives and SSDs.
+* Input/Output Devices: Used to send data (e.g., keyboard) and receive data (e.g., monitor, printer).
+* Motherboard: Houses CPU, memory, and essential components.
+* Peripheral Devices: External devices like USB drives and printers.
+________________________________________________
+
+
+                        3: Software Components
+* Operating System (OS): Manages hardware and software (e.g., Windows, macOS, Linux).
+* Application Software: Programs for user tasks (e.g., Microsoft Office, web browsers).
+* System Software: Supports application software and manages hardware (e.g., device drivers).
+________________________________________________
+
+
+                        4: Importance of Understanding Operating Systems
+1. Foundation of Computing: Key to understanding how computers work.
+2. Efficient Resource Use: Helps optimize computer resource allocation.
+3. Software Development: Essential for building applications.
+4. System Administration & Troubleshooting: Helps in managing and fixing systems.
+5. Security Awareness: Crucial for securing computer systems.
+________________
+
+
+                        5: Types of Computers
+1. Personal Computers: Desktops and laptops for individual use.
+2. Servers: Provide services over a network.
+3. Mainframes: Large systems for bulk processing in organizations.
+4. Supercomputers: Used for complex computations and simulations.
+5. Embedded Systems: Integrated into devices like cars and appliances.
+6. Mobile Devices: Smartphones and tablets.
+________________
+
+
+                        6: Operating Systems - Objectives
+* Convenience: Makes interaction with the hardware easier for users.
+* Efficiency: Optimizes the use of resources.
+* Hardware Abstraction: Simplifies hardware access.
+* Resource Management: Manages hardware and software resources effectively.
+________________
+
+
+                        7: Types of Operating Systems
+1. Batch OS: Processes jobs in batches without user interaction.
+   * Simple Batch System: Processes one job at a time.
+   * Multiprogramming Batch System: Runs multiple jobs concurrently.
+________________
+
+
+                        8: Multi-Processor & Distributed OS
+1. Multiprocessor OS: Uses multiple CPUs to improve performance by parallel processing.
+2. Distributed OS: Allows applications to run on multiple interconnected computers, sharing resources like memory and storage.
+________________
+
+
+                        9: Real-Time Operating System (RTOS)
+* Designed for time-critical tasks with guaranteed response times.
+* Prioritizes consistent execution over throughput.
+________________
+
+
+                        10: Operating System Architectures
+1. Monolithic Architecture: The OS is a single large process running entirely in kernel mode.
+2. Layered Architecture: Organizes the system into layers with each layer depending on the one below it.
+3. Microkernel Architecture: Only essential components (like memory management and inter-process communication) run in kernel mode; other services run in user mode.
+4. Hybrid Architecture: Combines features of monolithic and microkernel architectures.
+________________
+
+
+                        11: Process and Threads
+* Process: An executing program.
+   * States: New, Running, Waiting, Ready, Terminated.
+* Process Control Block (PCB): Stores process information like state, ID, and memory usage.
+* Threads: Lightweight processes sharing the same resources, improving CPU utilization.
+________________
+
+
+                        12: Process Synchronization and Concurrency
+1. Critical Section Problem: Ensures that only one process accesses shared resources at a time.
+2. Concurrency: Refers to the execution of multiple processes simultaneously.
+3. Synchronization Mechanisms: Include locks, semaphores, and barriers to manage concurrent processes.
+________________
+
+
+                        13: CPU Scheduling
+* Schedulers:
+   1. Long-term Scheduler: Decides which jobs are admitted into the system.
+   2. Short-term Scheduler: Allocates the CPU to processes in the ready queue.
+   3. Medium-term Scheduler: Handles swapping processes in and out of memory.
+* Scheduling Algorithms:
+   1. First-Come-First-Serve (FCFS): Serves processes in the order they arrive.
+   2. Shortest Job Next (SJN): Prioritizes shorter jobs.
+   3. Priority Scheduling: Allocates CPU based on priority.
+   4. Round Robin: Each process gets a fixed time slice.
+________________
+
+
+                        14: Deadlock
+* Deadlock: A situation where processes are waiting on each other, causing a standstill.
+* Conditions for Deadlock:
+   1. Mutual exclusion.
+   2. Hold and wait.
+   3. No preemption.
+   4. Circular wait.
+________________
+
+
+                        15: Inter-Process Communication (IPC)
+* IPC Mechanisms:
+   1. Message Passing: Processes exchange data via messages.
+   2. Shared Memory: Multiple processes access the same memory space.
+________________
+
+
+                        16: Memory Management
+* Memory Management Goals: Allocation, deallocation, protection, sharing, and logical organization.
+* Memory Allocation Techniques:
+   1. Contiguous Allocation: Allocates memory in a single block.
+   2. Non-contiguous Allocation: Allocates memory in different segments (e.g., paging and segmentation).
+* Virtual Memory: Allows the system to execute processes that are not entirely in memory.
+________________
+
+
+                        17: File Systems and I/O
+1. File System: Organizes and manages files on storage devices.
+2. File Attributes: Include name, identifier, type, size, and protection.
+3. File System Types: Examples include FAT, NTFS, ext (Linux), HFS (macOS).
+* I/O Systems: Manage input/output operations, involving device drivers, buffering, caching, and interrupt handling.
