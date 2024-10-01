@@ -21,14 +21,14 @@ ________________________________________________
 ________________________________________________
 
 
-                        3: Software Components
+            3: Software Components
 * Operating System (OS): Manages hardware and software (e.g., Windows, macOS, Linux).
 * Application Software: Programs for user tasks (e.g., Microsoft Office, web browsers).
 * System Software: Supports application software and manages hardware (e.g., device drivers).
 ________________________________________________
 
 
-                        4: Importance of Understanding Operating Systems
+                 4: Importance of Understanding Operating Systems
 1. Foundation of Computing: Key to understanding how computers work.
 2. Efficient Resource Use: Helps optimize computer resource allocation.
 3. Software Development: Essential for building applications.
