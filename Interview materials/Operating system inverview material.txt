@@ -8,10 +8,9 @@ ________________________________________________
    * Operating System: Manages hardware and coordinates tasks.
    * Application Programs: Use system resources (e.g., web browsers, word processors).
    * User: Interacts with the system via applications.
-________________________________________________
+___________________________________________
 
-
-                        2: Hardware Components of a Computer
+          2: Hardware Components of a Computer
 * CPU (Central Processing Unit): The brain of the computer that performs calculations and processes.
 * Memory: Stores data (RAM for temporary storage, ROM for permanent storage).
 * Storage Devices: Long-term storage such as hard drives and SSDs.
