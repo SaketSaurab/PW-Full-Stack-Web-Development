@@ -8,10 +8,9 @@ ________________________________________________
    * Operating System: Manages hardware and coordinates tasks.
    * Application Programs: Use system resources (e.g., web browsers, word processors).
    * User: Interacts with the system via applications.
-________________________________________________
+___________________________________________
 
-
-                        2: Hardware Components of a Computer
+          2: Hardware Components of a Computer
 * CPU (Central Processing Unit): The brain of the computer that performs calculations and processes.
 * Memory: Stores data (RAM for temporary storage, ROM for permanent storage).
 * Storage Devices: Long-term storage such as hard drives and SSDs.
@@ -21,14 +20,14 @@ ________________________________________________
 ________________________________________________
 
 
-                        3: Software Components
+            3: Software Components
 * Operating System (OS): Manages hardware and software (e.g., Windows, macOS, Linux).
 * Application Software: Programs for user tasks (e.g., Microsoft Office, web browsers).
 * System Software: Supports application software and manages hardware (e.g., device drivers).
 ________________________________________________
 
 
-                        4: Importance of Understanding Operating Systems
+                 4: Importance of Understanding Operating Systems
 1. Foundation of Computing: Key to understanding how computers work.
 2. Efficient Resource Use: Helps optimize computer resource allocation.
 3. Software Development: Essential for building applications.
@@ -52,20 +51,20 @@ ________________
 * Efficiency: Optimizes the use of resources.
 * Hardware Abstraction: Simplifies hardware access.
 * Resource Management: Manages hardware and software resources effectively.
-________________
+______________________________________
 
 
                         7: Types of Operating Systems
 1. Batch OS: Processes jobs in batches without user interaction.
    * Simple Batch System: Processes one job at a time.
    * Multiprogramming Batch System: Runs multiple jobs concurrently.
-________________
+______________________________________
 
 
                         8: Multi-Processor & Distributed OS
 1. Multiprocessor OS: Uses multiple CPUs to improve performance by parallel processing.
 2. Distributed OS: Allows applications to run on multiple interconnected computers, sharing resources like memory and storage.
-________________
+______________________________________
 
 
                         9: Real-Time Operating System (RTOS)
