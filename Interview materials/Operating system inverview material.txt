@@ -51,20 +51,20 @@ ________________
 * Efficiency: Optimizes the use of resources.
 * Hardware Abstraction: Simplifies hardware access.
 * Resource Management: Manages hardware and software resources effectively.
-________________
+______________________________________
 
 
                         7: Types of Operating Systems
 1. Batch OS: Processes jobs in batches without user interaction.
    * Simple Batch System: Processes one job at a time.
    * Multiprogramming Batch System: Runs multiple jobs concurrently.
-________________
+______________________________________
 
 
                         8: Multi-Processor & Distributed OS
 1. Multiprocessor OS: Uses multiple CPUs to improve performance by parallel processing.
 2. Distributed OS: Allows applications to run on multiple interconnected computers, sharing resources like memory and storage.
-________________
+______________________________________
 
 
                         9: Real-Time Operating System (RTOS)
