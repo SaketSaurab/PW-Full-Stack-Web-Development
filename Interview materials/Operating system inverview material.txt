@@ -3,6 +3,7 @@
    * Software that manages hardware resources and provides services to applications.
    * Acts as an interface between the user and computer hardware.
 ________________________________________________
+
 2. Key Concepts:
    * Hardware: Includes CPU, memory, input/output devices.
    * Operating System: Manages hardware and coordinates tasks.
