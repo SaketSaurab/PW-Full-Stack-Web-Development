@@ -1,0 +1,30 @@
+/* tag selector*/
+h1{
+    color: red;
+    font-style: italic;
+}
+h2{
+    color: yellowgreen;
+}
+/*id selector*/
+#paragraph1{
+    font-size:larger;
+    color: darkblue;
+    background-color: beige;
+}
+#rgb1{
+    color: rgb(10,18,280);
+}
+#rgba1{
+    color: rgba(83,33,62,0.7);
+}
+#hsl1{
+    color: hsl(210,50%,72%);
+}
+
+/* class selector*/
+.div1{
+    color: red;
+    font-size:xx-large;
+    background-color: aqua;
+}
