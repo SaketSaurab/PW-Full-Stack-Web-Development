@@ -3,6 +3,7 @@
    * Software that manages hardware resources and provides services to applications.
    * Acts as an interface between the user and computer hardware.
 ________________________________________________
+
 2. Key Concepts:
    * Hardware: Includes CPU, memory, input/output devices.
    * Operating System: Manages hardware and coordinates tasks.
@@ -34,7 +35,6 @@ ________________________________________________
 4. System Administration & Troubleshooting: Helps in managing and fixing systems.
 5. Security Awareness: Crucial for securing computer systems.
 ________________
-
 
                         5: Types of Computers
 1. Personal Computers: Desktops and laptops for individual use.
