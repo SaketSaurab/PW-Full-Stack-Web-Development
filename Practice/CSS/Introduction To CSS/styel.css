@@ -46,6 +46,17 @@ h2{
     background-repeat: no-repeat;
 }
 
+.div4{
+    background-image: url("https://images.unsplash.com/photo-1504217051514-96afa06398be?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGxhbmRzY2FwZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    /*
+    Shorthand :
+    background-image:url("https....") no-repeat top right;
+    */
+
+}
 /* class selector*/
 .div1{
     color: red;
