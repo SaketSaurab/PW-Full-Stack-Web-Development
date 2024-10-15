@@ -1,0 +1,49 @@
+.box1-p1{
+    border: 2px solid black;
+    padding: 10px;
+}
+.box1-p2{
+    border: 2px solid black;
+    padding: 10px;
+    width: 500px;
+}
+
+.box2-p1{
+    border: 2px solid black;
+    padding: 10px;
+    min-width: 500px;
+}
+.box2-p2{
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.box3-p1{
+    border: 2px solid rgb(201, 33, 33);
+    padding: 10px;
+    min-height: 20px;
+}
+
+.box3-p2{
+    border: 2px solid rgb(201, 33, 33);
+    padding: 10px;
+    max-height: 20px;
+    overflow: scroll;
+}
+
+.box4-p1{
+    border: 2px solid rgb(83, 36, 36);
+    box-sizing: border-box;
+}
+.box4-p2{
+    border: 2px solid rgb(94, 33, 33);
+    box-sizing: content-box;
+}
+.box5{
+
+}
+
+.box6{
+
+}
