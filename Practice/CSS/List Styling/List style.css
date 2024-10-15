@@ -1,0 +1,28 @@
+#ul1{
+    list-style-type:square;
+}
+#ol1{
+    list-style-type:lower-roman;
+}
+#ol2{
+    list-style-type: decimal-leading-zero;
+}
+#ol3{
+    list-style-type: decimal;
+    
+}
+#ul2{
+    list-style-image: url("https://cdn-icons-png.flaticon.com/256/15127/15127204.png");
+}
+#ul3{
+    list-style-type: circle;
+    list-style-position: inside;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+#ul4{
+    list-style-type: disc;
+    list-style-position: outside;
+    border: 10px dashed red;
+    border-radius: 20px;
+}
