@@ -21,3 +21,16 @@ h3,ol,p{
     border: 3px solid rgb(134, 60, 60);
     padding: 20px;
 }
+.div5{
+    height: 100px;
+}
+.item3{
+    display: inline-block;
+    border: 3px dashed purple;
+    color:red;
+    padding: 15px;
+    background-color: bisque;
+}
+.div8{
+    height: 50px;
+}
