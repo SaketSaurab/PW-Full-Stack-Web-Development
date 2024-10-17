@@ -1,0 +1,28 @@
+.container2{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    position:relative;
+    overflow: scroll;
+}
+.box{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+.box11{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+}
+.box14{
+    background-color: magenta;
+    left: 50px;
+    top:50px;
+    position: sticky;
+}
+.icon{
+    width: fit-content;
+    float: right;
+}

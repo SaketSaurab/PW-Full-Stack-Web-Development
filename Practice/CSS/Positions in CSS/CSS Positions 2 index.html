@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions 2</title>
+    <link rel="stylesheet" href="CSS Positions 2 style.css">
+</head>
+<body>
+
+
+    
+    <h2>Fixed Positioning</h2>
+    <div class="container2">
+        <div class="box box10">Box 10</div>
+        <div class="box box11">Box 11</div>
+        <div class="box box12">Box 12</div>
+    </div>
+    <hr>
+    <h2>Sticky Positioning</h2>
+    <div class="container2">
+        <div class="box box13">Box 13</div>
+        <div class="box box14">Box 14</div>
+        <div class="box box15">Box 15   </div>
+    </div>
+    <hr>
+    <h2>Chat icon</h2>
+    <section>
+        <p>
+            he element is positioned according to the normal flow of the 
+            document, and then offset relative to its nearest scrolling
+             ancestor and containing block (nearest block-level ancestor), 
+             including table-related elements, based on the values of top, 
+             right, bottom, and left. The offset does not affect the position 
+             of any other elements.
+
+This value always creates a new stacking context. Note that 
+a sticky element "sticks" to its nearest ancestor that 
+has a "scrolling mechanism" (created when overflow is
+ hidden, scroll, auto, or overlay), even if that ancestor 
+ isn't the nearest actually scrolling ancestor.
+        </p>
+        <div class="icon">
+            <img src="data:image/png;base64,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" 
+            alt="" width="50px" height="50px">
+        </div>
+    </section>
+</body>
+</html>
