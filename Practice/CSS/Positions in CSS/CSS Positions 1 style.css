@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px dotted yellow;
+    line-height: 100px;
+
+}
+.box1{
+    background-color: red;
+    position: static;
+}
+.box2{
+    background-color: green;
+    position: static;
+}
+.box3{
+    background-color: blue;
+    position: static;
+}
