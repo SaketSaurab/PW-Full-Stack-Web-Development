@@ -1,0 +1,66 @@
+h2{
+    text-align: center;
+    color: magenta;
+}
+h3{
+    padding-left: 100px;
+    color:cadetblue;
+}
+div{
+    border: 2px solid black;
+    height: 380px;
+}
+#overflow-visible{
+    border: 4px dotted red;
+    height: 200px;
+    width: 500px;
+    overflow: visible;
+}
+#overflow-hidden{
+    border: 4px dashed yellow;
+    height: 200px;
+    width: 500px;
+    overflow: hidden;
+}
+p{
+    padding: 10px;
+}
+#overflow-scroll{
+    border: 4px dashed green;
+    height: 200px;
+    width: 500px;
+    overflow: scroll;
+}
+#overflow-auto{
+    border: 4px dotted magenta;
+    height: 200px;
+    width: 500px;
+    overflow: auto;
+}
+/* Z-index */
+.container{
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    color: aquamarine;
+    padding: 5px;
+    position: absolute;
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    left: 70px;
+    top: 70px;
+    background-color: green;
+    z-index: 2;
+}
+.box3{
+    left: 110px;
+    top: 110px;
+    background-color: blue;
+    
+}
