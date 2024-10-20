@@ -70,3 +70,116 @@ shortcut
 grid-row:2/3;
     */
 }
+
+
+.grid-container1{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "sidebar main main"
+                        "sidebar footer footer";
+    grid-template-rows: 80px 1fr 50px;
+    grid-template-columns: 200 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 10px;
+}
+.gridheader1{
+    grid-area: header;
+    background-color: blue;
+    color: white;
+}
+.gridsidebar1{
+    grid-area: sidebar;
+    background-color: orange;
+    color: white;
+}
+.gridmaincontent1{
+    grid-area: main;
+    background-color: green;
+    color: white;
+}
+.gridfooter1{
+    grid-area: footer;
+    background-color: purple;
+    color: yellow;
+}
+.container3{
+    color: rgb(243, 243, 243);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 10px;
+    border: 3px 
+    solid black;
+}   
+.griditem2{
+    background-color: #ddd;
+    padding: 20;
+    text-align: center;
+}
+.griditem2:nth-child(2){
+    justify-self: end;
+}
+.griditem2:nth-child(3){
+    align-self: end;
+}
+.griditem2:nth-child(4){
+    justify-self: center;
+    align-self: center;
+}
+.griditem2:nth-child(5){
+    justify-self: start;
+    align-self: end;
+}
+.griditem2:nth-child(6){
+    justify-self: end;
+    align-self: start;
+}
+.item8{
+    background-color: blue;
+}
+.item9{
+    background-color: red;
+}
+.item10{
+    background-color: orange;
+}
+.item11{
+    background-color: green;
+}
+.item12{
+    background-color: black;
+}
+.item13{
+    background-color: gray;
+}
+
+.container4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,100px);
+    grid-gap: 10px;
+}
+.divgrid{
+    background-color: bisque;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+}
+.divgrid:nth-child(2){
+    order:6 ;
+}
+
+.divgrid:nth-child(3){
+    order: 2; ;
+}
+.divgrid:nth-child(4){
+    order: 3;
+}
+.divgrid:nth-child(5){
+    order: 5;
+}
+.divgrid:nth-child(6){
+    order:1 ;
+}
