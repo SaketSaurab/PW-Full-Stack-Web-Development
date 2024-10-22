@@ -1,0 +1,50 @@
+.box{
+    height: 100vh;
+}
+.h1{
+    color: white;
+}
+/*extra small :min 576px*/
+@media screen and (max-width:576px){
+    .box{
+        background-color: purple;
+    }
+    .screen::after{content:" extra small";}
+}
+
+/*small*/
+@media screen and (min-width:576px){
+    .box{
+        background-color: yellow;
+    }
+    .screen::after{content: "small";}
+}
+/*medium*/
+@media screen and (min-width:768px){
+    .box{
+        background-color: red;
+    }
+    .screen::after{
+        content: "medium";
+    }
+}
+/*large*/
+
+@media screen and (min-width:992px){
+    .box{
+        background-color: goldenrod;
+    }
+    .screen::after{
+        content: "large";
+    }
+}
+/*extra large*/
+@media screen and (min-width:1200px){
+    .box{
+        background-color: aqua;
+    }
+    .screen::after{
+        content: "extra large";
+    }
+}
+/**/
