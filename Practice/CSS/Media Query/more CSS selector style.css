@@ -1,0 +1,8 @@
+ul li{
+    color: red;
+    
+}
+ol>li{
+    color: green;
+    background-color: aqua;
+}
