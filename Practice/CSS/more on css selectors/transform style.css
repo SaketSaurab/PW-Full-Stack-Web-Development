@@ -1,0 +1,34 @@
+
+.box1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.box2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    transform: translate(50px,30px);
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.image2{
+    transform: scale(2.7,0.9);
+}
+.image4{
+    transform: rotate(35deg);
+}
+.image6{
+    transform: skew(45deg,25deg);
+}
+.image8{
+    transform: rotatex(65deg);
+}
+.image10{
+    transform: rotateY(65deg);
+}
+.image12{
+    transform: rotatez(65deg);
+}
