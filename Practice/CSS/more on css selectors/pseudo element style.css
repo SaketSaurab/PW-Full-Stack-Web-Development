@@ -1,0 +1,28 @@
+.p1::after{
+    content: "afterr";
+    color: magenta;
+}
+.p2::before{
+    content: "beforr";
+    color: blueviolet;
+}
+.p3::first-letter{
+    font-size: 30px;
+    background-color: yellow;
+}
+.p4::first-line{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.p5::selection{
+    color: red;
+    background-color: aquamarine;
+}
+.input1::placeholder{
+    background-color: yellow;
+    padding: 20px;
+    color: black;
+}
+.li1::marker{
+    color: brown;
+}
