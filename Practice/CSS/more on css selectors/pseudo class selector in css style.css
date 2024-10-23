@@ -1,0 +1,55 @@
+.a1:active{
+    color: yellow;
+}
+.a2:hover{
+    color: chocolate;
+    font-size: 30px;
+}
+.input1:focus{
+    background-color: purple;
+    color: yellow;
+}
+.a3{
+    color: blueviolet;
+}
+.a3:visited{
+    color: rgb(217, 255, 0);
+}
+.a4{
+    color: magenta;
+}
+.a4:visited{
+    color: red;
+}
+.p2:first-child{
+    color: aqua;
+    font-size: 30px;
+}
+.p2:last-child{
+    background-color: green;
+    color: blue;
+}
+.p2:nth-child(3){
+    background-color: yellow;
+    color: red;
+}
+.p2:nth-last-child(3){
+    background-color: brown;
+    color: beige;
+}
+/* p:not(.p31){
+    color: red;
+} */
+.p4:first-of-type{
+    color: red;
+}
+.p4:last-of-type{
+    color: chocolate;
+}
+.p5:empty{
+    background-color: violet;
+    height: 30px;
+}
+.input2:checked{
+    outline: 5px solid red;
+}

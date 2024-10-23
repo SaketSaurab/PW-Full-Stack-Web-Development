@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class selector in css</title>
+    <link rel="stylesheet" href="pseudo class selector in css style.css">
+</head>
+<body>
+    <h1>Pseudo class selector in css</h1>
+    <hr>
+    <h2>::active</h2>
+    <p class="p1">
+        click on the link to check active selector
+        <a class="a1" href="https://www.google.com" target="_blank">google.com check</a>
+    </p>
+    <hr>
+    <h2>:hover</h2>
+    <p>
+        hover the below link
+        <a href="https://www.google.com" target="_blank" class="a2"> hover on google.com</a>
+    </p>
+    <hr>
+    <h2>:focus    </h2>
+    <p>
+        example of focum
+        <input class="input1" type="text " placeholder="demo"/>
+    </p>
+    <hr>
+
+    <h2>:visited</h2>
+    <p>
+        <a class="a3" href="#visited" target="_blank">link visisted </a>
+        <br>
+        <a class="a3" href="#not visited" target="_blank">link no visited yet</a>
+    </p><hr>
+
+    <h2>:link</h2>
+    <p>
+        <h3>visited link</h3>
+        <ul>
+            <li> <a class="a4" href="#root"> visited root</a></li>
+            <li> <a class="a4" href="#about"> visited about</a></li>
+            <li> <a class="a4" href="#contact"> visited contact</a></li>
+            
+        </ul>
+        <h3>not visted link</h3>
+        <ul>
+            <li> <a class="a5" href="#root">not visited root</a></li>
+            <li> <a class="a5" href="#about">not visited about</a></li>
+            <li> <a class="a5" href="#contact">not visited contact</a></li>
+            
+        </ul>
+    </p>
+    <hr>
+
+    <h2>:first-child</h2>
+    <div>
+        <p class="p2">first child</p>
+        <p class="p2">second child</p>
+        <p class="p2">third child</p>
+        <p class="p2">fourth child</p>
+        <p class="p2">fifth child</p>
+        <p class="p2">sixth child</p>
+        <p class="p2">seventh child</p>
+        <p class="p2">eighth child</p>
+        <p class="p2">ninth child</p>
+    </div>
+<hr>
+<h2>:not</h2>
+<h3>negation selector</h3>
+<div>
+    <p class="p31">first element of paragraph</p>
+    <p class="p3">second element of paragraph</p>
+    <p class="p3">.............load details</p>
+    <p class="p3">last element of paragraph</p>
+</div>
+<hr>
+<h2>:first-of-type()</h2>
+<div>
+    <p class="p4">first element of paragraph</p>
+    <p class="p4">second element of paragraph</p>
+    <p class="p4">.............load details</p>
+    <p class="p4">last element of paragraph</p>
+</div>
+<hr>
+
+<div>
+    <p class="p5">first element of paragraph</p>
+    <p class="p5"></p>
+    <p class="p5">.............load details</p>
+    <p class="p5">last element of paragraph</p>
+</div>
+
+<hr>
+<h2>:checked</h2>
+<p>
+    checked pseudo class
+</p>
+<input class="input2" type="checkbox"/>Agree to terms <br>
+<input class="input2" type="checkbox"/>Proceed
+
+</body>
+</html>
