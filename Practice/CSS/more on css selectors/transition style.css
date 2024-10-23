@@ -1,0 +1,39 @@
+button{
+    margin-top: 5px;
+    padding: 10px 15px;
+    background-color: gold;
+    color: white;
+    border: none;
+    font-size: 20px;
+    transition: margin-top 0.5s ease-in-out;
+}
+button:hover{
+    margin-top: 25px;
+}
+a{
+    flex:1;
+    background-color: #333;
+    border: 2px solid purple;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.8s ease-out;
+}
+a:hover{
+    background-color: #fff;
+    color: aqua;
+}
+.circle{
+    border: 3px solid red;
+    background-color: green;
+    border-radius: 110px;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    transition: all 0.8s ease-in-out;
+}
+.circle:hover{
+    transform: scale(2);
+    background-color: red;
+}
