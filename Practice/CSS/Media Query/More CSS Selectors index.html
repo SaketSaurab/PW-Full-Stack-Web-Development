@@ -24,6 +24,78 @@
     </ol>
     <hr>
     <h2>Adjacent sibling combinator ' (+ )'</h2>
+    <div>
+        <h3>hello </h3>
+        <p>first paragraph only its color will be change </p>
+        <p>second paragraph</p>
+    </div>
+    <hr>
+    <h2>general sibling combinator '(~)'</h2>
+    <div>
+        <h4>all p style will be change </h4>
+        <p>first paragraph </p>
+        <p>second paragraph</p>
+    </div>
+    <hr>
+    <h1>Atribute selectors</h1>
+    <h2>presence attribute selector[attribute]</h2>
+    <h3>here only the color of first link will be change because it have targe attribute</h3>
+    <div>
     
+        <a href="http://www.google.com" target="_blank">google</a><br>
+        <a href="http://www.youtube.com" >youtube</a>
+    </div><hr>
+    <h2>exact value attribute selector [attribute=value]</h2>
+    <div>
+        
+        <a href="http://www.google.com" >google</a><br>
+        <a href="http://www.youtube.com" target="_top" >youtube</a>
+    </div>
+    <hr>
+
+    <h2>value prefix attribute selector [attribute^=value]</h2>
+    <div>
+
+        <h4 class="top">hello world
+        </h4>
+        <p1 class="down">lets learn css</p1>
+    </div><hr>
+    <h2>
+        value suffix attribute selector[attribute$=value]
+    </h2>
+    <div>
+        <h6 class="first-top1">hello first top world</h6>
+        <p2 class="first-down">first down learn css </p2>
+    </div>
+    <hr>
+<h2>
+    value space-sepatated attribute selector [attribute~=value]
+</h2>
+<div>
+    <p3 class="second top2">hello second top 2 </p3>
+    <h6 class="second down2">hello second down 2</h6>
+</div>
+<h2>value space-sepated attribute selector [attribute~=value]</h2>
+<div>
+    <h8 class="first3-top3">
+        h8 first3 op 3
+    </h8><br>
+    <p5 class="second3-down3">
+        second 3 down 3
+    </p5>
+</div>
+<hr>
+
+<h2>value substring attribute selectors [attribute*=value]</h2>
+<div>
+    <h7 class="1first3-top3">
+        h7 first3 top3 
+    </h7>
+    <p8 class="second3-down3"> 
+        p8 second3 down3
+    </p8>
+</div>
+
+
 </body>
 </html>

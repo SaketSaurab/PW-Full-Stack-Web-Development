@@ -6,3 +6,43 @@ ol>li{
     color: green;
     background-color: aqua;
 }
+h3 + p{
+    color: yellow;
+    font-style: italic;
+    background-color: darkblue;
+}
+h4 ~ p{
+    color: red;
+    background-color: yellow;
+} 
+a[target] {
+    color: magenta;
+    font-size: 30px;
+}
+a[target="_top"]{
+    color: yellowgreen;
+    font-weight: bold;
+}
+[class^=top]{
+    background-color: aqua;
+    color: brown    ;
+}
+
+[class$="top1"]{
+    color: chartreuse;
+    background-color: bisque;
+}
+[class~="down2"]{
+    background-color: purple;
+    color: bisque;
+}
+
+[class|="second3"]{
+    background-color: gray;
+    color: green;
+}
+
+[class*="1fir"]{
+    background-color: greenyellow;
+    font-size: 35px;
+}
