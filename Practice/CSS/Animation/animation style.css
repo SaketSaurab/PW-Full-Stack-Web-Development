@@ -1,0 +1,65 @@
+.div1{
+    position: relative;
+    margin-bottom: 10px;
+    background-color: gold;
+    border-radius: 50px;
+    animation: firstanimation 1s ease-in-out 0s infinite alternate;
+}
+@keyframes firstanimation{
+    from{
+        width: 100px;
+        height: 100px;
+    }
+    to{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.div2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50px;
+    animation: secondanimation 1s ease-in-out 0s infinite alternate;
+}
+@keyframes secondanimation{
+    form{
+        left: 0px;
+    }
+    to{
+        left: 100px;
+    }
+}
+
+.div3{
+    position: relative;
+    background-color: blueviolet;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    animation: moving 1s ease-in-out 0s infinite alternate;
+}
+.box2{
+    animation: moving 1s ease-in-out 100ms infinite alternate;
+}
+.box3{
+    animation: moving 1s ease-in-out 200ms infinite alternate;
+}
+.box4{
+    animation: moving 1s ease-in-out 300ms infinite alternate;
+}
+.box5{
+    animation: moving 1s ease-in-out 400ms infinite alternate;
+}
+@keyframes moving{
+    from{
+        left: 0px;
+    }
+    to{
+        left:400px
+    }
+}
