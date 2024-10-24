@@ -17,7 +17,7 @@
 }
 
 .div2{
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 100px;
     background-color: aqua;
@@ -25,11 +25,11 @@
     animation: secondanimation 1s ease-in-out 0s infinite alternate;
 }
 @keyframes secondanimation{
-    form{
+    from{
         left: 0px;
     }
     to{
-        left: 100px;
+        left: 300px;
     }
 }
 
