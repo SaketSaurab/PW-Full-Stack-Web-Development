@@ -63,3 +63,12 @@
         left:400px
     }
 }
+
+.div4{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
