@@ -1,0 +1,60 @@
+.img1{
+    height: 300px;
+    width: 300px;
+    filter: blur(1px);
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    filter: blur(5px);
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    filter: brightness(0.4);
+}
+.img4{
+    height: 300px;
+    width: 300px;
+    filter: brightness(1.5);
+}
+.img5{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(0.4);
+}
+.img6{
+    height: 300px;
+    width: 300px;
+    filter: grayscale(1);
+}
+
+.img7{
+    height: 300px;
+    width: 300px;
+    filter:hue-rotate(90deg)
+}
+.img8{
+    height: 300px;
+    width: 300px;
+    filter:hue-rotate(160deg)
+}
+
+.p1{
+    font-size: 30px;
+    color: orangered;
+    filter: drop-shadow(5px 3px 1px rgb(28 95 48 ));
+}
+.p2{
+    font-size: 30px;
+    color: aqua;
+    filter: drop-shadow(8px 8px 5px rgb(250 0 0));
+}
+.p3{
+    font-size: 30px;
+    filter: drop-shadow(10px 10px 3px #06415a);
+}
+
+.img9{
+    filter: drop-shadow(30px 10px 2px #3fb1e2) hue-rotate(90deg);
+}
