@@ -45,3 +45,84 @@ var numm1=10;
 var numm2="10";
 console.log("equal",numm1==numm2);
 console.log("strict equal",numm1===numm2);
+// conditionals 
+var age1=17;
+if(age1>18){
+    console.log("You can vote");
+}
+else{
+    console.log("You can not vote");
+}
+
+var age=-19;
+if(age>5 && age<=20){
+    console.log("You are a school student");
+}
+if(age>20 && age<=25){
+    console.log("You are a college student");
+}
+if(age<0){
+    console.log("Enter valid age");
+}
+
+
+//Loops
+//for loops
+//print the table of 4 
+var num4=9
+for(let i=1;i<=10;i++){
+    console.log(num4,"x",i,"=",num4*i);
+}
+
+
+//while loop
+console.log("while loop");
+var num5=12;
+let j=1;
+while(j<=10){
+console.log(num5,"x",j,"=",num5*j);
+j++;
+}
+
+// do while loop
+
+console.log("do while loop");
+var num6=17;
+let k=1;
+do{
+    console.log(num6,"x",k,"=",num6*k);
+    k++;
+}
+while(k<=10){
+
+}
+
+//break and continue
+console.log("break statement");
+
+for(let a=1;a<=10;a++){
+    console.log(a);
+    if(a==8){
+        break;
+    }
+}
+
+console.log("continue");
+for(let b=3;b<=30;b++){
+    if(b%4==0){
+        continue;
+    }
+    console.log(b);
+}
+
+//switch
+console.log("switch");
+
+let color="red";
+switch(color){
+    case "red": console.log("the color is red");
+    break;
+    case "green": console.log("The color is green");
+    break;
+    default: console.log("Enter valid color name");
+}
