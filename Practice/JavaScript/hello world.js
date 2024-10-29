@@ -128,3 +128,20 @@ switch(color){
 }
 
 // introduction to functions
+console.log("introduction to functions");
+function greetUser(name){
+    console.log("hello",name);
+}
+greetUser("pw sills");
+
+function addtion(number1,number2,number3){
+    return number1+number2+number3;
+}
+console.log(addtion(3,63,92));
+
+function multiplication(number4,number5,number6){
+    return number4*number5*number6;
+}
+console.log(multiplication(3,2,9));
+
+//string
