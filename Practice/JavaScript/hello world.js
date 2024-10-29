@@ -126,3 +126,5 @@ switch(color){
     break;
     default: console.log("Enter valid color name");
 }
+
+// introduction to functions
