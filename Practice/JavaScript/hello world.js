@@ -145,3 +145,90 @@ function multiplication(number4,number5,number6){
 console.log(multiplication(3,2,9));
 
 //string
+let myString1='hello single quote';
+let myString2="hello double quote";
+let myString3=`hello back tick`;
+console.log("Types of quotes for strings");
+console.log(myString1+" \n"+myString2+"\n "+myString3);
+
+//String methods
+let tempText="abcDi E F,ghi ji k,lmino";
+let tempText2="Qr iS,t iu v,X yiZ"
+console.log("tempText : ",tempText);
+
+console.log("slice (7) ",tempText.slice(7));
+console.log("slice (3,8)",tempText.slice(3,8));
+
+//substring
+console.log("substring(3)",tempText.substring(3));
+console.log("substring(3,8)",tempText.substring(3,8));
+
+//substr
+console.log("substr(3)",tempText.substr(3));
+console.log("substr(3,4)",tempText.substr(3,4));
+
+//replace
+console.log("replace(efgh,5678)",tempText.replace("efgh","5678"));
+
+//replaceAll
+console.log("this is apple and apple is fruit. replaceAll".replaceAll("is","are"));
+
+//toUpperCase
+console.log("toUpperCase:",tempText.toUpperCase());
+
+//toLowercase
+console.log("toLowerCase:",tempText.toLocaleLowerCase());
+
+//concat
+console.log("concat",tempText.concat(tempText2));
+
+//split
+console.log("split",tempText.split(","));
+
+//indexOf
+console.log("indexOf(g):",tempText.indexOf("g"));
+
+//lastIndex
+console.log("lastIndex(i):",tempText.lastIndexOf("i"));
+
+//starWith
+console.log("startwith(a):",tempText.startsWith("a"));
+
+//endsWith
+console.log("endsWith(ino):",tempText.endsWith("ino"));
+console.log("endsWith(ijk):",tempText.endsWith("ijk"));
+
+//search
+//let result=str.search(searchTerm);
+console.log("search (ji):",tempText.search("ji"));
+
+//trim
+console.log("trim()",tempText.trim());
+
+//charAt()
+console.log("charAt():",tempText.charAt("4"));
+
+//at
+console.log("at(1)",tempText.at(1));
+console.log("at(-1)",tempText.at(-1));
+
+//charCodeAt
+console.log("charCodeAt(4):",tempText.charCodeAt("4"));
+
+
+//Template Literals
+//multiline literals
+const tempText3=`this is sample
+of multiline
+
+literals`;
+
+console.log(tempText3);
+
+//string interpolation
+
+let myName="saurabh";
+let myAge=26;
+const greeting=`my name is ${myName}.and my age is ${myAge}`;
+console.log(greeting);
+
