@@ -44,5 +44,27 @@ let joinFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','p
 let joinList=joinFruit.join();
 console.log("join: ",joinList);
 
+//tostring
+
+let toStringFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+let toStringResult=toStringFruit.toString();
+console.log("toString result : ",toStringResult);
+
+//delete
+let deleteFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+delete deleteFruit[2];
+console.log("delete(2): ",deleteFruit);
+
+//concat
+let concat1=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+let concat2=[2,35,623,7345,734,24];
+let concat3=concat1.concat(concat2);
+console.log("concat3: ",concat3);
+
+//sort
+let sort1=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+sort1.sort();
+console.log("sort :",sort1);
+
 
 
