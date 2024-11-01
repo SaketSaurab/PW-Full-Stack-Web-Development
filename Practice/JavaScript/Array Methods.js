@@ -28,4 +28,21 @@ let shiftLength=shiftFruit.shift();
 console.log("ShiftFruit list: ",shiftFruit);
 console.log("shift removed element: ",shiftLength);
 
+// unshift:add one or more element to the begining
+let unshiftFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+let unshiftLenght=unshiftFruit.unshift("kaju","badam");
+console.log("unshift fruit list",unshiftFruit);
+console.log("unshift length: ",unshiftLenght);
+
+//reverse:reverse the order
+let reverseFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+reverseFruit.reverse();
+console.log("reverse fruit order :",reverseFruit);
+
+//join:join the list in string
+let joinFruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+let joinList=joinFruit.join();
+console.log("join: ",joinList);
+
+
 
