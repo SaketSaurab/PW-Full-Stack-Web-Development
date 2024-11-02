@@ -67,13 +67,16 @@ sort1.sort();
 console.log("sort :",sort1);
 
 //sorting by array string property
-/*
+
 const arrayObject1=[
     {name:"john",age:25},
     {name:"prateek",age:34},
     {name:"bob",age:82}
 ]
 arrayObject1.sort((a,b)=>{
+    
+const nameA=a.name.toUpperCase();
+const nameB=b.name.toUpperCase();
     if(nameA < nameB){
         return -1;
     }
@@ -85,5 +88,30 @@ arrayObject1.sort((a,b)=>{
     }
 });
 console.log(arrayObject1);
-*/
 
+//sorting by a  number type property
+const arrayObject2=[
+    {name:"john",age:25},
+    {name:"prateek",age:34},
+    {name:"bob",age:82}
+]
+arrayObject2.sort((a,b)=>a.age-b.age);
+console.log("arrayObject2: ",arrayObject2);
+
+//forEach
+//forEach(callbackFn,thisArg);
+const numbers4=[23,35,21,63,72,47,95,34,85,86,43,245,785,456,768];
+const oddNumber=[];
+const evenNumber=[];
+numbers4.forEach(function(currentValue,index){
+    if(currentValue%2==0){
+        evenNumber.push(currentValue)
+        return;
+    }
+    else{
+        oddNumber.push(currentValue)
+        return;
+    }
+});
+console.log("even number : ",evenNumber);
+console.log("odd number :",oddNumber);
