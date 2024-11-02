@@ -66,5 +66,24 @@ let sort1=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pinea
 sort1.sort();
 console.log("sort :",sort1);
 
-
+//sorting by array string property
+/*
+const arrayObject1=[
+    {name:"john",age:25},
+    {name:"prateek",age:34},
+    {name:"bob",age:82}
+]
+arrayObject1.sort((a,b)=>{
+    if(nameA < nameB){
+        return -1;
+    }
+    if(nameA>nameB){
+        return 1;
+    }
+    if(nameA==nameB){
+        return 0;
+    }
+});
+console.log(arrayObject1);
+*/
 
