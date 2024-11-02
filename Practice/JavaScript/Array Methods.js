@@ -115,3 +115,4 @@ numbers4.forEach(function(currentValue,index){
 });
 console.log("even number : ",evenNumber);
 console.log("odd number :",oddNumber);
+
