@@ -116,3 +116,20 @@ numbers4.forEach(function(currentValue,index){
 console.log("even number : ",evenNumber);
 console.log("odd number :",oddNumber);
 
+//filter
+
+//reduce
+
+//reduceRight
+
+//every
+
+//indexOf
+
+//lastIndexOf
+
+//find
+
+//findIndex
+
+//inclueds
