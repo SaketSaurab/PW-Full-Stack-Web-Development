@@ -5,7 +5,11 @@ let fruit=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pinea
 // console.log("array.slice(2,5): ",extractedFruit);
 
 // 2 splice: array.splice(start,deleteCount,item1,item2);
-
+console.log("88888888888888888888888");
+console.log("Splice ");
+let splice2=['apple_0','banana_1','cherry_2','orange_3','mango_4','lichi_5','pineapple_6'];
+splice2.splice(2,0,'temp1','temp2','temp3');
+console.log("splice(2,0,temp1,temp2,temp3: ",splice2);
 // let fruit2=fruit;
 // let spliceFruit=fruit2.splice(2,2,5,6);
 // console.log("spliceFruit(2,2,5,6):",spliceFruit);
