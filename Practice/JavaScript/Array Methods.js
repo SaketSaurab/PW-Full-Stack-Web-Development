@@ -126,10 +126,10 @@ console.log("odd number :",oddNumber);
 
 //indexOf
 
-//lastIndexOf
+//lastIndexOf : 
 
-//find
+//find : 
 
-//findIndex
+//findIndex : 
 
 //inclueds
