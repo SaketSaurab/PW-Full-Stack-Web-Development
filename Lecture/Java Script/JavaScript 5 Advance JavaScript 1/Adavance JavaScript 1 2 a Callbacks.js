@@ -5,6 +5,7 @@
 //     console.log(x*x);
 //     fn();
 // }
+
 // h(10,function(){
 //     console.log("done with call back")
 // })
