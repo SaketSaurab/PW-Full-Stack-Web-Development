@@ -21,6 +21,7 @@
 // }
 // h(10,exec);
 
+
 // function exec(n){
 //     console.log("Squared value is ",n);
 // }
