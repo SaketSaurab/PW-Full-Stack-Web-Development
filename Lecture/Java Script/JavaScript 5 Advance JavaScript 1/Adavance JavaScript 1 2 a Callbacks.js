@@ -29,7 +29,7 @@
 console.log("Start");
 setTimeout(function(){
     console.log("Timer done");
-},3000);
+},300);
 
 console.log("end");
 // event loop and call back cube
