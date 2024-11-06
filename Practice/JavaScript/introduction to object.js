@@ -30,3 +30,5 @@ console.log(obj1);  // this is allowed
 //object.isFrozen:if object is frozen then it will give true for frozen and seal both 
 //object.isSear: if object is sealed then it will give true only for isSealed
 
+//alternative to isSeal:  Object.defineProperty{x,'a',{writable:false}};
+// object.defineProperty:
