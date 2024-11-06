@@ -26,3 +26,7 @@ console.log(obj1);  // this is allowed
 
 //object.freeze: can not add,delete or update existing key value pair
 
+
+//object.isFrozen:if object is frozen then it will give true for frozen and seal both 
+//object.isSear: if object is sealed then it will give true only for isSealed
+
