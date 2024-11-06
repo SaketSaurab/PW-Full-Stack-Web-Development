@@ -32,3 +32,6 @@ console.log(obj1);  // this is allowed
 
 //alternative to isSeal:  Object.defineProperty{x,'a',{writable:false}};
 // object.defineProperty:
+
+//we can make our own Object.Seal by using Object.PreventExtensions and Object.defineProperty to make our own custom seal
+
