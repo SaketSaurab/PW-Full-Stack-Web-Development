@@ -6,6 +6,13 @@
     }
 */
 class Product{
+//defining data memebers in javascript
+name;
+price;
+categeory;
+description;
+rating;
+
     addToCart(){
         console.log("added to the cart");
     }
@@ -15,4 +22,6 @@ class Product{
     
 }
 
+
+//arrow function
 
