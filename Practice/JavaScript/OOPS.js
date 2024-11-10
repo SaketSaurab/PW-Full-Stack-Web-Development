@@ -12,4 +12,7 @@ class Product{
     removeFromCart(){
         console.log("removed from the cart");
     }
+    
 }
+
+
