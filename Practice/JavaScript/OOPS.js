@@ -12,7 +12,7 @@ price;
 categeory;
 description;
 rating;
-
+// if we use this method then we can not use validation to the object
     addToCart(){
         console.log("added to the cart");
     }
