@@ -22,6 +22,10 @@ rating;
     
 }
 
+// get Builder(){}
+// get name(){}
+// get price(){}
+
 
 //arrow function
 
