@@ -41,3 +41,5 @@ constructor (builder){
 //                                                 2.it creates new constructors
 //                                                  3.new triggers everything to done for prototypes to work
 //                                                  4.if nothing is returned from the constructors then we will return this keyword
+
+//this keyword in js is very different than any other language
