@@ -33,6 +33,11 @@ constructor (builder){
 // get name(){}
 // get price(){}
 
+//write a product class
 
-//arrow function
-//13/11/2024
+//Constructor: very special member function of every class
+
+//every time we called new it follwed 4 process:  1.create empty and absolute empty object
+//                                                 2.it creates new constructors
+//                                                  3.new triggers everything to done for prototypes to work
+//                                                  4.if nothing is returned from the constructors then we will return this keyword
