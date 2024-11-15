@@ -45,3 +45,28 @@ arrowMultiply1(3,8);
 //we prefer arrow function for small function or small work
 
 //count the number of vovels in string
+
+function countVowels(str){
+    let countt=0;
+    for(const char of str){
+        if(char==='a'||char==='e'||char==='i'||char==='o'||char==='u'){
+        countt++;
+        }
+    }
+    console.log("the number of vowels in ",str,"is ",countt);
+}
+countVowels("AeiiIasidlo");
+
+// create an arrow function to perform the same task
+const countVow=(str1)=>{
+    let countt=0;
+    for(const char of str1){
+        if(char==='a'||char==='e'||char==='i'||char==='o'||char==='u'){
+        countt++;
+        }
+    }
+    console.log("the number of vowels in ",str1,"is ",countt);
+}
+countVow("hi hello guys");
+
+//
