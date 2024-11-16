@@ -69,4 +69,9 @@ const countVow=(str1)=>{
 }
 countVow("hi hello guys");
 
-//
+//forEach
+console.log("forEach");
+let arr1=["pune","delhi","lucknow"];
+arr1.forEach((val)=>{
+    console.log(val.toUpperCase());
+});
