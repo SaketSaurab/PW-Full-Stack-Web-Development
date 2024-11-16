@@ -72,6 +72,50 @@ countVow("hi hello guys");
 //forEach
 console.log("forEach");
 let arr1=["pune","delhi","lucknow"];
-arr1.forEach((val)=>{
-    console.log(val.toUpperCase());
+arr1.forEach((val,idx,arr1)=>{
+    console.log(val.toUpperCase(),idx,arr1);
 });
+
+//Array Map method: map returns new array
+
+let num2=[3,52,632,34,734];
+num2.map((val)=>{
+console.log(val)
+});
+
+//Filter method
+let num3=[34,22,63,63,23,64,74,88,76,5,54,12,13,16,19,23,29];
+let evenNum=num3.filter((val)=>{
+    return val%2===0;
+
+});
+console.log(evenNum);
+
+//reduce method
+let num4=[3,4,7,3,6,97,23,65,345,767,454,237];
+const output=num4.reduce((res,curr)=>{
+    return res+curr;
+});
+console.log(output);
+
+
+//students mark with 90+
+let marks=[73,26,34,75,78,99,93,90,89,48,49,94,9,80];
+let toppers=marks.filter((val)=>{
+    return val>90;
+});
+console.log(toppers);
+
+// create array from 1 to n
+let n=34;
+let arrayN=[];
+for(let i=1;i<=n;i++){
+    arrayN[i-1]=i;
+}
+console.log(arrayN);
+//use the reduce method to add the numbers
+const reduceOutput=arrayN.reduce((res,curr)=>{
+    return res+curr;
+})
+console.log(reduceOutput);
+
