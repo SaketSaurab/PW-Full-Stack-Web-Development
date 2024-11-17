@@ -41,6 +41,7 @@ let lexus=new ToyotaCar();
 
 //inheritance in JS
 class parents{
+
     hello(){
         console.log("Hello");
     }
@@ -54,6 +55,9 @@ obj1.hello();
 
 //
 class Person{
+    constructor(){
+        console.log("enter parent constructor");
+    }
     eat(){
         console.log("eat");
     }
@@ -62,11 +66,20 @@ class Person{
     }
 }
 class Engineer extends Person{
+    constructor(branch){
+        console.log("Enter child constructor");
+        super();// to invoke super class constructor
+        this.branch=branch;
+    }
     work(){
         console.log("work as engineer ");
+    }
+    constructor(){
+    console.log("Exit child constructor");
     }
 }
 
 let shradhaObj=new Engineer();
 
 
+//Super keyword
