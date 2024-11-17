@@ -20,3 +20,19 @@ const karanArjun={
 };
 // to use prototype we use __proto__
 karanArjun.__proto__=emplyee;
+
+// Classes in JS
+class ToyotaCar{
+    start(){
+        console.log("Car start");
+    }
+    stop(){
+        console.loc("car stope");
+    }
+    setBrand(brand){
+        this.brandName=brand;
+    }
+}
+let fortuner=new ToyotaCar();
+fortuner.setBrand("fortuner");
+let lexus=new ToyotaCar();
