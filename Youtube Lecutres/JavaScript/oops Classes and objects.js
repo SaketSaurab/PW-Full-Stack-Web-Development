@@ -36,3 +36,37 @@ class ToyotaCar{
 let fortuner=new ToyotaCar();
 fortuner.setBrand("fortuner");
 let lexus=new ToyotaCar();
+
+//constructor
+
+//inheritance in JS
+class parents{
+    hello(){
+        console.log("Hello");
+    }
+}
+class Child extends parents{
+
+}
+let obj1=new Child();
+
+obj1.hello();
+
+//
+class Person{
+    eat(){
+        console.log("eat");
+    }
+    sleep(){
+        console.log("sleep");
+    }
+}
+class Engineer extends Person{
+    work(){
+        console.log("work as engineer ");
+    }
+}
+
+let shradhaObj=new Engineer();
+
+
