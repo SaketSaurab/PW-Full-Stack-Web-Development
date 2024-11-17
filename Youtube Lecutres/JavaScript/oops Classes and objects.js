@@ -83,3 +83,12 @@ let shradhaObj=new Engineer();
 
 
 //Super keyword
+//Error handling 
+/*
+try{
+    ...normal code
+} catch(err){
+    //err is error object
+    ....handling error
+}
+*/
