@@ -89,7 +89,7 @@ promise.catch((err)=>{
 */
 
 //------------------------------------------------------------------------//
-
+/*
 //Promise chaining
 
 function asyncFunc1(){
@@ -124,11 +124,73 @@ p1.then((res)=>{
 // p2.then((res)=>{
 //     console.log(res);
 // });
-
+*/
 //------------------------------------------------------------------------//
+//Async-Await: 
+//  async function always returns a Promise
+// Await pauses the execution of its surroundings async function until the promise is settled
 
+    //  async function MyFunction(){.........}
+
+// function api(){
+//     return new Promise((resolve,rejet)=>{
+//         setTimeout(()=>{
+//             console.log("weather data");
+//             resolve(200);
+//         },2000);
+//     });
+// }
+// async function getWeatherData(){
+//     await api(); //first call
+//     await api(); //second call
+// }
+
+// async function hello(){
+//     console.log("hello world");
+// }
+//-------------------------------------//
+
+/*
+// Async Await
+
+function getData(dataId){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("data",dataId);
+            resolve("success");
+        },2000);
+    });
+}
+
+async function getAllData(){
+    console.log("getting data 1........");
+    await getData(1);
+    console.log("getting data 2........");
+    await getData(2);
+    console.log("getting data 3........");
+    await getData(3);
+    console.log("getting data 4........");
+    await getData(4);
+}
+
+*/
 //------------------------------------------------------------------------//
+//IIFE (immediately invoked function expression): this function is called immediately as soon as it is defined
+/*
 
+(function(){
+//..........})();
+
+
+(()=>{
+    //....
+})();
+
+(async ()=>{
+    //.........
+})();
+
+*/
 //------------------------------------------------------------------------//
 
 
