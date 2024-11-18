@@ -90,6 +90,41 @@ promise.catch((err)=>{
 
 //------------------------------------------------------------------------//
 
+//Promise chaining
+
+function asyncFunc1(){
+    return new Promise((resolve,rejct)=>{
+        setTimeout(()=>{
+            console.log("Some data one");
+            resolve("success");
+        },4000);
+    });
+}
+function asyncFunc2(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("some data two");
+            resolve("success 2");
+        },4000);
+    });
+}
+console.log("fetching data one");
+let p1=asyncFunc1();
+p1.then((res)=>{
+    console.log(res);
+    console.log("fetching data 2......");
+    let p2=asyncFunc2();
+    p2.then((res)=>{
+        console.log(res);
+    });
+});
+
+// console.log("fetching data twoo");
+// let p2=asyncFunc2();
+// p2.then((res)=>{
+//     console.log(res);
+// });
+
 //------------------------------------------------------------------------//
 
 //------------------------------------------------------------------------//
