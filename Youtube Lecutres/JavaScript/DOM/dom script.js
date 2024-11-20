@@ -26,10 +26,22 @@
 //      returns a nodelist
 
 
-let FirstElements=document.querySelector("p");
-console.dir(FirstElements);
+// let FirstElements=document.querySelector("p");
+// console.dir(FirstElements);
 
 
-let allElements=document.querySelectorAll("p");
-console.dir(allElements);
+// let allElements=document.querySelectorAll("p");
+// console.dir(allElements);
 
+//Properties 
+//tag name: FirstElements.tagName
+
+//innerText: returns the text content of the element 
+
+// let div=document.querySelector("div");
+// console.dir(div);
+
+//text content
+
+let heading=document.querySelector("heading");
+console.dir(heading);
