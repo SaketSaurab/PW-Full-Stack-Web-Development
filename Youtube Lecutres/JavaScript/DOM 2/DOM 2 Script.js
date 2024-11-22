@@ -7,5 +7,7 @@
 // let name=div.getAttribute("name");
 // console.log(name);
 
-let para=document.querySelector("p");
-console.log(para.setAttribute("para","newwClass"));
+// let para=document.querySelector("p");
+// console.log(para.setAttribute("class", "newClass"));
+
+///style:

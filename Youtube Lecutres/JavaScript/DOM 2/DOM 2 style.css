@@ -1,1 +1,9 @@
 /* DOM 2 */
+#box {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    color: white;
+    border: 3px dotted red;
+    text-align: center;
+}
