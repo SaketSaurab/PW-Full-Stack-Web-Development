@@ -11,3 +11,5 @@
 // console.log(para.setAttribute("class", "newClass"));
 
 ///style:
+//accessing styling of div 
+let div=document.querySelector("div");
