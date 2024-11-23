@@ -13,3 +13,4 @@
 ///style:
 //accessing styling of div 
 let div=document.querySelector("div");
+div.style.backgroundColor="yellow";
