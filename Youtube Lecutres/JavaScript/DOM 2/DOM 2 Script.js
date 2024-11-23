@@ -21,5 +21,18 @@
 
 //insert element
 //let el=document.createElement("div");
-let newBtn=document.createElement("button js");
-console.log(newBtn);
+// let newBtn=document.createElement("button js");
+// newBtn.innerText="click me";
+// console.log(newBtn);
+
+// let div=document.querySelector("div");
+// div.append(newBtn);
+
+let newHeading=document.createElement("h1");
+newHeading.innerHTML="<i>hi   am new</i>";
+document.querySelector("body").prepend(newHeading);
+
+let para=document.querySelector("p");
+para.remove();
+
+newHeading.remove();
