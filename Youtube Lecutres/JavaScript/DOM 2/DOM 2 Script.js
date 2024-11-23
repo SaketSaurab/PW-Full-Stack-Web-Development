@@ -10,7 +10,16 @@
 // let para=document.querySelector("p");
 // console.log(para.setAttribute("class", "newClass"));
 
+
+
 ///style:
 //accessing styling of div 
-let div=document.querySelector("div");
-div.style.backgroundColor="yellow";
+// let div=document.querySelector("div");
+// div.style.backgroundColor="yellow";
+// div.style.fontSize="28px";
+// div.innerText="Hello inner text ";
+
+//insert element
+//let el=document.createElement("div");
+let newBtn=document.createElement("button js");
+console.log(newBtn);
