@@ -1,3 +1,6 @@
-step 2
-npx create-react-app my-app
+steps : 
+=>  npx create-react-app my-app
+npm:node package manager
+npx:node package executer
+=>  
 
