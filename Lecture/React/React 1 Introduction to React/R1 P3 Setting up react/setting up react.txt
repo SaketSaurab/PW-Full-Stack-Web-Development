@@ -2,5 +2,17 @@ steps :
 =>  npx create-react-app my-app
 npm:node package manager
 npx:node package executer
-=>  
+vite:this tool will be used
+
+=>  npm create vite@latest
+project name: .....
+package name:.......
+
+=>select framework:  select react 
+=> select variant:  JavaScript
+
+
+
+=> npm install :  npm run dev
+
 
