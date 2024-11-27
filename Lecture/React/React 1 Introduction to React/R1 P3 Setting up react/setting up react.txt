@@ -21,6 +21,13 @@ package name:.......
 we use ES6 moduling in nodeJs and it is decided by type property
 
 npx vite: to start again our app
+//
+..
+npm dev
 
 
+//extension needed: 
+1.htm to jsx : it will convert the html tags to jsx strings
+2.ES7 React/Redux/React-Native/js snippets:
+3.Import cost:it will display the required package and it will show the size of the imported file 
 
