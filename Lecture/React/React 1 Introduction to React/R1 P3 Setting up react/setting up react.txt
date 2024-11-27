@@ -15,8 +15,12 @@ package name:.......
 
 => npm install :  npm run dev
 
- package.json file contains meta data
+ package.json file contains meta data of project
  meta data: extra data about something
- 
+
+we use ES6 moduling in nodeJs and it is decided by type property
+
+npx vite: to start again our app
+
 
 
