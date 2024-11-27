@@ -15,4 +15,8 @@ package name:.......
 
 => npm install :  npm run dev
 
+ package.json file contains meta data
+ meta data: extra data about something
+ 
+
 
