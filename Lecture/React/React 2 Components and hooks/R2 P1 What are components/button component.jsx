@@ -6,7 +6,9 @@ function App(){
         </div>
     )
 }
+
 //component name should start with capital letter
+
 function Button(){
 
     return <button>Click me</button>
