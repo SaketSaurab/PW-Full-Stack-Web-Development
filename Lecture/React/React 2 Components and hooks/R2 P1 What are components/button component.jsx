@@ -17,3 +17,6 @@ function Button(){
 function myH1(){
     return <h1>MyH1</h1>
 }
+function square(x){
+    return x*x
+}
