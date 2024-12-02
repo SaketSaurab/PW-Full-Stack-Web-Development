@@ -13,3 +13,7 @@ function Button(){
 
     return <button>Click me</button>
 }
+
+function myH1(){
+    return <h1>MyH1</h1>
+}
