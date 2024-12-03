@@ -1,7 +1,9 @@
 import './app.css'
-function app(){
+function Button(props){
     return(
-        <div>Hello World</div>
+        <div>
+            <Button></Button>
+        </div>
     )
 }
 
