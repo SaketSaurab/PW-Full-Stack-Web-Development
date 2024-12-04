@@ -1,0 +1,42 @@
+JavaScript Data Types
+
+Primitive Types: Number, String, Boolean, Undefined, Null, Symbol, BigInt
+Reference Types: Objects, Arrays, Functions
+
+Primitive Data Types:
+Number: Integers and floating-point numbers.
+String: Sequence of characters.
+Boolean: true or false.
+Undefined: Variable declared but not assigned a value.
+Null: Intentional absence of object value.
+Symbol: Unique identifier.
+BigInt: Integers with arbitrary precision.
+
+Non-Primitive Data Types:
+Objects: Defined with {}; collection of properties and methods.
+Arrays: List-like objects in [], items separated by commas.
+Functions: Callable objects.
+----------------------------------------------
+**JavaScript Variables and Constants**
+
+### Variables:
+- Store data in a program.
+- Declare using `var` or `let`.
+
+### Var vs Let:
+- `var` is older and has function scope.
+- `let` is modern and has block scope.
+
+### Naming Rules:
+1. Start with a letter, `_`, or `$`.
+2. Cannot start with numbers.
+3. Case-sensitive (e.g., `age` is different from `Age`).
+4. Avoid JavaScript keywords (e.g., `if`, `else`).
+
+### Constants:
+- Value cannot change after being set.
+- Declare using `const`.
+- Always initialize when declaring.
+--------------------------------------------------------
+
+
