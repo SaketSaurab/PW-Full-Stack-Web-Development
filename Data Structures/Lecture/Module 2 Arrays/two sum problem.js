@@ -39,3 +39,6 @@ nums2=[9,1,5,4,7];
 target2=6;
 console.log(TwoSum(nums2,target2));
 
+// 7 december check
+
+// sorting 
