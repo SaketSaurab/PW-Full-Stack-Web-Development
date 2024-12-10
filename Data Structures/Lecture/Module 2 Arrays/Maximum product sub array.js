@@ -21,7 +21,7 @@ function maxProduct(nums){
     for(i=1;i<nums.length;i++){
         let num=nums[i];
         if(num<0){
-            [maxProduct,minProduct]=[minProduct,maxProduct];
+            [maxProduct,minProduct]=[minProduct,maxProduct]; //swap
         }
         maxProduct=Math.max(num,num*maxProduct);
         minProduct=Math.min(num,num*minProduct);
