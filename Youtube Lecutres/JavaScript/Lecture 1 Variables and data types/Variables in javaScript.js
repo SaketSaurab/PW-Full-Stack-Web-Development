@@ -24,3 +24,4 @@ const Student={
     year:3
 }
 console.log(Student);
+console.log("only full name : ",Student["FullName"]);
