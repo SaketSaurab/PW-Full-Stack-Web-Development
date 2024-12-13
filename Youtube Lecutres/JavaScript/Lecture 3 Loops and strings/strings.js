@@ -26,3 +26,7 @@ console.log(`the item is ${obj.item} and price is ${obj.price} rupees`);
 
 // the method of using ${expression} is called string interpolation
 
+//escape characters  \n
+console.log("apna \ncollege");
+// \n is used for new line
+// \t is used for tab 
