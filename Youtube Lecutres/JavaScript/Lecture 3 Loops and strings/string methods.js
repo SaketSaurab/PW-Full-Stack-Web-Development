@@ -17,3 +17,7 @@ console.log("str concat str2:",str.concat(str2));
 console.log("str.replace(searchValue,newValue):",str.replace('a','z'));
 console.log("str.charAt[index]",str.charAt(3));
 
+
+// practice question
+let user=prompt("enter your name to generate your user name");
+console.log("@"+user+user.length);
