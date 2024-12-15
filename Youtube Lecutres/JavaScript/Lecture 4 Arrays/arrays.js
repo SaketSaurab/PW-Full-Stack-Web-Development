@@ -19,3 +19,25 @@ console.log("for of loop:");
 for(let item of heros){
     console.log(item);
 }
+
+// practice question
+console.log("practice question 1: average of marks");
+let marks2=[85,97,44,37,76,60];
+let total=0;
+let average;
+for(let sum of marks2){
+    total+=sum;
+}
+average=total/marks2.length;
+console.log("average of marks is:",average);
+
+console.log("Practice question 2: array after applying 10% off");
+let itemList=[250,645,300,900,50];
+console.log("original list:",itemList);
+let updatedList=[];
+for(let i=0;i<itemList.length;i++){
+    let offer=itemList[i]/10;
+    itemList[i]=itemList[i]-offer;
+    console.log(`value after offer:${itemList[i]}`);
+}
+
