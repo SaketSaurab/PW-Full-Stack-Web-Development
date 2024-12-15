@@ -13,3 +13,9 @@ console.log("looping over an array");
 for(let i=0;i<heros.length;i++){
     console.log(heros[i]);
 }
+
+//for of loop
+console.log("for of loop:");
+for(let item of heros){
+    console.log(item);
+}
