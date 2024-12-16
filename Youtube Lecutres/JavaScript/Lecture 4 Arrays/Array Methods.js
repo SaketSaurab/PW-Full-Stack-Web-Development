@@ -32,5 +32,5 @@ console.log(`slice(1,3):${slice1to3}`);
 
 //splice used to add, remove ,replace
 console.log("splice");
-heros.splice(2,3,"345","567","678");
+heros.splice(1,1,"345","567","678");
 console.log(heros);
