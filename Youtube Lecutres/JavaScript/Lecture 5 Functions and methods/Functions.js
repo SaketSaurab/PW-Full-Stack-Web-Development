@@ -15,3 +15,11 @@ function sum(a,b){
 }
 
 sum(4,8);
+
+// using return function
+function returnSum(c,d,e){
+    return c+d+e;
+    
+}
+console.log("sum using return function ",returnSum(34,56,78));
+
