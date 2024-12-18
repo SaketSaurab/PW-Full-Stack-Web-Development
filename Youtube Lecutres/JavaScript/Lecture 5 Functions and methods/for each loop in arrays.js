@@ -23,3 +23,11 @@ let arr2=["delhi","pune","mumbai","goa","manali","nainital"];
 arr2.forEach((val2,index) => {
     console.log(val2.toUpperCase(),index);
 });
+
+//practice question
+// print the square of each values given in array
+console.log("practice question 1:");
+let num=[3,6,8,12,9,21,67];
+num.forEach((val3)=>{
+    console.log(`the square of ${val3} is ${val3*val3}`);
+});
