@@ -29,3 +29,9 @@ console.log("even numbers :",newArr2);
 
 */
 console.log("reduce method");
+
+let arr4=[65,32,76,34,65,34,65,123,43,345,76,987,654];
+const output=arr4.reduce((result,current)=>{
+    return result+current;
+});
+console.log(`array after reduce method ${output}`);
