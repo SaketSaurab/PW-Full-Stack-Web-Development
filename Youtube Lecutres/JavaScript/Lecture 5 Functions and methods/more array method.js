@@ -35,3 +35,30 @@ const output=arr4.reduce((result,current)=>{
     return result+current;
 });
 console.log(`array after reduce method ${output}`);
+
+// practice question 1
+// student with 90+ marks
+let marks=[88,67,87,98,91,89,90,95,46,59,97,23,43,15,19,90];
+const topper=marks.filter((val)=>{
+    return val>=90;
+});
+console.log(`toppers are ${topper}`);
+
+// practice question 2
+
+let arraySize=prompt("enter a number");
+let arr5=[];
+for(let i=0;i<arraySize;i++){
+    arr5[i]=i+1;
+}
+console.log(arr5);
+
+let reduceArr=arr5.reduce((result,num)=>{
+    return result+num;
+});
+console.log(reduceArr);
+
+let productArr=arr5.reduce((prod,num)=>{
+    return prod*num;
+});
+console.log(`product of numbers: ${productArr}`);
