@@ -14,3 +14,18 @@ console.log("using new array:",newArr1);
 
 // filter method 
 console.log("filter method");
+/* let newArr=arr.filter((val)=>{
+    return val%2==0;
+});*/
+
+let arr3=[65,32,76,34,65,34,65,123,43,345,76,987,654];
+let newArr2=arr3.filter((val3)=>{
+    return val3%2==0;
+});
+console.log("even numbers :",newArr2);
+
+// reduce method
+/*
+
+*/
+console.log("reduce method");
