@@ -7,3 +7,40 @@ It is ideal for simple and linear layouts.
 Grid layout is designed for two-dimensional layout and is used to simultaneously keep the items in rows and columns.
 It is good for website having different sections.
 …………………………………………………………………………………………………………..
+Que.2: Explain the role of the following key properties in the Flexbox layout mode 2$ justify-content.
+justify-content
+Align-item
+Gap
+Flex-direction
+flex-wrap
+
+Ans:
+Justify-content: It is used to move and align the items in the main axis on the left, right, and center.
+flex-start: The items will go to start
+flex-end: The items will go to the end
+flex-center: The items will go to the center
+space-between: items have space between them
+space-around: items have space around them
+space-evenly: items have equal space between and around them
+
+Align-items: This property is used to move the items up, down, and center perpendicularly.
+flex-start: The items will go to the top
+flex-end: The items will go to the end
+center: The items will go to the center
+baseline: The items will be of each other baseline
+stretch: The items will be stretched to fill the container
+
+Gap: This property is used to add space between the items.
+
+Flex-direction: This property is used to set the direction of the items
+row: The items will go left to right
+row-reverse: The items will go right to left
+column: The items will be top top bottom
+column-reverse: The items will go from bottom to top
+
+flex-wrap: This property wraps the items in one line or into multiple lines.
+nowrap:All the items will be in one line
+wrap;All the items can be wrap into the next line
+wrap-reverse: All the items can be wrap in next line in  reverse order 
+
+…………………………………………………………………………………………………………..
