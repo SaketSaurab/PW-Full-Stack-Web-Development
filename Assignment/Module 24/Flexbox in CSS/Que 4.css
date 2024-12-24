@@ -6,30 +6,50 @@ body{
     width: 962px;
     height: 427px;
     display: flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 48px;
-    padding-right: 48px;
-    justify-content: space-between;
+    padding: 32px 48px;
     align-items: center;
+    justify-content: space-between;
 }
 .text{
     color: #202842;
     
 }
 .div-box{
-    border: 2px solid black;
+    box-shadow: 1px 1px 2px black;
     background-color: white;
     border-radius: 8px;
     width: 262px;
     height: 363px;
+    padding: 32px;
+    margin-right: 44px;
+    gap: 32px;
     
 }
 .plan-text{
-    font-size: 32px;
-    line-height: 33px;
+    font-size: 40px;
+    font-style: bold;
+    line-height: 32px;
 }
 .plan-use{
     font-size: 16px;
-    line-height: 17px;
+}
+.plan-price{
+    font-size: 36px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 156px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: #202842;
+    color: white;
+}
+.check-png{
+    height: 28px;
+    width: 28px;
+}
+.feature-text{
+    text-align: center;
 }
