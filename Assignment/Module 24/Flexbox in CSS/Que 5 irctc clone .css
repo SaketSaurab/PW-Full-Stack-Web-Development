@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.div-1{
+    border: 2px solid red;
+    width:48%;
+    height: 100%;
+}
+.div-2{
+    height: 100%;
+    width: 48%;
+}
