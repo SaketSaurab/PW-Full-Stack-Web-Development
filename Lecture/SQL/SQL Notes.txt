@@ -47,7 +47,7 @@ TABLE releted Queries:
 	CREATE TABLE table_name(
 	col_name1 datatype constraint,
 	col_name2 datatype constraint);
-eg. CREATE TABLE student (rollno INT PRIMARY KEY, name VARCHAR(50);
+eg. CREATE TABLE student (rollno INT PRIMARY KEY, name VARCHAR(50));
 
 Select & View  ALL Columns: SELECT * FROM table_name;
 		eg. SELECT * FROM student;
