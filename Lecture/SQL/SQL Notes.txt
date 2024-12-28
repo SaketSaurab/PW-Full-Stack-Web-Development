@@ -73,7 +73,7 @@ DEFAULT : sets the default value of a column.
 	
 CHECK: it can limit the values allowed in a column
 	eg. CREATE TABLE city (id INT PRIMARY KEY , city VARCHAR(50),age INT, CONSTRAINT age_check (age>=18 AND city="Delhi"));
-	eg. CREATE TABLE newTab(age INT CHECK (age>=18);
+	eg. CREATE TABLE newTab(age INT CHECK (age>=18));
 
 Where Clause: to define some condition
 	eg. SELECT col1,col2 FROM table_name WHERE conditions;
