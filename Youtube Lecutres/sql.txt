@@ -1,0 +1,144 @@
+Absolutely! Here’s a detailed summary of important SQL commands along with their uses and examples:
+
+### Data Definition Language (DDL)
+DDL commands are used to define or alter the structure of the database.
+
+- **CREATE TABLE**: Creates a new table.
+  ```sql
+  CREATE TABLE Employees (
+    ID INT,
+    Name VARCHAR(100),
+    Age INT,
+    Salary DECIMAL(10, 2)
+  );
+  ```
+  *This command creates a table named Employees with columns ID, Name, Age, and Salary.*
+
+- **DROP TABLE**: Deletes an existing table.
+  ```sql
+  DROP TABLE Employees;
+  ```
+  *This command deletes the Employees table.*
+
+- **ALTER TABLE**: Modifies an existing table.
+  ```sql
+  ALTER TABLE Employees
+  ADD Address VARCHAR(255);
+  
+  ALTER TABLE Employees
+  DROP COLUMN Age;
+  
+  ALTER TABLE Employees
+  MODIFY COLUMN Name VARCHAR(200);
+  ```
+  *These commands add a new column (Address), remove the Age column, and modify the Name column in the Employees table.*
+
+### Data Manipulation Language (DML)
+DML commands are used to manage data within tables.
+
+- **INSERT INTO**: Inserts new data into a table.
+  ```sql
+  INSERT INTO Employees (ID, Name, Age, Salary)
+  VALUES (1, 'John Doe', 30, 60000.00);
+  ```
+  *This command inserts a new record into the Employees table.*
+
+- **UPDATE**: Updates existing data in a table.
+  ```sql
+  UPDATE Employees
+  SET Salary = 65000.00
+  WHERE ID = 1;
+  ```
+  *This command updates the Salary of the employee with ID 1.*
+
+- **DELETE FROM**: Deletes data from a table.
+  ```sql
+  DELETE FROM Employees
+  WHERE ID = 1;
+  ```
+  *This command deletes the record of the employee with ID 1.*
+
+### Data Query Language (DQL)
+DQL is used to query the database and retrieve data.
+
+- **SELECT**: Retrieves data from a table.
+  ```sql
+  SELECT Name, Salary
+  FROM Employees
+  WHERE Age > 25;
+  
+  SELECT * FROM Employees;
+  ```
+  *These commands retrieve the Name and Salary of employees older than 25 and all columns of all employees, respectively.*
+
+### Data Control Language (DCL)
+DCL commands deal with rights, permissions, and other controls of the database system.
+
+- **GRANT**: Gives a user access privileges to the database.
+  ```sql
+  GRANT SELECT, INSERT ON Employees TO 'username';
+  ```
+  *This command grants SELECT and INSERT privileges on the Employees table to the user 'username'.*
+
+- **REVOKE**: Removes a user's access privileges.
+  ```sql
+  REVOKE SELECT, INSERT ON Employees FROM 'username';
+  ```
+  *This command revokes SELECT and INSERT privileges on the Employees table from the user 'username'.*
+
+### Transaction Control Language (TCL)
+TCL commands deal with the transaction operations in SQL.
+
+- **COMMIT**: Saves the work done.
+  ```sql
+  COMMIT;
+  ```
+  *This command saves all changes made during the current transaction.*
+
+- **ROLLBACK**: Restores the database to the last committed state.
+  ```sql
+  ROLLBACK;
+  ```
+  *This command undoes all changes made during the current transaction.*
+
+- **SAVEPOINT**: Sets a savepoint within a transaction.
+  ```sql
+  SAVEPOINT Savepoint1;
+  ```
+  *This command sets a savepoint named Savepoint1 within the current transaction.*
+
+### Additional Commands and Clauses
+- **JOIN**: Combines rows from two or more tables based on a related column.
+  ```sql
+  SELECT Employees.Name, Departments.DepartmentName
+  FROM Employees
+  INNER JOIN Departments ON Employees.DepartmentID = Departments.DepartmentID;
+  ```
+  *This command retrieves the names of employees and their corresponding department names.*
+
+- **GROUP BY**: Groups rows that have the same values in specified columns.
+  ```sql
+  SELECT DepartmentID, COUNT(*)
+  FROM Employees
+  GROUP BY DepartmentID;
+  ```
+  *This command counts the number of employees in each department.*
+
+- **ORDER BY**: Sorts the result set in ascending or descending order.
+  ```sql
+  SELECT Name, Salary
+  FROM Employees
+  ORDER BY Salary DESC;
+  ```
+  *This command sorts the employees by their salary in descending order.*
+
+- **HAVING**: Filters groups according to a specified condition.
+  ```sql
+  SELECT DepartmentID, AVG(Salary)
+  FROM Employees
+  GROUP BY DepartmentID
+  HAVING AVG(Salary) > 50000;
+  ```
+  *This command retrieves departments with an average salary greater than 50,000.*
+
+These are some of the essential SQL commands that you will frequently use. Understanding and practicing these commands will give you a strong foundation in SQL. Happy learning! 🚀

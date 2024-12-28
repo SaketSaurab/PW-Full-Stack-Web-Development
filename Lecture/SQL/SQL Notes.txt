@@ -24,7 +24,7 @@ Creating our First Table: USE db_name;
  eg. CREATE TABLE student (id INT PRIMARY KEY,name VARCHAR(50),age INT NOT NULL );
 To add data in table : INSERT INTO student VALUES(1,"AMAN",26);
 
-Data types : CHAR(0-255), VARCHAR(0-255), BLOB(0-65535, INT, TINYINT, BIGINT, BIT(1-64), FLOAT,BOOLEAN 
+Data types : CHAR(0-255), VARCHAR(0-255), BLOB(0-65535, INT, TINYINT, BIGINT, BIT(1-64), FLOAT,BOOLEAN )
 
 Signed & Unsigned: unsigned contains only positive value eg. TINYINT UNSIGNED(0-255) , TINYINT(-128-127)
 --------------------------------
