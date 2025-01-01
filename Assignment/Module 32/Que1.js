@@ -13,7 +13,6 @@ function Person(name, age) {
 
 // Example usage
 let person1 = new Person('Sandeep', 28);
-person1.sayHello(); // Outputs: Hello, I'm Sandeep, and I'm 28 years old.
-
+person1.sayHello(); 
 let person2 = new Person('Anita', 35);
-person2.sayHello(); // Outputs: Hello, I'm Anita, and I'm 35 years old.
+person2.sayHello(); 
