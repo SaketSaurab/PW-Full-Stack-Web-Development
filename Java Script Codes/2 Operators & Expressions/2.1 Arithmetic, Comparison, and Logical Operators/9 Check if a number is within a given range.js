@@ -7,7 +7,7 @@ function check(num1,num2,numCheck){
         max=num2;
         min=num1;
     }
-    if(numCheck<=max && numCheck<=min){
+    if(numCheck<=max && numCheck >=min){
         console.log(`the ${numCheck} is within the given range`);
     
     }
@@ -18,5 +18,5 @@ function check(num1,num2,numCheck){
 
 let a=15;
 let b=5;
-let c=8;
+let c=0;
 check(a,b,c);
