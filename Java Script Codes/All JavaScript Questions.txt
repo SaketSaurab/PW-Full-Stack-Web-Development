@@ -1,0 +1,614 @@
+-------------------------------JavaScript-------------------------------
+1. Basics of JavaScript
+1.1 Variables & Data Types (15 Questions)
+1. Declare a variable and assign a number to it.
+2. Swap two variables without using a third variable.
+3. Convert a number to a string and vice versa.
+4. Check if a variable is undefined or null.
+5. Find the data type of a given variable.
+6. Convert a string to a number.
+7. Convert a boolean to a number.
+8. Write a function that returns the sum of two numbers.
+9. Write a function that takes a number and returns its square.
+10. Find whether a number is even or odd.
+11. Check if a string contains only numbers.
+12. Check if a number is positive, negative, or zero.
+13. Find the largest number among three numbers.
+14. Check if a number is an integer or a float.
+15. Convert a number to a fixed decimal format.
+
+---------------------------------------------------------------------------------------------
+
+        2. Operators & Expressions
+
+    2.1 Arithmetic, Comparison, and Logical Operators (15 Questions)
+
+1. Perform all arithmetic operations on two numbers.
+2. Write a program to check if two numbers are equal.
+3. Write a program that returns the greater of two numbers.
+4. Compare two strings lexicographically.
+5. Use logical AND and OR operators in different conditions.
+6. Write a ternary operator to check if a number is even or odd.
+7. Determine if a year is a leap year using the modulo operator.
+8. Find the absolute difference between two numbers.
+9. Check if a number is within a given range.
+10. Use the NOT operator to check if a variable is falsy.
+11. Swap two numbers using bitwise XOR.
+12. Find the remainder of division without using the modulus
+operator.
+13. Increment a variable without using ++ or +=.
+14. Use the nullish coalescing operator to assign a default value.
+15. Demonstrate short-circuit evaluation using && and ||.
+
+---------------------------------------------------------------------------------------------
+
+            3. Control Flow (Loops & Conditionals)
+
+    3.1 If-Else and Switch Statements (15 Questions)
+
+1. Find the largest of three numbers using if-else.
+2. Check if a number is divisible by both 3 and 5.
+3. Write a menu-driven calculator using a switch statement.
+4. Determine whether a character is a vowel or consonant.
+5. Check if a given year is a leap year.
+6. Convert marks into grades using if-else.
+7. Write a program to check if a number is prime.
+8. Find the number of days in a given month and year.
+9. Write a program to check if a string is empty.
+10. Convert a number to its word equivalent (1 → "One").
+11. Determine whether a given angle is acute, right, or obtuse.
+12. Use a switch statement to print the day of the week.
+13. Implement a login system with username and password
+validation.
+14. Check if a string contains a specific word.
+15. Find the quadrant of a given point (x, y).
+---------------------------------------------------------------------------------------------
+    3.2 Loops (20 Questions)
+
+1. Print numbers from 1 to 100 using a loop.
+2. Print even numbers from 1 to 50.
+3. Print the multiplication table of a given number.
+4. Find the sum of the first N natural numbers.
+5. Find the factorial of a number using a loop.
+6. Print the Fibonacci series up to N terms.
+7. Find the sum of digits of a number.
+8. Reverse a given number.
+9. Check if a number is a palindrome.
+10. Print all prime numbers within a given range.
+11. Count the number of digits in a number.
+12. Print all Armstrong numbers up to a given limit.
+13. Find the Greatest Common Divisor (GCD) of two numbers.
+14. Find the Least Common Multiple (LCM) of two numbers.
+15. Print a pattern of stars in a pyramid format.
+16. Print a pattern of numbers in a triangle format.
+17. Count the number of vowels in a string.
+18. Print the ASCII value of each character in a string.
+19. Implement a number guessing game.
+20. Print the reverse of a string.
+
+---------------------------------------------------------------------------------------------
+
+
+                4. Functions
+
+    4.1 Function Basics (15 Questions)
+
+1. Write a function that returns the sum of two numbers.
+2. Write a function to check if a number is prime.
+3. Write a function that returns the reverse of a string.
+4. Write a function that finds the maximum of three numbers.
+5. Create a function to convert Fahrenheit to Celsius.
+6. Write a function to check if a string is a palindrome.
+7. Write a function that counts the number of words in a string.
+8. Implement a function that returns the factorial of a number.
+9. Write a function that returns the sum of digits of a number.
+10. Write a function that generates a random number.
+11. Write a function that returns the first N Fibonacci numbers.
+12. Write a function that returns the LCM of two numbers.
+13. Write a function that capitalizes the first letter of each word in a
+string.
+14. Write a function that converts a given string to camel case.
+15. Write a function that checks if two strings are anagrams.
+
+---------------------------------------------------------------------------------------------
+
+            5. Arrays
+    5.1 Array Basics (20 Questions)
+
+1. Find the maximum and minimum elements in an array.
+2. Find the sum of all elements in an array.
+3. Reverse an array without using built-in methods.
+4. Find the second largest element in an array.
+5. Remove duplicate elements from an array.
+6. Check if an array is sorted.
+7. Find the intersection of two arrays.
+8. Merge two sorted arrays.
+9. Find the frequency of each element in an array.
+10. Sort an array in ascending and descending order.
+11. Rotate an array by K positions.
+12. Check if an array contains a specific element.
+13. Convert a string to an array of words.
+14. Find the longest word in an array.
+15. Find the smallest missing positive integer.
+16. Implement a binary search algorithm.
+17. Implement a linear search algorithm.
+18. Find the sum of all even numbers in an array.
+19. Find the product of all numbers in an array.
+20. Create an array of unique random numbers.
+
+---------------------------------------------------------------------------------------------
+
+
+                    6. Objects
+
+        6.1 Object Basics (15 Questions)
+
+1. Create an object and access its properties.
+2. Add and remove properties from an object.
+3. Check if an object is empty.
+4. Find the number of properties in an object.
+5. Merge two objects.
+6. Clone an object without reference.
+7. Check if a key exists in an object.
+8. Convert an object into an array.
+9. Convert an array into an object.
+10. Write a function to compare two objects.
+11. Find all keys and values of an object.
+12. Create a function to deep clone an object.
+13. Implement a function that sorts an array of objects by property.
+14. Write a function to find the most frequent property value in an
+object array.
+15. Convert an object into a JSON string.
+Advance JavaScript topics
+Here is a comprehensive list of JavaScript coding questions covering
+advanced topics:
+
+---------------------------------------------------------------------------------------------
+
+
+                7. ES6+ Features
+
+    7.1 Let, Const, and Template Literals (15 Questions)
+
+1. Explain the difference between var, let, and const with
+examples.
+2. Create a program that uses template literals to format a string
+dynamically.
+3. Write a function using const that calculates the area of a
+rectangle.
+4. Use let and const in a loop and explain their behavior.
+5. Convert a function that uses var to use let and const properly.
+6. Demonstrate variable shadowing in JavaScript.
+7. Explain block scope with an example.
+8. Write a program to calculate the sum of numbers using template
+literals.
+9. Write a function that returns a dynamic greeting using template
+literals.
+10. Create a program that demonstrates the difference between
+function-scoped and block-scoped variables.
+11. Use a template literal to embed an expression inside a string.
+12. Show an example where using var causes an issue that let or
+const would solve.
+13. Demonstrate how const prevents reassignment but allows
+object modification.
+14. Write a function that accepts a user object and returns a
+formatted string using template literals.
+15. Explain the concept of hoisting with var, let, and const.
+
+---------------------------------------------------------------------------------------------
+
+        7.2 Arrow Functions (15 Questions)
+
+1. Convert a regular function into an arrow function.
+2. Write an arrow function that returns the square of a number.
+3. Create an arrow function that returns the sum of two numbers.
+4. Explain the behavior of this in arrow functions.
+5. Write an arrow function with default parameters.
+6. Use an arrow function inside a map() method.
+7. Use an arrow function inside a filter() method.
+8. Use an arrow function inside a reduce() method.
+9. Explain why arrow functions cannot be used as constructors.
+10. Write a function using both arrow and regular function
+expressions and compare their this behavior.
+11. Convert an immediately invoked function expression (IIFE) into
+an arrow function.
+12. Demonstrate an arrow function with implicit return.
+13. Use an arrow function as a callback in an event listener.
+14. Write an arrow function that returns the product of all arguments
+using the rest parameter.
+15. Show an example where an arrow function is not suitable.
+
+---------------------------------------------------------------------------------------------
+
+        7.3 Destructuring & Spread Operator (15 Questions)
+
+1. Destructure an array to extract specific elements.
+2. Destructure an object and assign its properties to variables.
+3. Swap two variables using array destructuring.
+4. Use the spread operator to merge two arrays.
+5. Use the spread operator to clone an object.
+6. Merge two objects using the spread operator.
+7. Extract only the first three elements from an array using
+destructuring.
+8. Write a function that accepts an object and extracts its properties.
+9. Use destructuring in function parameters.
+10. Use the rest operator in a function to accept multiple
+arguments.
+11. Convert an array-like object (e.g., arguments) into an array
+using the spread operator.
+12. Destructure a nested object.
+13. Provide a default value while destructuring an object.
+14. Use the spread operator to copy an array without modifying the
+original.
+15. Use destructuring with map() to extract values from an array of
+objects.
+
+---------------------------------------------------------------------------------------------
+
+
+                        8. Asynchronous JavaScript
+
+        8.1 Callbacks & Promises (15 Questions)
+
+
+1. Write a simple callback function.
+2. Convert a callback-based function into a Promise.
+3. Write a function that uses a Promise to fetch data after 2 seconds.
+4. Demonstrate Promise.all() with multiple promises.
+5. Demonstrate Promise.race() with multiple promises.
+6. Chain multiple .then() calls to process data step by step.
+7. Handle errors in a Promise using .catch().
+8. Write a function that fetches user data using fetch() and a
+Promise.
+9. Convert a setTimeout-based function into a Promise.
+10. Use Promise.allSettled() and explain its difference from
+Promise.all().
+11. Explain the concept of a microtask queue using Promises.
+12. Create a Promise that resolves after a random time between 1
+to 5 seconds.
+13. Demonstrate Promise.resolve() and Promise.reject().
+14. Create a function that fetches data from multiple APIs in parallel
+using Promises.
+15. Write a function that retries a Promise-based request if it fails.
+
+---------------------------------------------------------------------------------------------
+
+        8.2 Async/Await (15 Questions)
+
+1. Convert a Promise-based function into an async function.
+2. Use await to pause execution until a function resolves.
+3. Write an async function that fetches user data from an API.
+4. Implement error handling in an async function using
+try...catch.
+5. Demonstrate the use of await inside a loop.
+6. Explain the difference between Promise.then() and await.
+7. Create a function that fetches multiple APIs sequentially using
+async/await.
+8. Use await with Promise.all() to fetch data in parallel.
+9. Write an async function that implements exponential backoff for
+retries.
+10. Explain why await should not be used inside loops without
+proper handling.
+11. Create an async function that reads a JSON file and parses it.
+12. Demonstrate await inside an if statement.
+13. Write an async function that fetches and caches data to
+optimize API calls.
+14. Create a function that limits the number of concurrent API calls
+using async/await.
+15. Demonstrate how async/await affects the event loop.
+
+---------------------------------------------------------------------------------------------
+
+
+            9. DOM Manipulation
+
+    9.1 Selecting & Modifying Elements (15 Questions)
+
+1. Select an element by ID and change its text.
+2. Select multiple elements by class and change their styles.
+3. Create an element dynamically and append it to the DOM.
+4. Remove an element from the DOM.
+5. Change an attribute of an element dynamically.
+6. Toggle a class on an element.
+7. Modify the CSS of an element using JavaScript.
+8. Add a new list item dynamically to an existing list.
+9. Change the background color of a page using JavaScript.
+10. Implement a dark mode toggle using JavaScript.
+11. Display the current date and time in an HTML element.
+12. Count the number of elements of a certain class.
+13. Get the value of an input field dynamically.
+14. Change an image source dynamically using JavaScript.
+15. Implement a content slider using JavaScript.
+
+---------------------------------------------------------------------------------------------
+
+        9.2 Event Handling (15 Questions)
+1. Attach a click event to a button.
+2. Prevent the default action of a form submission.
+3. Capture keyboard input and display it in real time.
+4. Implement event delegation to handle multiple buttons dynamically.
+5. Use mouseover and mouseout events to create a hover effect.
+6. Handle a double-click event.
+7. Create a simple counter using event listeners.
+8. Detect when a user scrolls to the bottom of a page.
+9. Implement a modal popup that opens and closes on button click.
+10. Change text content on an event trigger.
+11. Debounce an input field to delay function execution.
+12. Throttle a scroll event to optimize performance.
+13. Implement a drag-and-drop functionality.
+14. Handle touch events for mobile compatibility.
+15. Create an event listener that removes itself after execution.
+
+
+---------------------------------------------------------------------------------------------
+
+Here are project-based JavaScript questions and JavaScript
+interview-specific questions:
+Project-Based JavaScript Questions
+These projects will help you apply JavaScript concepts in real-world
+scenarios.
+1. Beginner-Level Projects (Basic JavaScript)
+1. To-Do List App – Create a simple task manager where users can
+add, delete, and mark tasks as completed.
+2. Counter App – Build a counter with increment, decrement, and
+reset functionality.
+3. Tip Calculator – Take bill amount and tip percentage as input and
+calculate the total bill.
+4. Digital Clock – Display the real-time clock with hours, minutes,
+and seconds.
+5. Palindrome Checker – Create a program that checks whether a
+given word or phrase is a palindrome.
+6. Random Quote Generator – Generate a random motivational
+quote on button click.
+7. BMI Calculator – Take height and weight input and calculate Body
+Mass Index (BMI).
+8. Color Flipper – Change the background color randomly on button
+click.
+9. Simple Weather App – Fetch and display weather data from an
+API.
+10. Age Calculator – Calculate a user’s age based on their
+birthdate.
+2. Intermediate-Level Projects (DOM, Async, ES6)
+11. Quiz App – Create a multiple-choice quiz where users select
+answers and get a score.
+12. Currency Converter – Convert currency values using real-time
+exchange rates from an API.
+13. Image Gallery with Modal – Display a set of images where
+clicking on one opens a larger view.
+14. Drag-and-Drop Task Manager – Implement a Kanban board
+where tasks can be moved between columns.
+15. Typing Speed Test – Show a paragraph, and measure how
+fast a user types it.
+16. Local Storage Notes App – Save user notes in local storage
+so they persist across sessions.
+17. Infinite Scrolling Blog – Load more content as the user scrolls
+down.
+18. Expense Tracker – Track user expenses, calculate the total,
+and store data in local storage.
+19. Stopwatch App – Implement a stopwatch with start, stop, and
+reset functionalities.
+20. Dynamic Table with Search & Sort – Create a table where
+users can search and sort the data dynamically.
+3. Advanced-Level Projects (MERN Stack & APIs)
+21. E-Commerce Cart System – Create a shopping cart that lets
+users add, remove, and modify items.
+22. Job Search App – Fetch and display job listings from an API
+with search and filters.
+23. Chat Application (Using WebSockets) – Implement real-time
+chat using WebSockets or Firebase.
+24. Authentication System (MERN) – Implement user
+authentication using JWT, bcrypt, and MongoDB.
+25. Blog CMS – Create a simple content management system
+where users can post and edit articles.
+26. Portfolio Website with Contact Form – A personal portfolio
+with an interactive contact form.
+27. Video Streaming App – Build a basic video player with play,
+pause, and progress tracking.
+28. AI Chatbot – Create a chatbot that responds to user queries
+using a chatbot API.
+29. Food Delivery App Clone – Display restaurant data, allow
+order placement, and show delivery status.
+30. Finance Dashboard – Display graphs and charts for user
+expenses, using Chart.js.
+JavaScript Interview-Specific Questions
+These questions cover important JavaScript concepts asked in technical
+interviews.
+1. JavaScript Fundamentals
+1. Explain the difference between var, let, and const.
+2. How does JavaScript handle type coercion?
+3. What is the difference between == and ===?
+4. What are JavaScript data types?
+5. What is the difference between a shallow copy and a deep copy?
+6. How does JavaScript handle asynchronous execution?
+7. What is an IIFE (Immediately Invoked Function Expression)?
+8. Explain event delegation.
+9. What are closures in JavaScript?
+10. What is the use of bind(), call(), and apply()?
+2. Object-Oriented JavaScript
+11. How does prototypal inheritance work in JavaScript?
+12. What is the difference between class and prototype-based
+inheritance?
+13. How do you create a class in JavaScript?
+14. Explain the concept of a constructor function.
+15. What is the this keyword and how does it work in JavaScript?
+16. What is the difference between Object.freeze() and
+Object.seal()?
+17. Explain how getter and setter functions work in JavaScript.
+18. What is the difference between hasOwnProperty() and in
+operator?
+19. What is the purpose of Symbol in JavaScript?
+20. Explain Object.create() and how it works.
+3. ES6+ Features
+21. What are template literals, and how do they work?
+22. How does the spread operator (...) work in JavaScript?
+23. What are destructuring assignments in JavaScript?
+24. Explain the difference between arrow functions and regular
+functions.
+25. What is the purpose of the rest parameter in functions?
+26. What are default parameters in JavaScript?
+27. Explain let and const scope rules.
+28. How do Map and Set differ from objects and arrays?
+29. What is the difference between forEach(), map(),
+filter(), and reduce()?
+30. What are JavaScript modules and how do you import/export
+functions?
+4. Asynchronous JavaScript
+31. What is a callback function, and why is it used?
+32. Explain the difference between synchronous and asynchronous
+programming.
+33. How do Promises work in JavaScript?
+34. What is the difference between .then() and await?
+35. What is the event loop in JavaScript?
+36. What are microtasks and macrotasks in JavaScript?
+37. Explain the difference between Promise.all(),
+Promise.race(), and Promise.allSettled().
+38. What is async/await and how does it simplify working with
+Promises?
+39. How do you handle errors in async/await?
+40. How does setTimeout() work in the event loop?
+5. DOM Manipulation & Event Handling
+41. How do you select elements in the DOM using JavaScript?
+42. What are the different ways to add event listeners to an
+element?
+43. What is the difference between event.preventDefault()
+and event.stopPropagation()?
+44. What is the difference between bubbling and capturing in event
+propagation?
+45. How can you debounce an input field?
+46. How can you throttle a scroll event?
+47. How do you dynamically add and remove classes from an
+element?
+48. What are mutation observers in JavaScript?
+49. How can you create and insert elements dynamically in the
+DOM?
+50. How does the DOMContentLoaded event differ from the load
+event?
+6. JavaScript Performance & Best Practices
+51. What is memory leak in JavaScript and how can you prevent it?
+52. How does garbage collection work in JavaScript?
+53. How do you optimize a JavaScript application for performance?
+54. What are Web Workers and how do they improve performance?
+55. How can you improve JavaScript execution time?
+56. What is lazy loading and how does it work?
+57. Explain the difference between localStorage,
+sessionStorage, and cookies.
+58. How does requestAnimationFrame() work?
+59. What is tail call optimization in JavaScript?
+60. How can you prevent infinite loops in JavaScript?
+7. JavaScript in MERN Stack
+61. How does JavaScript work in the MERN stack?
+62. What are the key differences between client-side and
+server-side JavaScript?
+63. How do you handle authentication in a MERN stack
+application?
+64. What is CORS and why is it important in JavaScript APIs?
+65. How does Node.js handle asynchronous operations?
+66. What are middleware functions in Express.js?
+67. How do you interact with MongoDB using JavaScript?
+68. How does React use JavaScript for component-based
+development?
+69. What is JSX and how does it relate to JavaScript?
+70. How do React hooks work in JavaScript?
+Data Structures
+Here is the full list of JavaScript Data Structures & Algorithms (DSA)
+questions in text format:
+JavaScript Data Structures & Algorithms
+Questions
+1. Arrays
+1. Reverse an array without using extra space.
+2. Find the maximum sum of a subarray (Kadane’s Algorithm).
+3. Merge two sorted arrays into one sorted array.
+4. Find the missing number in an array of size N containing numbers
+from 1 to N+1.
+5. Find all pairs in an array that sum up to a given number.
+6. Rotate an array by k steps.
+7. Find the second largest element in an array.
+8. Find the intersection of two arrays.
+9. Remove duplicates from a sorted array.
+10. Find the majority element in an array (appears more than N/2
+times).
+2. Strings
+1. Reverse a string without using extra space.
+2. Check if a string is a palindrome.
+3. Find the first non-repeating character in a string.
+4. Count the occurrences of each character in a string.
+5. Check if two strings are anagrams.
+6. Find the longest common prefix of a set of strings.
+7. Implement a function to compress a string (e.g., "aaabb" →
+"a3b2").
+8. Implement strstr() to find a substring in a string.
+9. Convert a given sentence into title case.
+10. Find the longest substring without repeating characters.
+3. Linked Lists
+1. Reverse a linked list.
+2. Detect and remove a loop in a linked list.
+3. Find the middle element of a linked list.
+4. Merge two sorted linked lists.
+5. Find the nth node from the end of a linked list.
+6. Remove duplicates from a linked list.
+7. Check if a linked list is a palindrome.
+8. Implement a linked list cycle detection algorithm (Floyd’s Cycle
+Detection).
+9. Add two numbers represented as linked lists.
+10. Flatten a linked list with child pointers.
+4. Stacks and Queues
+1. Implement a stack using arrays.
+2. Implement a queue using stacks.
+3. Check for balanced parentheses in an expression.
+4. Implement a Min Stack (supports push, pop, and retrieving the
+minimum element in O(1) time).
+5. Implement a Circular Queue.
+6. Evaluate a postfix expression.
+7. Implement an LRU (Least Recently Used) Cache.
+8. Find the largest rectangle in a histogram.
+9. Implement a basic browser forward-backward navigation system
+using stacks.
+10. Implement a sliding window maximum.
+5. Trees
+1. Implement in-order, pre-order, and post-order traversal of a binary
+tree.
+2. Find the height of a binary tree.
+3. Find the lowest common ancestor of two nodes in a BST.
+4. Check if a binary tree is balanced.
+5. Convert a Binary Search Tree (BST) into a sorted doubly linked
+list.
+6. Find the diameter of a binary tree.
+7. Serialize and deserialize a binary tree.
+8. Count the number of leaf nodes in a binary tree.
+9. Check if two binary trees are identical.
+10. Construct a tree from its preorder and inorder traversal data.
+6. Graphs
+1. Implement Depth First Search (DFS) and Breadth First Search
+(BFS).
+2. Find the shortest path in an unweighted graph using BFS.
+3. Implement Dijkstra’s Algorithm for finding the shortest path.
+4. Detect a cycle in a directed graph.
+5. Find connected components in an undirected graph.
+6. Implement the topological sort algorithm.
+7. Check if a graph is a tree.
+8. Implement Prim’s Algorithm to find the Minimum Spanning Tree.
+9. Implement Kruskal’s Algorithm to find the Minimum Spanning Tree.
+10. Implement Floyd-Warshall Algorithm for all-pairs shortest path.
+7. Sorting and Searching
+1. Implement Bubble Sort, Selection Sort, and Insertion Sort.
+2. Implement Merge Sort and Quick Sort.
+3. Implement Heap Sort.
+4. Implement Binary Search.
+5. Find the kth smallest/largest element in an unsorted array.
+6. Find the first and last occurrence of an element in a sorted array.
+7. Implement interpolation search.
+8. Find the square root of a number using binary search.
+9. Count the number of inversions in an array.
+10. Implement Counting Sort and Radix Sort.
+8. Recursion and Dynamic Programming
+1. Solve the Fibonacci sequence using recursion and DP.
+2. Solve the Coin Change Problem.
+3. Solve the Knapsack Problem.
+4. Find the longest common subsequence of two strings.
+5. Find the number of ways to climb stairs (1 or 2 steps at a time).
+6. Find the minimum number of insertions to make a string
+palindrome.
+7. Solve the Rod Cutting Problem.
+8. Find the longest palindromic subsequence.
+9. Solve the Partition Equal Subset Sum problem.
+10. Implement Matrix Chain Multiplication.
