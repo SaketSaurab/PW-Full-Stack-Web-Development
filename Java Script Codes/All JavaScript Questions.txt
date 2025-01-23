@@ -342,12 +342,15 @@ using async/await.
 
 ---------------------------------------------------------------------------------------------
 
-Here are project-based JavaScript questions and JavaScript
-interview-specific questions:
-Project-Based JavaScript Questions
-These projects will help you apply JavaScript concepts in real-world
-scenarios.
-1. Beginner-Level Projects (Basic JavaScript)
+                        Here are project-based JavaScript questions and JavaScript
+
+                interview-specific questions:
+      
+        Project-Based JavaScript Questions
+
+        These projects will help you apply JavaScript concepts in real-world scenarios.
+---------------------------------------------------------------------------------------------
+        1. Beginner-Level Projects (Basic JavaScript)
 1. To-Do List App – Create a simple task manager where users can
 add, delete, and mark tasks as completed.
 2. Counter App – Build a counter with increment, decrement, and
@@ -368,7 +371,12 @@ click.
 API.
 10. Age Calculator – Calculate a user’s age based on their
 birthdate.
-2. Intermediate-Level Projects (DOM, Async, ES6)
+
+---------------------------------------------------------------------------------------------
+
+                
+                2. Intermediate-Level Projects (DOM, Async, ES6)
+
 11. Quiz App – Create a multiple-choice quiz where users select
 answers and get a score.
 12. Currency Converter – Convert currency values using real-time
@@ -408,11 +416,16 @@ pause, and progress tracking.
 using a chatbot API.
 29. Food Delivery App Clone – Display restaurant data, allow
 order placement, and show delivery status.
-30. Finance Dashboard – Display graphs and charts for user
-expenses, using Chart.js.
-JavaScript Interview-Specific Questions
-These questions cover important JavaScript concepts asked in technical
-interviews.
+30. Finance Dashboard – Display graphs and charts for user expenses, using Chart.js.
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+                        JavaScript Interview-Specific Questions
+
+
+        These questions cover important JavaScript concepts asked in technical interviews.
+
 1. JavaScript Fundamentals
 1. Explain the difference between var, let, and const.
 2. How does JavaScript handle type coercion?
@@ -424,122 +437,140 @@ interviews.
 8. Explain event delegation.
 9. What are closures in JavaScript?
 10. What is the use of bind(), call(), and apply()?
-2. Object-Oriented JavaScript
+
+---------------------------------------------------------------------------------------------
+
+
+                2. Object-Oriented JavaScript
+
 11. How does prototypal inheritance work in JavaScript?
-12. What is the difference between class and prototype-based
-inheritance?
+12. What is the difference between class and prototype-based inheritance?
 13. How do you create a class in JavaScript?
 14. Explain the concept of a constructor function.
 15. What is the this keyword and how does it work in JavaScript?
-16. What is the difference between Object.freeze() and
-Object.seal()?
+16. What is the difference between Object.freeze() and Object.seal()?
 17. Explain how getter and setter functions work in JavaScript.
-18. What is the difference between hasOwnProperty() and in
-operator?
+18. What is the difference between hasOwnProperty() and in operator?
 19. What is the purpose of Symbol in JavaScript?
 20. Explain Object.create() and how it works.
-3. ES6+ Features
+
+---------------------------------------------------------------------------------------------
+
+                3. ES6+ Features
+
 21. What are template literals, and how do they work?
 22. How does the spread operator (...) work in JavaScript?
 23. What are destructuring assignments in JavaScript?
-24. Explain the difference between arrow functions and regular
-functions.
+24. Explain the difference between arrow functions and regular functions.
 25. What is the purpose of the rest parameter in functions?
 26. What are default parameters in JavaScript?
 27. Explain let and const scope rules.
 28. How do Map and Set differ from objects and arrays?
-29. What is the difference between forEach(), map(),
-filter(), and reduce()?
-30. What are JavaScript modules and how do you import/export
-functions?
-4. Asynchronous JavaScript
+29. What is the difference between forEach(), map(), filter(), and reduce()?
+30. What are JavaScript modules and how do you import/export functions?
+
+---------------------------------------------------------------------------------------------
+
+                4. Asynchronous JavaScript
 31. What is a callback function, and why is it used?
-32. Explain the difference between synchronous and asynchronous
-programming.
+32. Explain the difference between synchronous and asynchronous programming.
 33. How do Promises work in JavaScript?
 34. What is the difference between .then() and await?
 35. What is the event loop in JavaScript?
 36. What are microtasks and macrotasks in JavaScript?
-37. Explain the difference between Promise.all(),
-Promise.race(), and Promise.allSettled().
-38. What is async/await and how does it simplify working with
-Promises?
+37. Explain the difference between Promise.all(), Promise.race(), and Promise.allSettled().
+38. What is async/await and how does it simplify working with Promises?
 39. How do you handle errors in async/await?
 40. How does setTimeout() work in the event loop?
-5. DOM Manipulation & Event Handling
+
+---------------------------------------------------------------------------------------------
+
+                5. DOM Manipulation & Event Handling
 41. How do you select elements in the DOM using JavaScript?
-42. What are the different ways to add event listeners to an
-element?
-43. What is the difference between event.preventDefault()
-and event.stopPropagation()?
-44. What is the difference between bubbling and capturing in event
-propagation?
+42. What are the different ways to add event listeners to an element?
+43. What is the difference between event.preventDefault() and event.stopPropagation()?
+44. What is the difference between bubbling and capturing in event propagation?
 45. How can you debounce an input field?
 46. How can you throttle a scroll event?
-47. How do you dynamically add and remove classes from an
-element?
+47. How do you dynamically add and remove classes from an element?
 48. What are mutation observers in JavaScript?
-49. How can you create and insert elements dynamically in the
-DOM?
-50. How does the DOMContentLoaded event differ from the load
-event?
-6. JavaScript Performance & Best Practices
+49. How can you create and insert elements dynamically in the DOM?
+50. How does the DOMContentLoaded event differ from the load event?
+
+---------------------------------------------------------------------------------------------
+
+                6. JavaScript Performance & Best Practices
 51. What is memory leak in JavaScript and how can you prevent it?
 52. How does garbage collection work in JavaScript?
 53. How do you optimize a JavaScript application for performance?
 54. What are Web Workers and how do they improve performance?
 55. How can you improve JavaScript execution time?
 56. What is lazy loading and how does it work?
-57. Explain the difference between localStorage,
-sessionStorage, and cookies.
+57. Explain the difference between localStorage, sessionStorage, and cookies.
 58. How does requestAnimationFrame() work?
 59. What is tail call optimization in JavaScript?
 60. How can you prevent infinite loops in JavaScript?
-7. JavaScript in MERN Stack
+
+---------------------------------------------------------------------------------------------
+
+                7. JavaScript in MERN Stack
 61. How does JavaScript work in the MERN stack?
 62. What are the key differences between client-side and
 server-side JavaScript?
-63. How do you handle authentication in a MERN stack
-application?
+63. How do you handle authentication in a MERN stack application?
 64. What is CORS and why is it important in JavaScript APIs?
 65. How does Node.js handle asynchronous operations?
 66. What are middleware functions in Express.js?
 67. How do you interact with MongoDB using JavaScript?
-68. How does React use JavaScript for component-based
-development?
+68. How does React use JavaScript for component-based development?
 69. What is JSX and how does it relate to JavaScript?
 70. How do React hooks work in JavaScript?
-Data Structures
-Here is the full list of JavaScript Data Structures & Algorithms (DSA)
-questions in text format:
-JavaScript Data Structures & Algorithms
-Questions
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+
+
+                                        Data Structures
+
+Here is the full list of JavaScript Data Structures & Algorithms (DSA) questions in text format:
+                JavaScript Data Structures & Algorithms Questions
+---------------------------------------------------------------------------------------------
 1. Arrays
+
+
 1. Reverse an array without using extra space.
 2. Find the maximum sum of a subarray (Kadane’s Algorithm).
 3. Merge two sorted arrays into one sorted array.
-4. Find the missing number in an array of size N containing numbers
-from 1 to N+1.
+4. Find the missing number in an array of size N containing numbers from 1 to N+1.
 5. Find all pairs in an array that sum up to a given number.
 6. Rotate an array by k steps.
 7. Find the second largest element in an array.
 8. Find the intersection of two arrays.
 9. Remove duplicates from a sorted array.
-10. Find the majority element in an array (appears more than N/2
-times).
-2. Strings
+10. Find the majority element in an array (appears more than N/2 times).
+
+---------------------------------------------------------------------------------------------
+
+
+                        2. Strings
+
 1. Reverse a string without using extra space.
 2. Check if a string is a palindrome.
 3. Find the first non-repeating character in a string.
 4. Count the occurrences of each character in a string.
 5. Check if two strings are anagrams.
 6. Find the longest common prefix of a set of strings.
-7. Implement a function to compress a string (e.g., "aaabb" →
-"a3b2").
+7. Implement a function to compress a string (e.g., "aaabb" → "a3b2").
 8. Implement strstr() to find a substring in a string.
 9. Convert a given sentence into title case.
 10. Find the longest substring without repeating characters.
-3. Linked Lists
+
+---------------------------------------------------------------------------------------------
+
+                3. Linked Lists
+
 1. Reverse a linked list.
 2. Detect and remove a loop in a linked list.
 3. Find the middle element of a linked list.
@@ -551,35 +582,42 @@ times).
 Detection).
 9. Add two numbers represented as linked lists.
 10. Flatten a linked list with child pointers.
-4. Stacks and Queues
+
+---------------------------------------------------------------------------------------------
+
+                4. Stacks and Queues
+
 1. Implement a stack using arrays.
 2. Implement a queue using stacks.
 3. Check for balanced parentheses in an expression.
-4. Implement a Min Stack (supports push, pop, and retrieving the
-minimum element in O(1) time).
+4. Implement a Min Stack (supports push, pop, and retrieving the minimum element in O(1) time).
 5. Implement a Circular Queue.
 6. Evaluate a postfix expression.
 7. Implement an LRU (Least Recently Used) Cache.
 8. Find the largest rectangle in a histogram.
-9. Implement a basic browser forward-backward navigation system
-using stacks.
+9. Implement a basic browser forward-backward navigation system using stacks.
 10. Implement a sliding window maximum.
-5. Trees
-1. Implement in-order, pre-order, and post-order traversal of a binary
-tree.
+
+---------------------------------------------------------------------------------------------
+
+                5. Trees
+
+1. Implement in-order, pre-order, and post-order traversal of a binary tree.
 2. Find the height of a binary tree.
 3. Find the lowest common ancestor of two nodes in a BST.
 4. Check if a binary tree is balanced.
-5. Convert a Binary Search Tree (BST) into a sorted doubly linked
-list.
+5. Convert a Binary Search Tree (BST) into a sorted doubly linked list.
 6. Find the diameter of a binary tree.
 7. Serialize and deserialize a binary tree.
 8. Count the number of leaf nodes in a binary tree.
 9. Check if two binary trees are identical.
 10. Construct a tree from its preorder and inorder traversal data.
+
+---------------------------------------------------------------------------------------------
+
 6. Graphs
-1. Implement Depth First Search (DFS) and Breadth First Search
-(BFS).
+
+1. Implement Depth First Search (DFS) and Breadth First Search (BFS).
 2. Find the shortest path in an unweighted graph using BFS.
 3. Implement Dijkstra’s Algorithm for finding the shortest path.
 4. Detect a cycle in a directed graph.
@@ -589,7 +627,11 @@ list.
 8. Implement Prim’s Algorithm to find the Minimum Spanning Tree.
 9. Implement Kruskal’s Algorithm to find the Minimum Spanning Tree.
 10. Implement Floyd-Warshall Algorithm for all-pairs shortest path.
-7. Sorting and Searching
+
+---------------------------------------------------------------------------------------------
+
+                7. Sorting and Searching
+
 1. Implement Bubble Sort, Selection Sort, and Insertion Sort.
 2. Implement Merge Sort and Quick Sort.
 3. Implement Heap Sort.
@@ -600,7 +642,11 @@ list.
 8. Find the square root of a number using binary search.
 9. Count the number of inversions in an array.
 10. Implement Counting Sort and Radix Sort.
-8. Recursion and Dynamic Programming
+
+---------------------------------------------------------------------------------------------
+
+                8. Recursion and Dynamic Programming
+
 1. Solve the Fibonacci sequence using recursion and DP.
 2. Solve the Coin Change Problem.
 3. Solve the Knapsack Problem.
@@ -612,3 +658,5 @@ palindrome.
 8. Find the longest palindromic subsequence.
 9. Solve the Partition Equal Subset Sum problem.
 10. Implement Matrix Chain Multiplication.
+
+---------------------------------------------------------------------------------------------
