@@ -1,10 +1,8 @@
 // Find the largest of three numbers using if-else.
 
 function largest(a,b,c){
-    if(a>b){
         if(a>=c && a>=b){
             console.log(`The largest number among ${a},${b} and ${c} is ${a}`);
-        }
     }
     else if(b>=c && b>=a){
         
