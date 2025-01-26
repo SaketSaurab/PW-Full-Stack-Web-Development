@@ -14,7 +14,6 @@ function isPrime(a){
                 break;
             }
         }
-
     if(prime){
         console.log(`${a} is a prime number`);
     }
