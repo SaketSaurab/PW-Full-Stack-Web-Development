@@ -29,7 +29,7 @@ const rl = readline.createInterface({
 });
 
 rl.question("Enter the number to print fibonacci series : ", (input) => {
-  if (/^\d+$/.test(input.trim())) {
+  if (/^-\d+$/.test(input.trim())) {
     const x = parseInt(input.trim());
     fibo(x);
   } else {
