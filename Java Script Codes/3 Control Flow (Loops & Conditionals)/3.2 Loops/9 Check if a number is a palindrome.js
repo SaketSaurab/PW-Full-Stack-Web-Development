@@ -20,7 +20,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 rl.question("Enter the number to check ", (input) => {
-  if (/^-?\d/.test(input.trim())) {
+  if (/^-?\d+$/.test(input.trim())) {
     let num = parseInt(input.trim());
     palindromeCheck(num);
   } else {
