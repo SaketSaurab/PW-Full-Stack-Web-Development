@@ -10,17 +10,17 @@ function PrintArmstrongNumber(a) {
 
     while (num > 0) {
       sizeOfNumber += 1;
-      num = Math.floor(num/ 10);
+      num = Math.floor(num / 10);
     }
-    num=originalNumber;
+    num = originalNumber;
     while (num > 0) {
       let temp = num % 10;
       arm = arm + temp ** sizeOfNumber;
       num = Math.floor(num / 10);
     }
-    if(originalNumber===arm){
-        console.log(originalNumber);
-  }
+    if (originalNumber === arm) {
+      console.log(originalNumber);
+    }
   }
 }
 const rl = readline.createInterface({
