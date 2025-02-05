@@ -8,7 +8,7 @@ function gcd(a, b) {
     small = b;
   }
   let ans;
-  for (let i = 2; i <= small; i++) {
+  for (let i = 1; i <= small; i++) {
     if (a % i == 0 && b % i == 0) {
       ans = i;
     }
