@@ -21,6 +21,11 @@ const rl = readline.createInterface({
 });
 rl.question("Enter the string ", (input) => {
   let a = input.trim();
-  count(a);
+if(a===""){
+    console.log("String is empty ");
+}
+else{
+    count(a);
+}
   rl.close();
 });
