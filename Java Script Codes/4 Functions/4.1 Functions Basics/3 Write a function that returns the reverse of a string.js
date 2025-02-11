@@ -8,11 +8,13 @@ function reverseString(input){
     let str=input.trim();
     let revStr="";
     for(let i=str.length-1;i>=0;i--){
-        revStr+=String(str.charAt(i));
+        revStr+=str.charAt(i);
     }
     console.log(`The reverse of ${input} string is ${revStr}`);
 
 }
 rl.question("Enter the string : ",(input)=>{
-    reverseString(input);
+    let str=input.trim();
+    reverseString(str);
+    rl.close();
 });
