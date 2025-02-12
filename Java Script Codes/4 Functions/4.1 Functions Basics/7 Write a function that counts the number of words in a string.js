@@ -11,7 +11,6 @@ function wordCount(input) {
   let size = word.length;
   console.log(`The number of words in string ${string} is ${size}`);
 }
-
 rl.question("Enter the string to count the words ", (input) => {
   wordCount(input);
   rl.close();
