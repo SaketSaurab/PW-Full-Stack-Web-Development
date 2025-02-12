@@ -19,7 +19,6 @@ function palindromeCheck(a) {
   }
 }
 rl.question("Enter the string : ", (input) => {
-  let inputString = input.trim();
-  palindromeCheck(inputString);
+  palindromeCheck(input);
   rl.close();
 });
