@@ -8,7 +8,7 @@ const rl=readline.createInterface({
 function fahrenheitToCelsius(f){
     let c=(f-32)/(9/5);
     c=c.toFixed(2);
-    console.log(`${f}f = ${c}${String.fromCharCode(176)}`);
+    console.log(`${f}\u00b0F = ${c}\u00b0C`);
 }
 rl.question("Enter the temprature in Fahrenheit : ",(input)=>{
 if(/^-?\d+(\.\d+)?$/.test(input.trim())){
