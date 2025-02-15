@@ -10,11 +10,11 @@ function printFibonacci(num) {
   let b = 1;
   let result = "";
   if (num == 0) {
-    console.log("0");
+    console.log("Enter the number greater than 0");
   } else if (num == 1) {
-    console.log("0 1");
+    console.log("0");
   } else if (num > 1) {
-    for (let i = 2; i <= num; i++) {
+    for (let i = 2; i <num; i++) {
       let c = a + b;
       result = result + " " + c;
       a = b;
