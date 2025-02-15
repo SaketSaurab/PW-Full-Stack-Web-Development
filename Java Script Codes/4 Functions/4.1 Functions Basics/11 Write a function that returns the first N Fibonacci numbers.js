@@ -14,7 +14,7 @@ function printFibonacci(num) {
   } else if (num == 1) {
     console.log("0");
   } else if (num > 1) {
-    for (let i = 2; i <num; i++) {
+    for (let i = 2; i < num; i++) {
       let c = a + b;
       result = result + " " + c;
       a = b;
