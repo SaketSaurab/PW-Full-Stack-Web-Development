@@ -6,22 +6,21 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-function sum(input) {
-  let num = input;
-  let sum = 0;
-  while (num > 0) {
-    sum = sum + (num % 10);
-    num =Math.floor(num/10);
+function sumArray(arr){
+  let sum=0;
+  for(let num of arr){
+    sum+=num;
   }
-  console.log(`The sum of ${input} is ${sum}`);
+  console.log(`The sum of array is ${sum}`);
 }
 
-rl.question("Enter the number ", (input) => {
-  if (/^\d+$/.test(input.trim())) {
-    let num = parseInt(input.trim(),10);
-    sum(num);
-  } else {
-    console.log("Enter valid number");
+rl.question("Enter the array elements seprated by space ",(input)=>{
+  let arr=input.trim().split(" ").map(Number);
+  if(arr.every((num)=>!isNaN(num))){
+    sumArray(arr);
+  }
+  else{
+    console.log("Enter valid array elements");
   }
   rl.close();
-});
+})
