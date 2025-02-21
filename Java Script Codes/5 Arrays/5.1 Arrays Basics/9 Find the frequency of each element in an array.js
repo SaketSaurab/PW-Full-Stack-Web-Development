@@ -1,0 +1,3 @@
+// Find the frequency of each element in an array.
+
+const readline=require('readline');
