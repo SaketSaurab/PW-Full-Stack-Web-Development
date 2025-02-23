@@ -6,10 +6,8 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 function strArray(str) {
-  let arr = [];
-  for (let i = 0; i < str.length; i++) {
-    arr[i] = str.charAt(i);
-  }
+  let arr = str.split(" ");
+
   console.log(`Original String : ${str}`);
   console.log(`Array : ${arr}`);
 }
