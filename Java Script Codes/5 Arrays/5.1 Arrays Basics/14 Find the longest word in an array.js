@@ -6,11 +6,10 @@ const rl = readline.createInterface({
 });
 function longWord(arr) {
   let bigSize = arr[0].length;
-  let bigWord;
-  for (let i = 0; i < arr.length; i++) {
-    let currSize = arr[i].length;
-    if (currSize > bigSize) {
-      bigSize = currSize;
+  let bigWord = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].length > bigSize) {
+      bigSize = arr[i].length;
       bigWord = arr[i];
     }
   }
