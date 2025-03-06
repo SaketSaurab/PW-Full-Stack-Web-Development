@@ -24,8 +24,10 @@ function areEqual2(obj1,obj3){;
 
     let ans= JSON.stringify(obj1)===JSON.stringify(obj3);
     
-    ans?console.log("Obj1 and obj are equal"):console.log("Obj1 and obj are not equal");
+    ans?console.log("Obj1 and obj3 are equal"):console.log("Obj1 and obj3 are not equal");
 }
-
+console.log("objects are compared using JSON.stringify()");
 areEqual1(obj1,obj2);
 areEqual2(obj1,obj3);
+
+
