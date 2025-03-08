@@ -4,7 +4,7 @@ const person = {
   name: "Ram",
   age: 25,
   city: "Ayodhya",
-  wife: "Sita",
+  wife: "Sita ",
 };
 
 let jsonStr = JSON.stringify(person);
