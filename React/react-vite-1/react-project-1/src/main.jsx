@@ -6,6 +6,6 @@ import Navbar from './assets/components/Navbar.jsx'
 
 createRoot(document.getElementById('root')).render(
 
-    <Navbar/>
+    <App/>
 
 )
