@@ -4,11 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  
+  function handleClick(){
+alert("I am clicked");
+  }
+ 
 
   return (
     <div >
-      <h1>Hello ji</h1>
+      <button onClick={handleClick} >Click me</button>
     </div>
   )
 }
