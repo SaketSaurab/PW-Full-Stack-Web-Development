@@ -1,21 +1,44 @@
-import './App.css';
-import Home from './Components/home';
-import Dashboard from './Components/dashboard';
-import About from './Components/about';
+import "./App.css";
+import Home from "./Components/home";
+import Dashboard from "./Components/dashboard";
+import About from "./Components/about";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import ParamComp from "./Components/ParamComp";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
+    element: 
+      <div>
+        <Navbar />
+        <Home />
+      </div>
   },
   {
     path: "/about",
-    element: <About />
+    element:
+      <div>
+        <Navbar />
+        <About />
+      </div>
   },
   {
     path: "/dashboard",
-    element: <Dashboard />
+    element: 
+      <div>
+        <Navbar />
+        <Dashboard />
+      </div>
+  },
+  {
+    path:"/student/:id",
+    element: 
+      <div>
+        <Navbar />
+        <ParamComp />
+      </div>
+
   }
 ]);
 
