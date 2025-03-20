@@ -8,6 +8,7 @@ import ParamComp from "./Components/ParamComp";
 import Courses from "./Components/Courses";
 import MockTest from "./Components/MockTest";
 import Reports from "./Components/Reports";
+import NotFound from "./Components/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
         <ParamComp />
       </div>
 
+  },
+  {
+    path:'*',
+    element:<NotFound/>
   }
 ]);
 
