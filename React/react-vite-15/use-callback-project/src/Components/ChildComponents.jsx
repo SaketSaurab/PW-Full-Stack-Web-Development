@@ -1,17 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const ChildComponents = React.memo(
-    (props) => {
-    console.log('child component got re rendered again');
+const ChildComponents = React.memo((props) => {
+  console.log("child component got re rendered again");
   return (
-
     <div>
-      <button onClick={props.handleClick}>
-        {props.buttonName}
-      </button>
+      <button onClick={props.handleClick}>{props.buttonName}</button>
     </div>
-  )
-}
-);
+  );
+});
 
-export default ChildComponents
+export default ChildComponents;
