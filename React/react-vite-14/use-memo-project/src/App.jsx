@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import "./App.css";
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
     for (let i = 0; i < 1000000000; i++) {}
     return num * 2;
   }
-  let doubleValue = expensiveTask(input);
+  let doubleValue =  useMemo(()=>expensiveTask(input),[input]);
+
+ 
 
   return (
     <div>
