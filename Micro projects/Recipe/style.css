@@ -1,3 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: aquamarine;
+    background-color: azure;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+
+}
+
+.navContainer {
+background: #FD1D1D;
+background: linear-gradient(90deg, rgba(253, 29, 29, 0.65) 60%, rgba(252, 176, 69, 0.67) 100%);
+min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.navList {
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#navLogo {
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+}
+
+#navItems {
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+color: rgb(16, 73, 83);
+font-size: 2.5rem;
+margin-right: 10px;
+}
+
+.footerBox{
+    background: #FD1D1D;
+background: linear-gradient(90deg, rgba(253, 29, 29, 0.65) 60%, rgba(252, 176, 69, 0.67) 100%);
+width: 100vw;
+text-align: center;
+min-height: 40px;
+
+}
+.footerBox p{
+    color: azure;
+    font-size: 2rem;
+}
+
+
+.contentBox{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.ulItems{
+    padding-left: 30px;
 }
