@@ -1,0 +1,94 @@
+HIGH PRIORITY QUESTIONS (Must Practice – 40 Questions)
+
+1. JavaScript Basics
+
+* Swap two variables without using a third variable
+* Convert a number to a string and vice versa
+* Check if a variable is undefined or null
+* Check if a number is an integer or float
+* Convert a number to a fixed decimal format
+* Check if a string contains only numbers
+
+2. Operators and Expressions
+
+* Use a ternary operator to check if a number is even or odd
+* Use logical AND and OR with short-circuit behavior
+* Use the nullish coalescing operator to assign default values
+* Swap two numbers using XOR
+* Find remainder of division without using the modulus (%) operator
+
+3. Control Flow – If-Else and Switch
+
+* Create a menu-driven calculator using switch
+* Check whether a given year is a leap year
+* Check if a string is empty
+* Convert marks to grades using if-else conditions
+* Implement a login system with username and password validation
+
+4. Loops
+
+* Print all prime numbers within a given range
+* Check if a number is a palindrome
+* Print all Armstrong numbers up to a limit
+* Count the number of vowels in a string
+* Print a pattern of stars in a pyramid format
+* Print the reverse of a string
+
+5. Functions
+
+* Write a function to check if a number is prime
+* Write a function to check if a string is a palindrome
+* Write a function to capitalize the first letter of each word in a string
+* Write a function to reverse a string
+* Write a function to check if two strings are anagrams
+
+6. Arrays
+
+* Find the second largest element in an array
+* Remove duplicate elements from an array
+* Find the longest word in an array of strings
+* Find the smallest missing positive integer in an array
+* Merge two sorted arrays
+* Implement binary search
+* Create an array of unique random numbers
+* Sort an array in both ascending and descending order
+
+7. Objects
+
+* Write a function to deep clone an object
+* Write a function to compare two objects for equality
+* Sort an array of objects by a specific property
+* Find the most frequent property value in an object array
+* Convert an object into a JSON string
+
+8. ES6+ Features
+
+* Explain the difference between var, let, and const with hoisting behavior
+* Use template literals to embed dynamic expressions in a string
+* Demonstrate variable shadowing and block scope
+* Show how const allows object modification but not reassignment
+* Rewrite a var-based loop using let/const
+* Write a function that returns a formatted string using template literals
+
+MEDIUM PRIORITY QUESTIONS (Optional Practice – 20–30 Questions)
+
+* Convert boolean to number, or string to number (simple conversions)
+* Use if-else for angle type (acute, right, obtuse)
+* Simple loop-based tasks like factorial, sum of digits, etc.
+* Basic array tasks like finding max, sum, searching, etc.
+* Object tasks like adding/removing keys or counting properties
+
+LOW PRIORITY QUESTIONS (Can Be Skipped or Reviewed Lightly)
+
+* Print numbers from 1 to 100 or even numbers from 1 to 50
+* Convert string to array of words and back
+* Convert Fahrenheit to Celsius
+* Print ASCII values of a string
+* Calculate the area of a rectangle using const
+
+Bonus Practice Tips
+
+1. Convert your logic-based code into reusable functions
+2. Add extra constraints like "without using built-in methods"
+3. Write test cases for key functions like isPalindrome, isAnagram, etc.
+4. Do a timed practice of 5–10 selected problems to simulate a coding test
