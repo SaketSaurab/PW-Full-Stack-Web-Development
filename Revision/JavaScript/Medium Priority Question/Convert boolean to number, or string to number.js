@@ -1,4 +1,4 @@
-// Convert boolean to number or string to number
+// Convert boolean to number 
 
 const readline=require('readline');
 const rl=readline.createInterface({
