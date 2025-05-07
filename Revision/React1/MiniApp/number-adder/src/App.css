@@ -1,4 +1,4 @@
-.div-container{
+.div-container {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -8,24 +8,18 @@
   flex-direction: column;
 }
 
-
-.div-math{
+.div-math {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  gap: 10px;
 }
 
-.div-button{
+.div-button {
   display: flex;
   flex-direction: row;
 }
-button{
+button {
   width: 80px;
   height: 30px;
   margin: 10px 30px;
-}
- .className{
-  
-  margin: 10px 10px;
-  
 }
