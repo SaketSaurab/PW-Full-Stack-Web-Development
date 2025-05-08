@@ -1,5 +1,25 @@
-.div-class{
+.div-container {
   background-color: beige;
   width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.div-button {
+  display: flex;
+
+  gap: 10px;
+}
+button {
+  width: 100px;
+  padding: 10px;
+}
+
+.div-input{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

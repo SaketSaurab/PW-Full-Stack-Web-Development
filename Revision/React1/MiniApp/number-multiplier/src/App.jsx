@@ -9,17 +9,16 @@ function App() {
     const ans = Number(num1) * Number(num2);
     setResult(ans);
   };
-  const handleReset=()=>{
-    setNum1('');
-    setNum2('');
+  const handleReset = () => {
+    setNum1("");
+    setNum2("");
     setResult(null);
-  }
+  };
   return (
     <>
       <div className="div-container">
-        <div className="div-input"></div>
-
-        <input
+        <div className="div-input">
+             <input
           placeholder="First Number"
           value={num1}
           onChange={(e) => setNum1(e.target.value)}
@@ -29,7 +28,10 @@ function App() {
           value={num2}
           onChange={(e) => setNum2(e.target.value)}
         />
-        <h3> = {result}</h3>
+       <h3> = {result}</h3>
+        </div>
+
+     
 
         <div className="div-button">
           <button onClick={handleReset}>Reset</button>
