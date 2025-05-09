@@ -1,0 +1,39 @@
+.div-container{
+  background-color: beige;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button{
+  background-color: rgb(19, 138, 185);
+  color: white;
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+
+.div-button{
+  display: flex;
+  gap: 10px;
+
+}
+.div-input-output{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  
+}
+input{
+  width: 200px;
+  height: 40px;
+  
+  border-radius: 10px;
+}
