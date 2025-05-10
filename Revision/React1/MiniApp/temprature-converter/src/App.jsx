@@ -8,12 +8,18 @@ function App() {
   const [result, setResult] = useState(null);
 
   const calculateTemp = () => {
-    let ans = temp * (9 / 5) + 32;
-    setResult(ans);
+if(temp===''|| isNaN(temp)){
+  setResult("Please enter valid number");
+  return;
+}
+
+    let ans = (Number(temp * 9) / 5 + 32);
+
+    setResult(ans.toFixed(2));
   };
 
   const handleReset=()=>{
-    setTemp('');
+    setTemp("");
     setResult(null);
   }
 
