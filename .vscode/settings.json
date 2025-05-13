@@ -4,3 +4,25 @@
     "github.copilot.chat.reviewSelection.enabled": false,
     "github.copilot.chat.startDebugging.enabled": false
 }
+
+{
+  // ✅ Show normal suggestions like variables, functions, etc.
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+
+  // ✅ Trigger suggestions on characters like `.`, `(` etc.
+  "editor.suggestOnTriggerCharacters": true,
+
+  // ❌ Prevent accidental accept on Enter key
+  "editor.acceptSuggestionOnEnter": "off",
+
+  // ❌ Disable inline ghost text suggestions (e.g., Copilot style)
+  "editor.inlineSuggest.enabled": false,
+
+  // ❌ Optional: Disable snippets like full `for` loops
+  "editor.snippetSuggestions": "none",
+  "editor.suggest.snippetsPreventQuickSuggestions": true
+}
