@@ -22,7 +22,7 @@
 
 
 
----------------------------------------------------
+------------------------------------------------
 
 ## 🔹 Micro Projects (Very Tiny – 10–20 min)
 
@@ -52,7 +52,7 @@
 15. Login Form UI (no auth)
 16. Theme Switcher (Light / Dark)
 
----
+---------------------------
 
 ## 🔺 Normal Projects (Practice Level – 1–2 hrs)
 
