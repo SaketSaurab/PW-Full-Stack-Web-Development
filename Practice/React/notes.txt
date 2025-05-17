@@ -1,0 +1,64 @@
+
+1. Counter
+2. Toggle Button (ON/OFF)
+3. Show / Hide Text
+4. Input Text Preview
+5. Character Counter
+6. Random Quote Generator
+7. Color Changer
+8. Simple Todo List
+9. Todo List (Add + Delete)
+10. Theme Switcher (Light/Dark)
+11. Click Tracker
+12. Simple Timer
+13. Stopwatch
+14. Random Number Generator
+15. Button Disable After Click
+16. Name List Renderer
+17. Login Form UI (no auth)
+18. Password Show / Hide
+19. Image Toggle
+20. Accordion (Expand/Collapse)
+
+
+
+---------------------------------------------------
+
+## 🔹 Micro Projects (Very Tiny – 10–20 min)
+
+*Focus: `useState`, basic events*
+
+1. Counter
+2. Toggle Button (ON/OFF)
+3. Show / Hide Text
+4. Button Disable After Click
+5. Click Tracker
+6. Random Number Generator
+7. Color Changer
+8. Image Toggle
+
+---
+
+## 🔸 Mini Projects (Small – 30–60 min)
+
+*Focus: inputs, lists, conditional rendering*
+
+9. Input Text Preview
+10. Character Counter
+11. Password Show / Hide
+12. Name List Renderer
+13. Accordion (Expand / Collapse)
+14. Random Quote Generator
+15. Login Form UI (no auth)
+16. Theme Switcher (Light / Dark)
+
+---
+
+## 🔺 Normal Projects (Practice Level – 1–2 hrs)
+
+*Focus: multiple components, array state, logic*
+
+17. Simple Todo List
+18. Todo List (Add + Delete)
+19. Stopwatch
+20. Simple Timer
