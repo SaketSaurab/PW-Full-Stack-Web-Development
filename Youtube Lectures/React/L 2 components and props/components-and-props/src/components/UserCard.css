@@ -1,0 +1,29 @@
+.container-div {
+  width: 250px;
+  height: 250px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: Arial, sans-serif;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.user-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid green;
+}
+
+.user-description {
+  font-size: 14px;
+}
