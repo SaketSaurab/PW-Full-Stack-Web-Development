@@ -22,7 +22,7 @@ const Users = [
     name: "Prithviraj Chauhan",
     image: prithviraj,
     description:
-      "Prithviraj Chauhan was a valiant Rajput king known for his bravery and resistance against Muhammad Ghori.",
+      "Shivaji Maharaj was a brave and visionary king who founded the Maratha Empire in India.",
   },
 ];
 export default Users;
