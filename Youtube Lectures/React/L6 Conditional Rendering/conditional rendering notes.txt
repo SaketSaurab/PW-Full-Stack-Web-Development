@@ -1,0 +1,10 @@
+conditional rendering is done in four ways 
+1. using if else
+2. using ternary operator
+3. using logical operator
+4 using early return
+
+
+
+
+a. if-else method
