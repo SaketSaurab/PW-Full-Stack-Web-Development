@@ -4,7 +4,7 @@ import Logout from "./components/Logout";
 import Login from "./components/Login";
 
 function App() {
-  const [isLogin, setIsLogin] = useState(true);
+  const [isLogin, setIsLogin] = useState(false);
 
   {
     /*using if else method */
@@ -23,6 +23,21 @@ function App() {
 
   {
     /*using logical operator */
+  }
+
+  // return (
+  //   <div>
+  //     <h2>Welcome to the page</h2>
+  //     <div>{isLogin && <Logout />}</div>
+  //   </div>
+  // );
+
+  {
+    /*using early return */
+  }
+
+  if (isLogin) {
+    return <Logout />;
   }
 
   return (

@@ -36,6 +36,15 @@ b. ternary operator
 =========================
   d.using early return
 
-  
 
+if (isLogin) {
+    return <Logout />;
+  }
+
+  return (
+    <div>
+      <h2>Welcome to the page</h2>
+      <div>{isLogin && <Logout />}</div>
+    </div>
+  );
 
