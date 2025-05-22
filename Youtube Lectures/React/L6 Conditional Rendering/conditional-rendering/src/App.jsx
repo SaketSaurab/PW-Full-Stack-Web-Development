@@ -19,7 +19,18 @@ function App() {
     /*using ternary operator */
   }
 
-  return <div>{isLogin ? <Logout /> : <Login />}</div>;
+  // return <div>{isLogin ? <Logout /> : <Login />}</div>;
+
+  {
+    /*using logical operator */
+  }
+
+  return (
+    <div>
+      <h2>Welcome to the page</h2>
+      <div>{isLogin && <Logout />}</div>
+    </div>
+  );
 }
 
 export default App;
