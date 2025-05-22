@@ -5,6 +5,25 @@ conditional rendering is done in four ways
 4 using early return
 
 
-
+------------------------------------------
 
 a. if-else method
+function App() {
+  const [isLogin, setIsLogin] = useState(false);
+  if (isLogin) {
+    return <Logout />;
+  } else {
+    return <Login />;
+  }
+}
+----------------------------------------------
+b. ternary operator
+
+ return <div>{isLogin ? <Logout /> : <Login />}</div>;
+
+
+
+ ------------------------
+ c. using logical operator
+
+
