@@ -9,6 +9,7 @@ function App() {
   }
 
   function handleInputChange(e) {
+    e.preventDefault();
     console.log("Input value change to : ", e.target.value);
   }
 
@@ -17,6 +18,13 @@ function App() {
   }
   return (
     <div className="container-div">
+      <button
+        onClick={() => {
+          alert("Hello button clicked");
+        }}
+      >
+        Hello Button
+      </button>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="enter the text"
