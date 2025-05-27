@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import "./App.css";
 import LoggerComponent from "./components/LoggerComponent";
+import TimerComponent from "./components/TimerComponent";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -74,7 +75,8 @@ function App() {
       <h1>total: {total}</h1>
       <br />
       <button onClick={handleTotalClick}>Click me</button> */}
-      <LoggerComponent />
+      {/* <LoggerComponent /> */}
+      <TimerComponent />
     </div>
   );
 }
