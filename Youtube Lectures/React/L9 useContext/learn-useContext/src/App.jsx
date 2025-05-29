@@ -10,7 +10,7 @@ const UserContext = createContext();
 // step 4: consumer ke andar jaa kar consume kar lo
 
 function App() {
-  const [user, setUser] = useState({ name: "Love" });
+  const [user, setUser] = useState({ name: "Love Babbar" });
   return (
     <div>
       <UserContext.Provider value={user}>
