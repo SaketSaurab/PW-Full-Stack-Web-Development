@@ -4,7 +4,15 @@ ul {
   justify-content: center;
   gap: 30px;
   background-color: beige;
-
+  font-size: larger;
   padding: 5px;
   border-radius: 10px;
+}
+
+.active-link {
+  color: red;
+  border: 2px solid rgb(128, 69, 69);
+  padding: 2px;
+  border-radius: 10px;
+  font-size: x-large;
 }
