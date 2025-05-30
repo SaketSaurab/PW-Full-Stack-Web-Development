@@ -1,0 +1,10 @@
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: beige;
+
+  padding: 5px;
+  border-radius: 10px;
+}
