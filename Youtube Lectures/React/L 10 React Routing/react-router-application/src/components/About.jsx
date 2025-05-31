@@ -1,7 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
-  return <div>About Page</div>;
+  const navigate = useNavigate();
+  function handleClick() {
+    navigate("/");
+  }
+  return (
+    <div>
+      About Page
+      <br />
+      <button onClick={handleClick}>Move to home</button>
+    </div>
+  );
 };
 
 export default About;

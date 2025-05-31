@@ -5,6 +5,11 @@ import About from "./components/About";
 import Dashboard from "./components/Dashboard";
 import Navbar from "./components/Navbar";
 import ParamComp from "./components/ParamComp";
+import Courses from "./components/Courses";
+import MockTest from "./components/MockTest";
+import Report from "./components/Report";
+import NotFountd from "./components/NotFound";
+import NotFound from "./components/NotFound";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +38,11 @@ const router = createBrowserRouter([
         <Dashboard />
       </div>
     ),
+    children: [
+      { path: "courses", element: <Courses /> },
+      { path: "mock-test", element: <MockTest /> },
+      { path: "report", element: <Report /> },
+    ],
   },
   {
     path: "/student/:id",
@@ -42,6 +52,10 @@ const router = createBrowserRouter([
         <ParamComp />
       </div>
     ),
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 function App() {
