@@ -15,7 +15,7 @@ function App() {
     timerRef.current = null;
   }
   function resetTimer() {
-    stopTimer;
+    stopTimer();
     setTime(0);
   }
   return (
