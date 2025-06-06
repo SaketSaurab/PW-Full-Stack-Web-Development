@@ -1,10 +1,10 @@
-import React, { useMemo } from "react";
+import React from "react";
 
-const ChildComponent = useMemo((props) => {
+const ChildComponent = React.memo((props) => {
   console.log("Child component got re-rendered");
   return (
     <div>
-      <button>{props.buttonName}</button>
+      <button onClick={props.handleClick}>{props.buttonName}</button>
     </div>
   );
 });
