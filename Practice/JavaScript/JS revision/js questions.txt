@@ -1,0 +1,158 @@
+
+------------------------------------------------------------------
+
+# ✅ Section 1: JavaScript Coding Questions (Clear & Understandable)
+
+1. Given an array of numbers, find which numbers appear more than once.
+
+2. Remove duplicate values from an array and return only unique elements.
+
+3. Find the maximum (largest) number in an array.
+
+4. Find the second largest number in an array (not the maximum one).
+
+5. Find the minimum (smallest) number in an array.
+
+6. Reverse an array manually without using built-in `reverse()` method.
+
+7. Reverse a string without using built-in `reverse()` method.
+
+8. Check if a given string reads the same forward and backward (palindrome).
+
+9. Check if two strings contain the same characters in different order (anagram).
+
+10. Count how many times each character appears in a string.
+
+11. Count how many times each number appears in an array.
+
+12. Find the missing number in a sequence of consecutive numbers in an array.
+
+13. Move all `0` values in an array to the end while keeping other elements in order.
+
+14. Separate even numbers and odd numbers into two different arrays.
+
+15. Find common elements present in both arrays.
+
+16. Combine two arrays into one and remove duplicate values.
+
+17. Rotate an array by K positions (shift elements left or right K times).
+
+18. Convert a nested array into a single flat array.
+
+19. Sort an array without using built-in `sort()` method.
+
+20. Implement bubble sort algorithm manually.
+
+21. Find two numbers in an array whose sum equals a given target value.
+
+22. Find the longest word in a sentence.
+
+23. Capitalize the first letter of every word in a sentence.
+
+24. Remove all falsy values (`false, 0, null, undefined, ""`) from an array.
+
+25. Shuffle (randomly rearrange) elements of an array.
+
+26. Group objects in an array based on a specific property (like age or category).
+
+27. Convert an array of objects into a single object using a key.
+
+28. Find values that are unique between two arrays (not common).
+
+29. Print Fibonacci series up to N numbers.
+
+30. Check if a number is prime or not.
+
+31. Find factorial of a given number.
+
+32. Check if brackets in a string are properly balanced ((), {}, []).
+
+33. Create a debounce function (delay execution until user stops action).
+
+34. Create a throttle function (limit function execution rate).
+
+35. Create your own version of `map()` function.
+
+36. Create your own version of `filter()` function.
+
+37. Create your own version of `reduce()` function.
+
+38. Implement memoization (cache function results to improve performance).
+
+39. Create a deep copy of an object (no reference sharing).
+
+40. Create your own implementation of `bind()` function.
+
+41. Create your own implementation of `call()` function.
+
+42. Create your own implementation of `apply()` function.
+
+43. Build a basic version of Promise from scratch.
+
+44. Retry an API call automatically if it fails.
+
+45. Store API response in cache so repeated calls don’t hit server again.
+
+46. Implement infinite currying (function keeps chaining arguments).
+
+47. Create function chaining (multiple functions called one after another).
+
+48. Create a simple event emitter (on, emit system).
+
+49. Solve problems using recursion (function calling itself).
+
+50. Split an array into smaller chunks of fixed size.
+
+------------------------------------------------------------------
+
+# ✅ Section 2: JavaScript Output-Based Questions (Clear Explanation)
+
+51. Predict output when using `var`, `let`, and `const` in different scenarios.
+
+52. Predict output related to variable hoisting in JavaScript.
+
+53. Predict output when closures are used inside functions or loops.
+
+54. Predict output of Promise-based code execution.
+
+55. Predict output when using async/await with Promises.
+
+56. Predict output based on JavaScript event loop behavior.
+
+57. Predict output of `setTimeout()` with different delays.
+
+58. Predict output when mixing loops and asynchronous code.
+
+59. Predict how callback queue works in event loop.
+
+60. Predict output of array methods like `map`, `filter`, `reduce`.
+
+61. Predict output when objects are copied by reference.
+
+62. Explain difference between shallow copy and deep copy with example.
+
+63. Explain difference between `==` and `===` with examples.
+
+64. Explain difference between `null` and `undefined`.
+
+65. Explain difference between mutable (can change) and immutable (cannot change) data.
+
+66. Explain difference between passing by value and passing by reference.
+
+67. Explain difference between synchronous and asynchronous JavaScript.
+
+68. Explain lexical scope (how variables are accessible in nested functions).
+
+69. Explain closures using real-life example or code.
+
+70. Explain prototype inheritance in JavaScript.
+
+71. Explain how `this` behaves in different contexts (function, object, arrow function).
+
+72. Explain currying (breaking function into multiple function calls).
+
+73. Explain higher-order functions (functions that take or return functions).
+
+74. Explain callback hell problem and why it is bad.
+
+75. Explain full lifecycle of a Promise (pending → resolved/rejected).
