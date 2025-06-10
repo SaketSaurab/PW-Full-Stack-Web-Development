@@ -1,0 +1,5 @@
+Remove duplicates
+Count unique values
+Find first duplicate
+Check if array contains duplicates
+Find missing number
