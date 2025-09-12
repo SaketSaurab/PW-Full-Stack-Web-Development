@@ -1,42 +1,181 @@
-JavaScript Data Types
+--------------------------------------------------------------------------
 
-Primitive Types: Number, String, Boolean, Undefined, Null, Symbol, BigInt
-Reference Types: Objects, Arrays, Functions
+# ✅ Essential DSA Topics for MERN Developers
 
-Primitive Data Types:
-Number: Integers and floating-point numbers.
-String: Sequence of characters.
-Boolean: true or false.
-Undefined: Variable declared but not assigned a value.
-Null: Intentional absence of object value.
-Symbol: Unique identifier.
-BigInt: Integers with arbitrary precision.
+## 🔹 1. Big-O Time & Space Complexity
 
-Non-Primitive Data Types:
-Objects: Defined with {}; collection of properties and methods.
-Arrays: List-like objects in [], items separated by commas.
-Functions: Callable objects.
-----------------------------------------------
-**JavaScript Variables and Constants**
+* Understanding performance of API logic
+* Choosing efficient approaches
+* Required for almost every interview
 
-### Variables:
-- Store data in a program.
-- Declare using `var` or `let`.
+---------------------------------------------------------------------------
 
-### Var vs Let:
-- `var` is older and has function scope.
-- `let` is modern and has block scope.
+## 🔹 2. Arrays (Most Important)
 
-### Naming Rules:
-1. Start with a letter, `_`, or `$`.
-2. Cannot start with numbers.
-3. Case-sensitive (e.g., `age` is different from `Age`).
-4. Avoid JavaScript keywords (e.g., `if`, `else`).
+* Traversal, searching
+* Two pointers
+* Sliding window basics
+* CRUD operations
 
-### Constants:
-- Value cannot change after being set.
-- Declare using `const`.
-- Always initialize when declaring.
---------------------------------------------------------
+Why MERN?
+Used everywhere: state updates, React rendering, MongoDB responses, loops in Node.js.
 
+---------------------------------------------------------------------------
 
+## 🔹 3. Strings
+
+* Manipulation (split, join, replace)
+* Sliding window for substring problems
+* Palindrome, anagram logic
+
+Why MERN?
+Validation, parsing JSON, search filters, query building.
+
+---------------------------------------------------------------------------
+
+## 🔹 4. Hashing / HashMaps (Very Important)
+
+* Frequency maps
+* Sets for uniqueness
+* Key-value lookups
+
+Why MERN?
+Efficient caching, JWT storage, lookups, React state logic, backend optimization.
+
+---------------------------------------------------------------------------
+
+## 🔹 5. Stack
+
+* Valid parentheses
+* Undo/redo logic
+* Expression evaluation
+
+Why MERN?
+Used in navigations, browser history, algorithmic logic.
+
+---------------------------------------------------------------------------
+
+## 🔹 6. Queue
+
+* Regular queue
+* Priority queue (basic)
+
+Why MERN?
+Handling requests, job queues, rate limiting, background workers.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 🔹 7. Linked Lists (Basic only)
+
+* Traversal
+* Reversal
+* Middle/merge operations
+
+Why MERN?
+Conceptual knowledge for interviews. Not heavily used in real projects.
+
+---------------------------------------------------------------------------
+
+## 🔹 8. Recursion
+
+* Base cases
+* Tree traversal
+* Nested structures (menus, recursive components)
+
+Why MERN?
+Important for React components, DFS-style operations.
+
+---------------------------------------------------------------------------
+
+## 🔹 9. Trees (Important for Interviews)
+
+* Binary Trees
+* Binary Search Trees (BST)
+* DFS (inorder, preorder, postorder)
+* BFS (level order)
+
+Why MERN?
+Used in JSON structures, UI rendering trees, directory hierarchies, React Fiber architecture.
+
+---------------------------------------------------------------------------
+
+## 🔹 10. Graph Basics (Only Interview-Level Basics)
+
+* BFS
+* DFS
+* Adjacency list
+* Simple shortest-path concept
+
+Why MERN?
+Useful for recommendation systems, connections, small logic tasks.
+
+---------------------------------------------------------------------------
+
+## 🔹 11. Sorting Algorithms
+
+Know the concepts only:
+
+* Bubble, Selection, Insertion (just logic)
+* Merge sort
+* Quick sort
+
+Why MERN?
+Sorting database results, frontend arrays, pagination.
+
+---------------------------------------------------------------------------
+
+## 🔹 12. Searching Algorithms
+
+* Linear search
+* Binary search
+* Binary search on answer (basic understanding)
+
+Why MERN?
+Used in filters, fast lookup, search bars.
+
+---------------------------------------------------------------------------
+
+## 🔹 13. Trie (Optional)
+
+Only if:
+
+* You implement autocomplete
+* Search-heavy apps
+
+Not mandatory.
+
+---------------------------------------------------------------------------
+
+# 🎯 Most Important Topics (Top 6 for MERN Interviews)
+
+If you want a super-focused list:
+
+1. Arrays
+2. Strings
+3. HashMaps
+4. Recursion
+5. Trees
+6. Time Complexity
+
+80% of MERN interview questions come from these.
+
+---------------------------------------------------------------------------
+
+# ⭐ Bonus for Real-World MERN
+
+Not DSA but equally important:
+
+### 🔸 Asynchronous JS Concepts
+
+* Event loop
+* Promises
+* Async/await
+* Callbacks
+* Microtasks vs macrotasks
+
+### 🔸 System Design Basics
+
+* Caching
+* Load balancing
+* Scalability
+* API performance
