@@ -5,18 +5,45 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-function temp(a) {
-  let result = (9 / 5) * a + 32;
-  console.log(`${a}°C = ${result}°f`);
+function tempCtoF(c) {
+  return (9 / 5) * c + 32;
+}
+function tempFtoC(f) {
+  return (f - 32) * (5 / 9);
+}
+function askChoice() {
+  rl.question(
+    "Choose conversion 1-> Celsius to Fahrenheit ,  2-> Fahrenheit to Celsius",
+    (choice) => {
+      if (choice == "1" || choice == "2") {
+        askTemprature(choice);
+      } else {
+        console.log(
+          "Invalid choice, Please select 1-> Celsius to Fahrenheit ,  2-> Fahrenheit to Celsius"
+        );
+        askChoice();
+      }
+    }
+  );
 }
 
-rl.question("Enter temprature : ", (input1) => {
-  let a = parseInt(input1);
-  if (isNaN(a)) {
-    console.log("Enter valid number ");
+function askTemprature(choice) {
+  rl.question("Enter temprature ", (input) => {
+    const tempValue = parseFloat(input);
+
+    if (isNaN(tempValue)) {
+      console.log("Enter valid temprature value ");
+      askTemprature(choice);
+      return;
+    }
+    if (choice === "1") {
+      const result = tempCtoF(tempValue);
+      console.log(`\n ${tempValue}°C = ${result.toFixed(2)}°F`);
+    } else {
+      const result = tempFtoC(tempValue);
+      console.log(`\n ${tempValue}°F = ${result.toFixed(2)}°C`);
+    }
     rl.close();
-    return;
-  }
-  temp(a);
-  rl.close();
-});
+  });
+}
+askChoice();
