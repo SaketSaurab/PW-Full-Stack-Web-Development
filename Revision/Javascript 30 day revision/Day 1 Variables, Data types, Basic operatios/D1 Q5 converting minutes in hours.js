@@ -6,12 +6,10 @@ const rl = readline.createInterface({
 });
 
 function inputMin(minute) {
-  const hour = minute / 60;
+  const hour = Math.floor(minute / 60);
   const min = minute % 60;
 
-  console.log(
-    `${minute} is equal to ${parseInt(hour)} hour and ${min} minutes`
-  );
+  console.log(`${minute} is equal to ${hour} hour and ${min} minutes`);
 }
 
 function askMinute() {
