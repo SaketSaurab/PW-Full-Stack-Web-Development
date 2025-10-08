@@ -10,7 +10,12 @@ function red(input) {
     return total + num;
   }, 0);
 
-  console.log(`The sum of the elements ${sum}`);
+  console.log(`The sum of the elements  ${sum}`);
+}
+
+function multi(input) {
+  let ans = input.reduce((a, b) => a * b, 1);
+  console.log(`Multiplication : ${ans}`);
 }
 
 function askInput() {
@@ -23,6 +28,8 @@ function askInput() {
     } else {
       let numArr = arr1.map(Number);
       red(numArr);
+      multi(numArr);
+      rl.close();
     }
   });
 }
