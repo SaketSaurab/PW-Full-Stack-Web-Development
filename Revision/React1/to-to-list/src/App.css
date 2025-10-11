@@ -1,0 +1,31 @@
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px dotted black;
+  padding: 10px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  width: 500px;
+  padding-bottom: 5px;
+}
+.btn {
+  width: 100px;
+  height: 30px;
+}
+.add-btn {
+  background-color: green;
+  color: white;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+}
