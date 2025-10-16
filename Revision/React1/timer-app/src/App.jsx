@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   const getTime = () => {
-    new Date().toLocaleTimeString("en-ind", {
+    return new Date().toLocaleTimeString("en-IN", {
       hour: "numeric",
       minute: "numeric",
       second: "numeric",
