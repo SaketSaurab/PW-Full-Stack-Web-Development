@@ -2,18 +2,31 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  const [time, setTime] = useState(new Date());
+  const getTime = () => {
+    new Date().toLocaleTimeString("en-ind", {
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: true,
+    });
+  };
+
+  const [currentTime, setCurrentTime] = useState(getTime);
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setTime(new Date());
+    const interval = setInterval(() => {
+      setCurrentTime(getTime());
     }, 1000);
-    return () => clearInterval(intervalId);
+
+    return () => clearInterval(interval);
   }, []);
 
   return (
     <>
-      <div className="div-container">{time.toLocaleTimeString()}</div>
+      <div className="div-container">
+        <div>Hello Clock</div>
+        <div>{currentTime}</div>
+      </div>
     </>
   );
 }
