@@ -1,0 +1,14 @@
+.div-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.div-result {
+  font-size: 50px;
+}
