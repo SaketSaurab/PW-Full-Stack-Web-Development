@@ -4,4 +4,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.div-line {
+  width: 400px;
+}
+input {
+  width: 340px;
+  margin: 5px;
+  border-radius: 5px;
+  height: 30px;
+}
+button {
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5px;
 }
