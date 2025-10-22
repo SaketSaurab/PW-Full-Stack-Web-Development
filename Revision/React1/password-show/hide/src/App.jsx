@@ -6,7 +6,7 @@ import PasswordToggle from "./Components/PasswordToggle";
 function App() {
   return (
     <>
-      <div>
+      <div className="container-div">
         <PasswordToggle />
       </div>
     </>
