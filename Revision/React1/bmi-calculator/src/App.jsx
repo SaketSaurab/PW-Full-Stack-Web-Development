@@ -26,6 +26,12 @@ function App() {
       setStatus("Obese");
     }
   };
+  const resetBMI = () => {
+    setWeight("");
+    setHeight("");
+    setBmi(null);
+    setStatus("");
+  };
   return (
     <>
       <div className="container-div">
@@ -51,13 +57,25 @@ function App() {
             <br />
             <br />
             <button onClick={calculateBMI}>Calculate BMI</button>
+            <button className="reset-btn" onClick={resetBMI}>
+              Reset
+            </button>
           </div>
           <br />
           <br />
           <div className="status-div">
-            BMI: {bmi}
-            <br />
-            Status: {status}
+            {bmi && (
+              <p>
+                <strong>BMI:</strong>
+                {bmi}
+              </p>
+            )}
+            {status && (
+              <p>
+                <strong>Status:</strong>
+                {status}
+              </p>
+            )}
           </div>
         </div>
       </div>
