@@ -1,0 +1,73 @@
+.container-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+}
+.card {
+  text-align: center;
+  background-color: white;
+  width: 320px;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.sub-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: grey;
+}
+
+.result-box {
+  font-size: 32px;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #eef6ff;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056cc;
+}
+.pop {
+  animation: pop 0.25s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+    opacity: (0.6);
+  }
+  100% {
+    transform: scale(1);
+    opacity: (1);
+  }
+}
