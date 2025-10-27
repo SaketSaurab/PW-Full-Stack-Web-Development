@@ -1,0 +1,26 @@
+.button-div {
+}
+button {
+  padding: 8px;
+  margin: 10px;
+}
+
+.container-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(240, 232, 223);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-area {
+  width: 40%;
+  height: 30%;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 16px;
+  display: block;
+  margin: 20px auto;
+}
