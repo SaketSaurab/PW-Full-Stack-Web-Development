@@ -1,4 +1,8 @@
 .button-div {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 button {
   padding: 8px;
@@ -8,7 +12,8 @@ button {
 .container-div {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(240, 232, 223);
+  /* background-color: rgb(240, 232, 223); */
+  background: linear-gradient(to right, #9dbddd, #f0c9c4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,4 +28,13 @@ button {
   font-size: 16px;
   display: block;
   margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.text-area:focus {
+  outline: none;
+  border: 2px solid #4f46e5;
+}
+
+button:disabled {
+  opacity: 0.5;
 }
