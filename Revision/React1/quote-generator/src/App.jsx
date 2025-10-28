@@ -36,7 +36,7 @@ function App() {
           {error && <p className="error">{error}</p>}
           {!loading && !error && (
             <>
-              <p className="quote">{quote}</p>
+              <p className="quote">" {quote} "</p>
               <p className="author">{author}</p>
             </>
           )}
