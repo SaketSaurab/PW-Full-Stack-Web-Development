@@ -36,12 +36,15 @@ function App() {
           {error && <p className="error">{error}</p>}
           {!loading && !error && (
             <>
-              <p className="quote">" {quote} "</p>
+              <p className="quote">❝ {quote} ❞</p>
               <p className="author">{author}</p>
             </>
           )}
           <></>
         </div>
+        <button onClick={() => navigator.clipboard.writeText(quote)}>
+          Copy Quote
+        </button>
         <button onClick={fetchQuote} disabled={loading}>
           {loading ? "Fetching..." : "New Quote"}
         </button>
