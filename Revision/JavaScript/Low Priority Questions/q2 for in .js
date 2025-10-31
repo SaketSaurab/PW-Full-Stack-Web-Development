@@ -1,7 +1,7 @@
 // for in loop
 
 let student = {
-  name: "Hitesh",
+  name: "Hiteh",
   class: 12,
   School: "DPS",
 
