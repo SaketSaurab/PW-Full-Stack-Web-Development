@@ -13,6 +13,8 @@ function App() {
 
     if (isNaN(l) || isNaN(b) || l <= 0 || b <= 0) {
       alert("Enter valid positive number");
+      setLength("");
+      setBreadth("");
       return;
     }
     setArea(l * b);
