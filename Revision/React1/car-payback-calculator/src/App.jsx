@@ -1,6 +1,27 @@
 import { useState } from "react";
 import "./App.css";
 
+/*  logic to calculate 
+Petrol : 
+Price :9 L
+Mileage:18 km/lit
+Petrol price : 95/liter
+Monthly expense on fuel 1 : [((monthly run)/milage)*price]
+
+CNG
+Price :10L
+Mileage:25 km/kg
+Cng price;85/kg 
+Monthly expense on fuel 2 : [((monthly run)/milage)*price]
+
+Monthly run : 500km
+
+
+Months require to recover extra money: extra price/(|fuel 1 expense -fuel 2 expense|)
+
+
+*/
+
 function App() {
   const [fuel1, setFuel1] = useState("Petrol");
   const [fuel2, setFuel2] = useState("CNG");
