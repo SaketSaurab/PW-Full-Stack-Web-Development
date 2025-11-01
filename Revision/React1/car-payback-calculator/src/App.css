@@ -1,0 +1,47 @@
+.container-div {
+  min-height: 100vh;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.479);
+  width: 420px;
+}
+.title-div {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+select {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.466);
+  cursor: pointer;
+  font-size: 16px;
+}
+select:hover {
+  border: 2px solid red;
+}
