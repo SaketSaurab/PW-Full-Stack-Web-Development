@@ -40,30 +40,53 @@ function App() {
   const [milage2, setMilage2] = useState("");
 
   //monthly run
-  const [monthlyRun, setMonthlyRun] = useState(null);
+  const [monthlyRun, setMonthlyRun] = useState("");
 
   // output state
 
-  const [vehicle1MonthlyCost, setVehicle1MonthlyCost] = useState(0);
-  const [vehicle2MonthlyCost, setVehicle2MonthlyCost] = useState(0);
+  const [vehicle1MonthlyCost, setVehicle1MonthlyCost] = useState(null);
+  const [vehicle2MonthlyCost, setVehicle2MonthlyCost] = useState(null);
   // const [monthlyCostDifference, setMonthlyCostDifference] = useState(0);
-  const [monthsRequireToCoverExtraMoney, setMonthsRequireToCoverExtraMoney] =
-    useState(0);
+  const [paybackMonths, setPaybackMonths] = useState(null);
 
   const calculatePayback = () => {
-    const vehicle1MonthlyCost = (monthlyRun / milage1) * fuel1Cost;
-    const vehicle2MonthlyCost = (monthlyRun / milage2) * fuel2Cost;
+    const v1cost = Number(vehicleCost1);
+    const f1cost = Number(fuel1Cost);
+    const m1 = Number(milage1);
+
+    const v2cost = Number(vehicleCost2);
+    const f2cost = Number(fuel2Cost);
+    const m2 = Number(milage2);
+
+    const run = Number(monthlyRun);
+
+    // input validation
+
+    if (!v1cost || !f1cost || !m1 || !v2cost || !f2cost || !m2 || !run) {
+      alert("Please fill all input filled");
+      return;
+    }
+
+    const vehicle1MonthlyCost = (run / m1) * f1cost;
+
+    const vehicle2MonthlyCost = (run / m2) * f2cost;
 
     const monthlyCostDifference = Math.abs(
       vehicle1MonthlyCost - vehicle2MonthlyCost,
     );
-    const vehicleCostDifference = vehicleCost1 - vehicleCost2;
-    const monthsRequireToCoverExtraMoney =
-      vehicleCostDifference / monthlyCostDifference;
+
+    const vehicleCostDifference = Math.abs(v1cost - v2cost);
+    if (vehicleCostDifference === 0) {
+      alert(
+        `There is no price  difference between the car so please choose ${vehicle1MonthlyCost > vehicle2MonthlyCost ? fuel2 + " Vehicle" : fuel1 + "Vehicle "}`,
+      );
+      return;
+    }
+    const paybackMonths = vehicleCostDifference / monthlyCostDifference;
 
     setVehicle1MonthlyCost(vehicle1MonthlyCost);
     setVehicle2MonthlyCost(vehicle2MonthlyCost);
-    setMonthsRequireToCoverExtraMoney(monthsRequireToCoverExtraMoney);
+    setPaybackMonths(paybackMonths);
   };
 
   return (
@@ -92,19 +115,19 @@ function App() {
                 type="number"
                 value={vehicleCost1}
                 placeholder="Car Price"
-                onChange={(e) => setVehicleCost1(Number(e.target.value))}
+                onChange={(e) => setVehicleCost1(e.target.value)}
               ></input>
               <input
                 type="number"
                 value={fuel1Cost}
                 placeholder="fuel cost"
-                onChange={(e) => setFuel1Cost(Number(e.target.value))}
+                onChange={(e) => setFuel1Cost(e.target.value)}
               ></input>
               <input
                 type="number"
                 value={milage1}
                 placeholder="mileage"
-                onChange={(e) => setMilage1(Number(e.target.value))}
+                onChange={(e) => setMilage1(e.target.value)}
               ></input>
             </div>
             <div className="input-group">
@@ -126,19 +149,19 @@ function App() {
                 type="number"
                 value={vehicleCost2}
                 placeholder="Car Price"
-                onChange={(e) => setVehicleCost2(Number(e.target.value))}
+                onChange={(e) => setVehicleCost2(e.target.value)}
               ></input>
               <input
                 type="number"
                 value={fuel2Cost}
                 placeholder="fuel cost"
-                onChange={(e) => setFuel2Cost(Number(e.target.value))}
+                onChange={(e) => setFuel2Cost(e.target.value)}
               ></input>
               <input
                 type="number"
                 value={milage2}
                 placeholder="mileage"
-                onChange={(e) => setMilage2(Number(e.target.value))}
+                onChange={(e) => setMilage2(e.target.value)}
               ></input>
             </div>
           </div>
@@ -147,26 +170,39 @@ function App() {
               className="monthlyrun-input"
               value={monthlyRun}
               placeholder="monthly run in KM"
-              onChange={(e) => setMonthlyRun(Number(e.target.value))}
+              onChange={(e) => setMonthlyRun(e.target.value)}
             ></input>
             <button className="calculate-btn" onClick={calculatePayback}>
               Calculate
             </button>
           </div>
-          <div className="output-div">
-            <div>
-              Monthly running cost of vehicle 1 is{" "}
-              {vehicle1MonthlyCost.toFixed(0)}
+          {vehicle1MonthlyCost !== null && (
+            <div className="output-div">
+              <div>
+                Monthly running cost of <b>{fuel1} </b>vehicle is{" "}
+                <b> {vehicle1MonthlyCost.toFixed(0)}</b>
+              </div>
+              <div>
+                Monthly running cost of<b> {fuel2}</b> vehicle is{" "}
+                <b> {vehicle2MonthlyCost.toFixed(0)}</b>
+              </div>
+              <div className="final-result">
+                Time require to recover the extra money :
+              </div>
+              <div className="result-year">
+                {(() => {
+                  const years = Math.floor(paybackMonths / 12);
+                  const remainingMonthsDecimal = paybackMonths % 12;
+                  const months = Math.floor(remainingMonthsDecimal);
+                  const days = Math.round(
+                    (remainingMonthsDecimal - months) * 30,
+                  );
+
+                  return `${years} years ${months} months ${days} days`;
+                })()}
+              </div>
             </div>
-            <div>
-              Monthly running cost of vehicle 2 is{" "}
-              {vehicle2MonthlyCost.toFixed(0)}
-            </div>
-            <div>
-              Time require to recover the extra money :
-              {monthsRequireToCoverExtraMoney.toFixed(2)}
-            </div>
-          </div>
+          )}
         </div>
       </div>
     </>
