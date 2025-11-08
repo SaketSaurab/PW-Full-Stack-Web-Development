@@ -197,7 +197,6 @@ function App() {
                   const days = Math.round(
                     (remainingMonthsDecimal - months) * 30,
                   );
-
                   return `${years} years ${months} months ${days} days`;
                 })()}
               </div>
