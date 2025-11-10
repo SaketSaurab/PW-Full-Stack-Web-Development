@@ -1,9 +1,13 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 
 const Navbar = () => {
-  return <div>Navbar hai ye</div>;
+  const count = useSelector((state) => state.counter.value);
+  return <div>Navbar hai ye :{count}</div>;
 };
+
 export const HelloBro = ({ count1 }) => {
-  return <div>Hello bro count:{count1}</div>;
+  return <div>Hello bro count: {count1}</div>;
 };
+
 export default Navbar;

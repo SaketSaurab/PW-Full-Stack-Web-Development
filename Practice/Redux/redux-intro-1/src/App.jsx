@@ -1,24 +1,26 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar, { HelloBro } from "./components/Navbar";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  increment,
+  decrement,
+  multiply,
+  reset,
+} from "./redux/counter/counterSlice";
+
 function App() {
-  const [count, setCount] = useState(0);
-  const handlePlus = () => {
-    setCount(count + 1);
-  };
-  const handleMinus = () => {
-    setCount(count > 0 ? count - 1 : 0);
-  };
-  const handleReset = () => {
-    setCount(0);
-  };
+  const count = useSelector((state) => state.counter.value);
+  const dispatch = useDispatch();
+
   return (
     <div>
-      <div>Hello count: {count}</div>
-      <button onClick={handleMinus}>-</button>
-      <button onClick={handleReset}>Reset</button>
-      <button onClick={handlePlus}>+</button>
-      <HelloBro count1={count} />
+      <h2>Hello count: {count}</h2>
+
+      <button onClick={() => dispatch(decrement())}>-</button>
+      <button onClick={() => dispatch(reset())}>Reset</button>
+      <button onClick={() => dispatch(increment())}>+</button>
+      <button onClick={() => dispatch(multiply())}>×2</button>
+      <Navbar />
     </div>
   );
 }
