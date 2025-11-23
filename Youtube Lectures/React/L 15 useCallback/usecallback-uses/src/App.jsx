@@ -4,7 +4,7 @@ import ExpensiveComponent from "./components/ExpensiveComponent";
 function App() {
   return (
     <div>
-      <ExpensiveComponent />
+      <ExpensiveComponent />  
     </div>
   );
 }
